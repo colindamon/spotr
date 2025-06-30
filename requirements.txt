@@ -1,5 +1,3 @@
-**SpotR**
-
 # Core Dependencies
 streamlit
 torch

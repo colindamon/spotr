@@ -1,6 +1,6 @@
 # SpotR 🚗📷
 
-**SpotR** (read as "spotter") is an AI-powered car recognition tool that identifies a vehicle’s model, year range, and enthusiast-focused specifications from an uploaded image.
+**SpotR** (read "spotter") is an AI-powered car recognition tool that identifies a vehicle’s model, year range, and enthusiast-focused specifications from an uploaded image.
 
 ---
 
@@ -10,7 +10,7 @@ SpotR is a computer vision tool that utilizes deep learning to:
 
 - Identify the make, model, and trim of a car
 - Approximate its model year range based on visual cues
-- Return enthusiast-relevant data such as horsepower, torque, MSRP, and drivetrain
+- Return enthusiast-relevant data, such as horsepower, torque, MSRP, and drivetrain
 
 The tool is built for car enthusiasts, developers, and AI hobbyists who want to explore how machine learning can be applied to automotive image recognition.
 
@@ -40,7 +40,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 **Phase 2: Model Prototyping**
 - [ ] Select dataset
 - [ ] Build and train baseline model
-- [ ] Evaluate car-year/trim detection
+- [ ] Evaluate car make/trim/year detection
 
 **Phase 3: Interface + Inference**
 - [ ] Build image upload UI in Streamlit
@@ -76,12 +76,12 @@ This project is still in early development, but contributors and testers are alw
 ## 📄 License
 
 This project is licensed under the [GNU General Public License v3.0](./LICENSE).
-You are free to use, modify, and distribute this software - as long as any derivative work is also open source under the same license.
+Anyone is free to use, modify, and distribute this software - as long as any derivative work is also open source under the same license.
 
 ---
 
-## 🙋 About the Creator
+## 🙋 About Me
 
-I'm a first year computer science student and a lifelong car enthusiast. I created SpotR to combine my love of coding and cars into a fun and challenging open-source project.
+I'm a first year computer science student and a lifelong car enthusiast. I created SpotR to combine my love of coding and cars into a fun but challenging open-source project.
 
-Let me know what you think. I'm always open to feedback!
+Please let me know what you think. I'm always open to feedback!
