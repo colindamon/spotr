@@ -24,7 +24,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 | Frontend / UI   | Streamlit         |
 | ML Framework    | PyTorch           |
 | Image Handling  | OpenCV            |
-| Environment     | Streamlit Cloud (MVP) |
+| Environment     | Streamlit Cloud (for MVP) |
 
 ---
 
@@ -56,6 +56,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 ## 📂 Directory Structure (current)
 
+```bash
 spotr/
 ├── app.py # Streamlit interface
 ├── inference.py # Prediction logic
@@ -64,6 +65,7 @@ spotr/
 ├── dev-notes.md # Planning, ideas, and roadmap
 ├── LICENSE
 └── README.md
+```
 
 ---
 
@@ -75,8 +77,7 @@ This project is still in early development, but contributors and testers are alw
 
 ## 📄 License
 
-This project is licensed under the [GNU General Public License v3.0](./LICENSE).
-Anyone is free to use, modify, and distribute this software - as long as any derivative work is also open source under the same license.
+This project is licensed under the [GNU General Public License v3.0](./LICENSE). Anyone is free to use, modify, and distribute this software - as long as any derivative work is also open source under the same license.
 
 ---
 
