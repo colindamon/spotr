@@ -23,7 +23,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 | Language        | Python 3.x        |
 | Frontend / UI   | Streamlit         |
 | ML Framework    | PyTorch           |
-| Image Handling  | OpenCV            |
+| Image Handling  | TorchVision       |
 | Environment     | Streamlit Cloud (for MVP) |
 
 ---
@@ -38,8 +38,8 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 - [X] Write initial `README.md`
 
 **Phase 2: Model Prototyping**
-- [ ] Select dataset
-- [ ] Build and train baseline model
+- [X] Select dataset
+- [ ] (WIP!) Build and train baseline model
 - [ ] Evaluate car make/trim/year detection
 
 **Phase 3: Interface + Inference**
@@ -58,13 +58,22 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 ```bash
 spotr/
-├── app.py # Streamlit interface
-├── inference.py # Prediction logic
-├── preprocessing.py # Image preprocessing
-├── requirements.txt
-├── dev-notes.md # Planning, ideas, and roadmap
+├── .gitignore
 ├── LICENSE
-└── README.md
+├── README.md
+├── data
+│   ├── __init__.py
+│   ├── dataset.py
+│   ├── loader.py
+│   └── transforms.py
+├── dataset
+│   ├── (extracted Stanford Cars contents)
+│   └── cars_train_annos.csv
+├── models
+├── streamlit_app
+├── train.py
+├── eval.py
+└── requirements.txt
 ```
 
 ---

@@ -1,7 +1,5 @@
 # Core Dependencies
-streamlit
 torch
 torchvision
-opencv-python
-Pillow
-numpy
+pandas
+streamlit
