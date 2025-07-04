@@ -207,6 +207,4 @@ marimo/_lsp/
 __marimo__/
 
 # spotr
-dataset/cars_train/
-dataset/cars_test/
-dataset/car_devkit/
+dataset/stanford_cars/
