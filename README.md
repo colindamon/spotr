@@ -54,7 +54,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 ---
 
-## 📂 Directory Structure (current)
+## 📂 Directory Structure (Current)
 
 ```bash
 spotr/
@@ -67,11 +67,17 @@ spotr/
 │   ├── loader.py
 │   └── transforms.py
 ├── dataset
-│   ├── (extracted Stanford Cars contents)
-│   └── cars_train_annos.csv
+│   └── stanford_cars
+│       ├── (extracted Stanford Cars contents)
+│       ├── cars_train_annos.csv
+│       └── split_annos.py (current WIP)
 ├── models
+│   └── (Phase 2 WIP)
 ├── streamlit_app
-├── train.py
+│   └── (Phase 3 WIP)
+├── scripts
+│   └── test_dataloader.py
+├── train.py (current WIP)
 ├── eval.py
 └── requirements.txt
 ```
