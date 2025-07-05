@@ -18,6 +18,7 @@ Custom PyTorch Dataset for Stanford Cars
 """
 
 import os
+import ast
 import pandas as pd
 from PIL import Image
 from torch.utils.data import Dataset
@@ -48,14 +49,13 @@ class StanfordCarsDataset(Dataset):
             img = img.convert("RGB")
 
             if self.crop_car:
-                xmin = int(row["xmin"])
-                ymin = int(row["ymin"])
-                xmax = int(row["xmax"])
-                ymax = int(row["ymax"])
+                # fix: parse bbox string to list of ints
+                bbox = ast.literal_eval(row["bbox"])
+                xmin, ymin, xmax, ymax = bbox
                 img = img.crop((xmin, ymin, xmax, ymax))
-            
+
             if self.transform:
                 img = self.transform(img)
 
-            label = int(row["class"])
+            label = int(row["label"])
             return img, label

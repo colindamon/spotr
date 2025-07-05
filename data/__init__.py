@@ -20,7 +20,7 @@ Exposes core data utilities for spotr.
 """
 
 from .dataset import StanfordCarsDataset
-from .preprocessing import get_train_transforms, get_val_transforms
+from .transforms import get_train_transforms, get_val_transforms
 from .loader import get_dataloader
 
 
