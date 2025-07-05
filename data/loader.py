@@ -14,7 +14,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Helper for creating PyTorch DataLoaders for training, validation, and testing.
+Helper for creating PyTorch DataLoaders 
+for training, validation, and testing
 """
 
 from torch.utils.data import DataLoader
@@ -27,9 +28,11 @@ def get_dataloader(dataset, batch_size=32, shuffle=True, num_workers=4, pin_memo
     Args:
         dataset (torch.utils.data.Dataset): The dataset to load from.
         batch_size (int): Number of samples per batch.
-        shuffle (bool): Whether to shuffle the data (usually True for training, False for validation/test).
+        shuffle (bool): Whether to shuffle the data.
+                        (usually True for training, False for validation/test)
         num_workers (int): Number of subprocesses to use for data loading.
-        pin_memory (bool): Whether to use pinned (page-locked) memory. Set True if using CUDA.
+        pin_memory (bool): Whether to use pinned (page-locked) memory. 
+                           (set True if using CUDA)
         drop_last (bool): Whether to drop the last incomplete batch.
 
     Returns:
@@ -37,9 +40,9 @@ def get_dataloader(dataset, batch_size=32, shuffle=True, num_workers=4, pin_memo
     """
     return DataLoader(
         dataset,
-        batch_size=batch_size,
-        shuffle=shuffle,
-        num_workers=num_workers,
-        pin_memory=pin_memory,
-        drop_last=drop_last
+        batch_size = batch_size,
+        shuffle = shuffle,
+        num_workers = num_workers,
+        pin_memory = pin_memory,
+        drop_last = drop_last
     )
