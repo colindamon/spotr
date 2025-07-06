@@ -2,4 +2,6 @@
 torch
 torchvision
 pandas
+scikit-learn
+Pillow
 streamlit
