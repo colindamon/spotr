@@ -210,3 +210,5 @@ __marimo__/
 dataset/stanford_cars/car_devkit/
 dataset/stanford_cars/cars_test/
 dataset/stanford_cars/cars_train/
+*pt
+*pth
