@@ -1,0 +1,8 @@
+# validation accuracy results from train0
+# note: "v1" is IMAGENET1K_V1, "v2" is V2
+
+model,run0
+resnet50v1,0.764273
+resnet50v2,0.729282
+resnet101v1,0.775936
+resnet101v2,0.790055
