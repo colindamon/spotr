@@ -49,7 +49,6 @@ class StanfordCarsDataset(Dataset):
             img = img.convert("RGB")
 
             if self.crop_car:
-                # fix: parse bbox string to list of ints
                 bbox = ast.literal_eval(row["bbox"])
                 xmin, ymin, xmax, ymax = bbox
                 img = img.crop((xmin, ymin, xmax, ymax))
@@ -57,5 +56,5 @@ class StanfordCarsDataset(Dataset):
             if self.transform:
                 img = self.transform(img)
 
-            label = int(row["label"])
+            label = int(row["label"]) - 1
             return img, label

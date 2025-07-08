@@ -28,9 +28,9 @@ from data import StanfordCarsDataset, get_train_transforms, get_val_transforms, 
 
 
 # Paths and Constants
-TRAIN_CSV = "dataset/stanford_cars/train0.csv"
-VAL_CSV = "dataset/stanford_cars/val0.csv"
-IMAGE_DIR = "dataset/stanford_cars/cars_train/"
+TRAIN_CSV = "dataset/train0/train0.csv"
+VAL_CSV = "dataset/train0/val0.csv"
+IMAGE_DIR = "dataset/cars_train/"
 NUM_CLASSES = 196
 MODEL_NAME = "resnet50v1"
 
@@ -105,7 +105,7 @@ for epoch in range(NUM_EPOCHS):
     # Save best model (highest accuracy) to models directory
     if val_acc > best_val_acc:
         best_val_acc = val_acc
-        torch.save(model.state_dict(), f"models/0_{MODEL_NAME}.pth")
+        torch.save(model.state_dict(), f"models/train0/0_{MODEL_NAME}.pth")
 
 print("EXITING TRAINING/VALIDATION LOOP...")
 print("Training complete! Best validation accuracy:", best_val_acc)
