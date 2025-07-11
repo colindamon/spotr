@@ -16,7 +16,8 @@
 """
 Model training script for SpotR
 
-DEFAULT MODEL: ResNet50 (IMAGENET1K_V1)
+DEFAULT MODEL: ResNet101 IMAGENET1K_V1
+NOTE: change paths and constants section as needed
 """
 
 import os
@@ -28,11 +29,11 @@ from data import StanfordCarsDataset, get_train_transforms, get_val_transforms, 
 
 
 # Paths and Constants
-TRAIN_CSV = "dataset/train0/train0.csv"
-VAL_CSV = "dataset/train0/val0.csv"
-IMAGE_DIR = "dataset/cars_train/"
+TRAIN_CSV = "dataset/train1/train1.csv"
+VAL_CSV = "dataset/train1/val1.csv"
+IMAGE_DIR = "dataset/"
 NUM_CLASSES = 196
-MODEL_NAME = "resnet50v1"
+MODEL_NAME = "resnet101v1"
 
 # Device
 print(f"DEVICE: {"cuda" if torch.cuda.is_available() else "cpu"}")
@@ -105,7 +106,7 @@ for epoch in range(NUM_EPOCHS):
     # Save best model (highest accuracy) to models directory
     if val_acc > best_val_acc:
         best_val_acc = val_acc
-        torch.save(model.state_dict(), f"models/train0/0_{MODEL_NAME}.pth")
+        torch.save(model.state_dict(), f"models/train1/1_{MODEL_NAME}.pth")
 
 print("EXITING TRAINING/VALIDATION LOOP...")
 print("Training complete! Best validation accuracy:", best_val_acc)
