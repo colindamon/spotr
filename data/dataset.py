@@ -56,5 +56,5 @@ class StanfordCarsDataset(Dataset):
             if self.transform:
                 img = self.transform(img)
 
-            label = int(row["label"]) - 1
+            label = int(row["class_id"]) - 1
             return img, label
