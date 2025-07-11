@@ -16,15 +16,15 @@
 """
 Randomly splits train and test annotations
 into three CSVs for train/val/test sets
+
+NOTE: Change set sizes and paths as needed
 """
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from pathlib import Path
 
-
-# NOTE: change values/Paths as needed
-#  train/val/test sizes must add to 1.0
+#  train/val/test sizes are a percentage of total dataset
 TRAIN_SIZE = 0.70
 VAL_SIZE = 0.15
 TEST_SIZE = 0.15
@@ -35,7 +35,6 @@ csv_dir = input_csv_train.parent.resolve()
 train_df = pd.read_csv(input_csv_train)
 test_df = pd.read_csv(input_csv_test)
 
-# combine dataframes
 df = pd.concat([train_df, test_df], ignore_index=True)
 
 # split for test dataframe
@@ -49,11 +48,11 @@ train_df, val_df = train_test_split(
     rest_df, test_size=val_size, stratify=rest_df['class_id'], random_state=42
 )
 
-# save splits
-train_df.to_csv(csv_dir / "1train.csv", index=False)
-val_df.to_csv(csv_dir / "1val.csv", index=False)
-test_df.to_csv(csv_dir / "1test.csv", index=False)
+train_df.to_csv(csv_dir / "train1.csv", index=False)
+val_df.to_csv(csv_dir / "val1.csv", index=False)
+test_df.to_csv(csv_dir / "test1.csv", index=False)
 
+print("COMPLETED!")
 print(f"Train set: {len(train_df)} samples")
 print(f"Validation set: {len(val_df)} samples")
 print(f"Test set: {len(test_df)} samples")
