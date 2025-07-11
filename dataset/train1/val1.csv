@@ -1,0 +1,2429 @@
+class_id,class_name,bbox,filename
+195,Volvo XC90 SUV 2007,"[108, 8, 466, 268]",cars_train/01867.jpg
+173,Porsche Panamera Sedan 2012,"[132, 121, 484, 315]",cars_train/07777.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[5, 67, 292, 171]",cars_test/02943.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[42, 57, 376, 249]",cars_test/01169.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[22, 24, 378, 170]",cars_train/01751.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[39, 328, 754, 567]",cars_train/06710.jpg
+150,Lamborghini Reventon Coupe 2008,"[100, 108, 550, 358]",cars_train/03950.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[83, 182, 730, 457]",cars_test/05805.jpg
+52,Cadillac SRX SUV 2012,"[54, 69, 546, 379]",cars_train/02019.jpg
+110,Ford Edge SUV 2012,"[99, 108, 479, 301]",cars_train/04911.jpg
+143,Isuzu Ascender SUV 2008,"[18, 75, 437, 331]",cars_train/03926.jpg
+191,Volkswagen Golf Hatchback 1991,"[62, 95, 633, 434]",cars_train/00140.jpg
+101,Ferrari FF Coupe 2012,"[172, 342, 630, 528]",cars_test/01419.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[51, 107, 584, 379]",cars_test/05460.jpg
+3,Acura TL Sedan 2012,"[10, 142, 478, 348]",cars_test/07051.jpg
+43,Bentley Continental GT Coupe 2007,"[61, 124, 334, 266]",cars_test/05654.jpg
+85,Dodge Caravan Minivan 1997,"[77, 167, 617, 362]",cars_test/07619.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[29, 147, 603, 356]",cars_test/02670.jpg
+13,Audi A5 Coupe 2012,"[58, 48, 340, 217]",cars_train/01803.jpg
+38,BMW Z4 Convertible 2012,"[19, 10, 609, 324]",cars_test/06488.jpg
+192,Volkswagen Beetle Hatchback 2012,"[42, 88, 771, 531]",cars_test/02162.jpg
+190,Volkswagen Golf Hatchback 2012,"[9, 12, 413, 265]",cars_train/02959.jpg
+63,Chevrolet Sonic Sedan 2012,"[13, 158, 985, 673]",cars_train/05844.jpg
+158,Maybach Landaulet Convertible 2012,"[17, 57, 319, 193]",cars_test/05163.jpg
+94,Dodge Durango SUV 2012,"[79, 191, 595, 476]",cars_train/08050.jpg
+32,BMW X5 SUV 2007,"[90, 112, 681, 486]",cars_train/06662.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[44, 20, 1225, 739]",cars_train/01792.jpg
+105,Fisker Karma Sedan 2012,"[40, 204, 795, 586]",cars_train/05651.jpg
+138,Hyundai Sonata Sedan 2012,"[109, 172, 414, 299]",cars_test/02203.jpg
+190,Volkswagen Golf Hatchback 2012,"[10, 32, 292, 181]",cars_train/07989.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[40, 106, 547, 372]",cars_test/02412.jpg
+142,Infiniti QX56 SUV 2011,"[33, 31, 582, 400]",cars_test/01068.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[29, 65, 249, 155]",cars_train/04875.jpg
+19,Audi TT Hatchback 2011,"[4, 21, 236, 160]",cars_train/05392.jpg
+186,Toyota Sequoia SUV 2012,"[75, 272, 1150, 846]",cars_train/04094.jpg
+120,GMC Yukon Hybrid SUV 2012,"[46, 29, 613, 390]",cars_test/05773.jpg
+187,Toyota Camry Sedan 2012,"[158, 233, 873, 529]",cars_train/04726.jpg
+122,GMC Canyon Extended Cab 2012,"[32, 117, 356, 231]",cars_train/04574.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[5, 1, 131, 86]",cars_train/03001.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[17, 82, 630, 496]",cars_train/00365.jpg
+178,Scion xD Hatchback 2012,"[338, 213, 1029, 582]",cars_test/03042.jpg
+189,Toyota 4Runner SUV 2012,"[90, 1, 799, 526]",cars_train/02932.jpg
+55,Chevrolet Corvette Convertible 2012,"[3, 81, 500, 279]",cars_train/06166.jpg
+150,Lamborghini Reventon Coupe 2008,"[71, 129, 403, 312]",cars_test/02338.jpg
+100,FIAT 500 Convertible 2012,"[33, 28, 455, 324]",cars_test/07620.jpg
+132,Hyundai Tucson SUV 2012,"[127, 155, 525, 383]",cars_train/00919.jpg
+192,Volkswagen Beetle Hatchback 2012,"[199, 406, 1165, 1060]",cars_test/03565.jpg
+128,Honda Accord Coupe 2012,"[5, 114, 295, 237]",cars_test/01160.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[26, 26, 253, 156]",cars_test/03576.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[168, 44, 612, 562]",cars_test/01520.jpg
+160,McLaren MP4-12C Coupe 2012,"[79, 37, 1231, 617]",cars_test/05912.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[34, 400, 1555, 1153]",cars_train/00889.jpg
+171,Nissan 240SX Coupe 1998,"[18, 162, 1017, 612]",cars_train/03508.jpg
+32,BMW X5 SUV 2007,"[81, 167, 1344, 984]",cars_train/03180.jpg
+193,Volvo C30 Hatchback 2012,"[195, 232, 1760, 1153]",cars_test/00338.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[24, 61, 450, 306]",cars_train/02453.jpg
+6,Acura Integra Type R 2001,"[63, 66, 566, 299]",cars_train/07174.jpg
+169,Nissan NV Passenger Van 2012,"[50, 39, 618, 333]",cars_test/05050.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[5, 54, 248, 166]",cars_train/04566.jpg
+141,Infiniti G Coupe IPL 2012,"[18, 47, 292, 187]",cars_train/05510.jpg
+27,BMW 1 Series Convertible 2012,"[68, 66, 264, 174]",cars_train/04548.jpg
+76,Chrysler Aspen SUV 2009,"[37, 53, 409, 263]",cars_test/00598.jpg
+178,Scion xD Hatchback 2012,"[74, 29, 567, 467]",cars_test/02699.jpg
+136,Hyundai Accent Sedan 2012,"[94, 235, 571, 486]",cars_train/01931.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[11, 29, 288, 181]",cars_test/03471.jpg
+90,Dodge Dakota Crew Cab 2010,"[10, 33, 250, 171]",cars_train/02790.jpg
+41,Bentley Mulsanne Sedan 2011,"[176, 298, 718, 498]",cars_train/04783.jpg
+88,Dodge Sprinter Cargo Van 2009,"[2, 35, 243, 166]",cars_test/02324.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[39, 86, 270, 166]",cars_test/01692.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[32, 47, 607, 366]",cars_train/07608.jpg
+12,Audi RS 4 Convertible 2008,"[19, 141, 586, 371]",cars_train/04818.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[394, 259, 920, 609]",cars_train/07673.jpg
+18,Audi 100 Wagon 1994,"[97, 210, 1211, 841]",cars_test/06610.jpg
+21,Audi S5 Convertible 2012,"[11, 117, 497, 286]",cars_test/05982.jpg
+31,BMW 6 Series Convertible 2007,"[27, 72, 591, 414]",cars_test/00037.jpg
+27,BMW 1 Series Convertible 2012,"[18, 26, 260, 138]",cars_train/06557.jpg
+124,HUMMER H3T Crew Cab 2010,"[43, 16, 383, 302]",cars_train/07750.jpg
+42,Bentley Continental GT Coupe 2012,"[3, 47, 300, 207]",cars_train/07692.jpg
+156,Lincoln Town Car Sedan 2011,"[7, 3, 194, 101]",cars_train/03037.jpg
+17,Audi 100 Sedan 1994,"[50, 371, 1397, 800]",cars_train/03765.jpg
+6,Acura Integra Type R 2001,"[25, 1, 786, 634]",cars_test/04951.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[45, 59, 585, 449]",cars_train/01471.jpg
+128,Honda Accord Coupe 2012,"[79, 94, 693, 401]",cars_test/01253.jpg
+29,BMW 3 Series Sedan 2012,"[21, 51, 233, 163]",cars_train/00490.jpg
+48,Buick Rainier SUV 2007,"[48, 33, 757, 564]",cars_test/06854.jpg
+77,Chrysler Sebring Convertible 2010,"[25, 64, 633, 401]",cars_train/04049.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[204, 207, 1003, 576]",cars_test/05923.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[102, 291, 595, 475]",cars_test/05492.jpg
+92,Dodge Magnum Wagon 2008,"[192, 63, 618, 415]",cars_train/06334.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[25, 140, 615, 336]",cars_train/01649.jpg
+153,Lamborghini Diablo Coupe 2001,"[207, 205, 782, 471]",cars_train/01585.jpg
+31,BMW 6 Series Convertible 2007,"[51, 38, 455, 352]",cars_test/07595.jpg
+110,Ford Edge SUV 2012,"[12, 43, 294, 199]",cars_test/01456.jpg
+49,Buick Verano Sedan 2012,"[30, 20, 438, 253]",cars_test/00011.jpg
+64,Chevrolet Express Cargo Van 2007,"[39, 160, 1019, 671]",cars_train/07152.jpg
+98,Eagle Talon Hatchback 1998,"[35, 76, 933, 531]",cars_test/03702.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[27, 97, 620, 385]",cars_test/03541.jpg
+34,BMW M3 Coupe 2012,"[63, 251, 531, 405]",cars_test/07409.jpg
+140,Hyundai Azera Sedan 2012,"[182, 153, 593, 357]",cars_train/05827.jpg
+178,Scion xD Hatchback 2012,"[24, 21, 575, 317]",cars_train/07306.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[6, 38, 361, 242]",cars_test/01549.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[1, 66, 350, 204]",cars_test/02018.jpg
+98,Eagle Talon Hatchback 1998,"[5, 22, 788, 399]",cars_test/01288.jpg
+138,Hyundai Sonata Sedan 2012,"[47, 87, 973, 589]",cars_train/03456.jpg
+153,Lamborghini Diablo Coupe 2001,"[41, 1, 676, 474]",cars_test/01021.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[25, 19, 281, 142]",cars_train/03176.jpg
+96,Dodge Charger Sedan 2012,"[367, 418, 1030, 669]",cars_train/04776.jpg
+116,Ford E-Series Wagon Van 2012,"[1, 9, 200, 144]",cars_test/01458.jpg
+100,FIAT 500 Convertible 2012,"[8, 1, 590, 327]",cars_train/00272.jpg
+103,Ferrari 458 Italia Convertible 2012,"[25, 128, 959, 450]",cars_train/00864.jpg
+190,Volkswagen Golf Hatchback 2012,"[56, 76, 750, 485]",cars_train/06821.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[30, 88, 509, 307]",cars_train/06048.jpg
+191,Volkswagen Golf Hatchback 1991,"[66, 112, 579, 443]",cars_test/04345.jpg
+179,Spyker C8 Convertible 2009,"[81, 19, 403, 259]",cars_test/00162.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[137, 417, 1822, 1130]",cars_train/04824.jpg
+27,BMW 1 Series Convertible 2012,"[131, 79, 529, 379]",cars_test/01622.jpg
+22,Audi S5 Coupe 2012,"[36, 99, 585, 426]",cars_train/01778.jpg
+181,Suzuki Aerio Sedan 2007,"[31, 112, 516, 384]",cars_test/07525.jpg
+99,FIAT 500 Abarth 2012,"[59, 18, 458, 288]",cars_test/00968.jpg
+56,Chevrolet Corvette ZR1 2012,"[61, 368, 1223, 836]",cars_train/01953.jpg
+20,Audi S6 Sedan 2011,"[101, 146, 565, 395]",cars_train/04696.jpg
+85,Dodge Caravan Minivan 1997,"[48, 48, 476, 319]",cars_train/05721.jpg
+137,Hyundai Genesis Sedan 2012,"[56, 131, 585, 367]",cars_test/07011.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[131, 301, 1279, 876]",cars_test/00025.jpg
+85,Dodge Caravan Minivan 1997,"[11, 44, 463, 319]",cars_train/07355.jpg
+109,Ford Expedition EL SUV 2009,"[7, 4, 252, 194]",cars_test/07535.jpg
+128,Honda Accord Coupe 2012,"[43, 161, 425, 343]",cars_test/04848.jpg
+77,Chrysler Sebring Convertible 2010,"[32, 58, 281, 193]",cars_test/04453.jpg
+18,Audi 100 Wagon 1994,"[4, 15, 87, 54]",cars_train/03435.jpg
+23,Audi S4 Sedan 2012,"[23, 46, 284, 189]",cars_train/03103.jpg
+195,Volvo XC90 SUV 2007,"[65, 92, 606, 420]",cars_train/02332.jpg
+61,Chevrolet Impala Sedan 2007,"[17, 63, 571, 326]",cars_test/03507.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[13, 153, 626, 391]",cars_train/02775.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[32, 78, 205, 173]",cars_train/03633.jpg
+156,Lincoln Town Car Sedan 2011,"[29, 64, 229, 155]",cars_test/06522.jpg
+103,Ferrari 458 Italia Convertible 2012,"[35, 56, 442, 228]",cars_test/04763.jpg
+25,Audi TT RS Coupe 2012,"[12, 47, 473, 278]",cars_test/06172.jpg
+179,Spyker C8 Convertible 2009,"[45, 153, 1003, 677]",cars_test/07920.jpg
+113,Ford F-150 Regular Cab 2012,"[10, 102, 451, 360]",cars_train/06967.jpg
+133,Hyundai Veracruz SUV 2012,"[20, 109, 778, 438]",cars_test/05971.jpg
+178,Scion xD Hatchback 2012,"[41, 84, 583, 414]",cars_train/04185.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[224, 241, 478, 422]",cars_train/05845.jpg
+147,Jeep Liberty SUV 2012,"[70, 55, 980, 631]",cars_test/05799.jpg
+21,Audi S5 Convertible 2012,"[64, 130, 554, 341]",cars_train/00509.jpg
+31,BMW 6 Series Convertible 2007,"[36, 42, 604, 292]",cars_test/04221.jpg
+114,Ford F-150 Regular Cab 2007,"[25, 79, 492, 369]",cars_train/03428.jpg
+154,Land Rover Range Rover SUV 2012,"[53, 134, 635, 392]",cars_train/05661.jpg
+171,Nissan 240SX Coupe 1998,"[40, 164, 713, 376]",cars_train/03079.jpg
+189,Toyota 4Runner SUV 2012,"[41, 51, 337, 235]",cars_test/06338.jpg
+16,Audi V8 Sedan 1994,"[5, 73, 280, 221]",cars_train/02728.jpg
+194,Volvo 240 Sedan 1993,"[214, 224, 1000, 629]",cars_train/07404.jpg
+135,Hyundai Elantra Sedan 2007,"[102, 85, 463, 360]",cars_train/00833.jpg
+84,Dodge Caliber Wagon 2007,"[52, 105, 233, 194]",cars_train/01799.jpg
+129,Honda Accord Sedan 2012,"[20, 414, 1266, 807]",cars_test/05656.jpg
+10,Aston Martin Virage Convertible 2012,"[42, 37, 624, 328]",cars_train/00405.jpg
+16,Audi V8 Sedan 1994,"[7, 97, 313, 187]",cars_train/03015.jpg
+3,Acura TL Sedan 2012,"[51, 54, 246, 186]",cars_test/00793.jpg
+103,Ferrari 458 Italia Convertible 2012,"[395, 225, 786, 490]",cars_test/02804.jpg
+76,Chrysler Aspen SUV 2009,"[30, 108, 418, 281]",cars_test/05002.jpg
+71,Chevrolet Express Van 2007,"[51, 97, 669, 286]",cars_train/00577.jpg
+23,Audi S4 Sedan 2012,"[29, 70, 612, 356]",cars_train/00205.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[43, 36, 614, 404]",cars_test/04782.jpg
+25,Audi TT RS Coupe 2012,"[17, 139, 484, 335]",cars_test/00049.jpg
+61,Chevrolet Impala Sedan 2007,"[29, 83, 602, 428]",cars_test/05530.jpg
+113,Ford F-150 Regular Cab 2012,"[86, 73, 492, 298]",cars_test/02732.jpg
+23,Audi S4 Sedan 2012,"[73, 172, 723, 488]",cars_test/05842.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[1, 21, 400, 176]",cars_train/02723.jpg
+117,Ford Fiesta Sedan 2012,"[12, 32, 466, 225]",cars_train/06223.jpg
+135,Hyundai Elantra Sedan 2007,"[53, 67, 281, 245]",cars_test/07778.jpg
+95,Dodge Durango SUV 2007,"[11, 78, 967, 675]",cars_train/07883.jpg
+84,Dodge Caliber Wagon 2007,"[274, 170, 838, 608]",cars_test/07501.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[62, 3, 639, 480]",cars_test/05894.jpg
+100,FIAT 500 Convertible 2012,"[170, 93, 524, 345]",cars_train/03196.jpg
+154,Land Rover Range Rover SUV 2012,"[59, 150, 611, 458]",cars_test/00116.jpg
+28,BMW 1 Series Coupe 2012,"[10, 21, 277, 141]",cars_test/00198.jpg
+170,Nissan Juke Hatchback 2012,"[43, 226, 1001, 630]",cars_train/00182.jpg
+14,Audi TTS Coupe 2012,"[121, 211, 691, 462]",cars_test/02263.jpg
+92,Dodge Magnum Wagon 2008,"[1, 49, 234, 141]",cars_train/01928.jpg
+132,Hyundai Tucson SUV 2012,"[157, 172, 693, 441]",cars_train/01050.jpg
+135,Hyundai Elantra Sedan 2007,"[43, 43, 974, 658]",cars_train/05549.jpg
+13,Audi A5 Coupe 2012,"[29, 74, 359, 255]",cars_test/02764.jpg
+169,Nissan NV Passenger Van 2012,"[48, 87, 523, 296]",cars_test/04622.jpg
+122,GMC Canyon Extended Cab 2012,"[17, 38, 237, 165]",cars_test/04791.jpg
+5,Acura TSX Sedan 2012,"[114, 79, 500, 346]",cars_test/05135.jpg
+90,Dodge Dakota Crew Cab 2010,"[10, 39, 251, 153]",cars_test/00951.jpg
+116,Ford E-Series Wagon Van 2012,"[51, 89, 747, 455]",cars_test/01165.jpg
+12,Audi RS 4 Convertible 2008,"[1, 1, 639, 480]",cars_train/06515.jpg
+147,Jeep Liberty SUV 2012,"[41, 133, 1007, 748]",cars_train/07088.jpg
+71,Chevrolet Express Van 2007,"[67, 35, 318, 217]",cars_test/03515.jpg
+116,Ford E-Series Wagon Van 2012,"[118, 8, 790, 598]",cars_train/01920.jpg
+113,Ford F-150 Regular Cab 2012,"[12, 38, 263, 208]",cars_test/01107.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[9, 24, 629, 371]",cars_test/04522.jpg
+6,Acura Integra Type R 2001,"[54, 225, 499, 610]",cars_test/01002.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[19, 39, 387, 269]",cars_test/02492.jpg
+27,BMW 1 Series Convertible 2012,"[100, 360, 1172, 825]",cars_train/03162.jpg
+118,GMC Terrain SUV 2012,"[43, 9, 236, 173]",cars_test/01922.jpg
+119,GMC Savana Van 2012,"[100, 2, 448, 200]",cars_test/07470.jpg
+189,Toyota 4Runner SUV 2012,"[81, 107, 660, 431]",cars_train/06390.jpg
+184,Suzuki SX4 Sedan 2012,"[80, 321, 906, 836]",cars_test/01040.jpg
+31,BMW 6 Series Convertible 2007,"[22, 49, 276, 181]",cars_train/00701.jpg
+71,Chevrolet Express Van 2007,"[23, 62, 486, 289]",cars_train/03964.jpg
+27,BMW 1 Series Convertible 2012,"[27, 55, 244, 175]",cars_test/07289.jpg
+195,Volvo XC90 SUV 2007,"[41, 71, 488, 309]",cars_train/01739.jpg
+118,GMC Terrain SUV 2012,"[54, 39, 602, 401]",cars_test/03972.jpg
+43,Bentley Continental GT Coupe 2007,"[78, 88, 747, 466]",cars_train/01485.jpg
+182,Suzuki Kizashi Sedan 2012,"[58, 93, 587, 281]",cars_test/06685.jpg
+155,Land Rover LR2 SUV 2012,"[52, 135, 422, 284]",cars_train/08109.jpg
+187,Toyota Camry Sedan 2012,"[85, 107, 938, 608]",cars_train/05270.jpg
+118,GMC Terrain SUV 2012,"[66, 146, 571, 453]",cars_train/05801.jpg
+22,Audi S5 Coupe 2012,"[60, 77, 228, 161]",cars_train/03721.jpg
+28,BMW 1 Series Coupe 2012,"[16, 77, 895, 531]",cars_test/04185.jpg
+133,Hyundai Veracruz SUV 2012,"[144, 235, 531, 474]",cars_test/00139.jpg
+80,Chrysler Crossfire Convertible 2008,"[37, 155, 433, 302]",cars_test/04987.jpg
+101,Ferrari FF Coupe 2012,"[255, 335, 1220, 926]",cars_test/06518.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[135, 308, 1098, 635]",cars_train/03672.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[102, 343, 685, 570]",cars_test/07431.jpg
+144,Jaguar XK XKR 2012,"[33, 22, 458, 290]",cars_test/07615.jpg
+38,BMW Z4 Convertible 2012,"[28, 36, 250, 143]",cars_train/01994.jpg
+109,Ford Expedition EL SUV 2009,"[3, 41, 433, 231]",cars_test/02875.jpg
+179,Spyker C8 Convertible 2009,"[68, 287, 1228, 667]",cars_train/05089.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[67, 21, 585, 362]",cars_test/07705.jpg
+14,Audi TTS Coupe 2012,"[32, 39, 232, 143]",cars_train/05857.jpg
+180,Spyker C8 Coupe 2009,"[58, 68, 559, 265]",cars_test/00658.jpg
+37,BMW X3 SUV 2012,"[14, 110, 419, 323]",cars_test/03935.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[37, 126, 963, 734]",cars_train/00979.jpg
+79,Chrysler 300 SRT-8 2010,"[73, 158, 587, 397]",cars_test/01576.jpg
+56,Chevrolet Corvette ZR1 2012,"[87, 118, 627, 354]",cars_train/07545.jpg
+33,BMW X6 SUV 2012,"[22, 34, 455, 304]",cars_train/05877.jpg
+149,Jeep Compass SUV 2012,"[36, 18, 606, 455]",cars_test/00269.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[134, 162, 502, 354]",cars_train/03201.jpg
+126,Honda Odyssey Minivan 2012,"[39, 63, 579, 407]",cars_train/05864.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[1, 25, 254, 191]",cars_test/06945.jpg
+183,Suzuki SX4 Hatchback 2012,"[66, 51, 766, 555]",cars_test/00374.jpg
+113,Ford F-150 Regular Cab 2012,"[109, 163, 584, 413]",cars_test/03367.jpg
+5,Acura TSX Sedan 2012,"[53, 99, 420, 245]",cars_test/03090.jpg
+180,Spyker C8 Coupe 2009,"[136, 181, 1133, 719]",cars_train/03259.jpg
+20,Audi S6 Sedan 2011,"[110, 94, 510, 343]",cars_test/07908.jpg
+115,Ford Focus Sedan 2007,"[67, 267, 1682, 1017]",cars_test/02830.jpg
+18,Audi 100 Wagon 1994,"[19, 100, 245, 172]",cars_train/07383.jpg
+49,Buick Verano Sedan 2012,"[50, 93, 696, 403]",cars_train/01604.jpg
+17,Audi 100 Sedan 1994,"[79, 172, 1474, 853]",cars_test/00891.jpg
+15,Audi R8 Coupe 2012,"[164, 95, 506, 343]",cars_train/01457.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[38, 43, 225, 156]",cars_train/06591.jpg
+126,Honda Odyssey Minivan 2012,"[78, 24, 621, 265]",cars_train/04520.jpg
+71,Chevrolet Express Van 2007,"[39, 68, 250, 217]",cars_test/03993.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[98, 163, 747, 495]",cars_train/03360.jpg
+7,Acura ZDX Hatchback 2012,"[102, 211, 786, 485]",cars_train/04825.jpg
+169,Nissan NV Passenger Van 2012,"[80, 187, 903, 679]",cars_train/05785.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[20, 152, 761, 505]",cars_train/02856.jpg
+117,Ford Fiesta Sedan 2012,"[156, 87, 513, 399]",cars_test/01912.jpg
+52,Cadillac SRX SUV 2012,"[83, 11, 540, 345]",cars_test/04159.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[29, 53, 284, 194]",cars_train/04488.jpg
+85,Dodge Caravan Minivan 1997,"[82, 134, 2400, 1366]",cars_test/06493.jpg
+52,Cadillac SRX SUV 2012,"[21, 48, 434, 206]",cars_train/07569.jpg
+196,smart fortwo Convertible 2012,"[50, 72, 558, 419]",cars_train/02737.jpg
+188,Toyota Corolla Sedan 2012,"[9, 39, 256, 157]",cars_test/06269.jpg
+25,Audi TT RS Coupe 2012,"[75, 133, 1027, 777]",cars_test/05160.jpg
+137,Hyundai Genesis Sedan 2012,"[24, 91, 506, 270]",cars_train/00671.jpg
+51,Cadillac CTS-V Sedan 2012,"[68, 105, 978, 690]",cars_test/02193.jpg
+182,Suzuki Kizashi Sedan 2012,"[66, 70, 872, 501]",cars_train/06235.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[34, 49, 281, 144]",cars_train/05221.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[11, 10, 396, 265]",cars_train/00237.jpg
+19,Audi TT Hatchback 2011,"[14, 57, 255, 176]",cars_test/06203.jpg
+138,Hyundai Sonata Sedan 2012,"[51, 64, 458, 319]",cars_test/04240.jpg
+171,Nissan 240SX Coupe 1998,"[186, 252, 775, 531]",cars_test/00364.jpg
+184,Suzuki SX4 Sedan 2012,"[30, 83, 590, 374]",cars_test/02531.jpg
+172,Plymouth Neon Coupe 1999,"[56, 120, 505, 404]",cars_test/00643.jpg
+148,Jeep Grand Cherokee SUV 2012,"[111, 82, 886, 584]",cars_train/05217.jpg
+34,BMW M3 Coupe 2012,"[49, 30, 930, 612]",cars_test/02319.jpg
+148,Jeep Grand Cherokee SUV 2012,"[20, 47, 247, 172]",cars_test/04467.jpg
+101,Ferrari FF Coupe 2012,"[133, 165, 769, 535]",cars_train/00980.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[15, 86, 294, 214]",cars_train/01005.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[51, 201, 976, 661]",cars_test/02977.jpg
+193,Volvo C30 Hatchback 2012,"[85, 24, 633, 270]",cars_test/00870.jpg
+169,Nissan NV Passenger Van 2012,"[122, 123, 503, 292]",cars_train/02243.jpg
+33,BMW X6 SUV 2012,"[28, 28, 287, 140]",cars_train/02999.jpg
+4,Acura TL Type-S 2008,"[23, 120, 573, 340]",cars_test/04361.jpg
+191,Volkswagen Golf Hatchback 1991,"[65, 111, 402, 396]",cars_train/04514.jpg
+128,Honda Accord Coupe 2012,"[3, 43, 225, 158]",cars_test/05216.jpg
+16,Audi V8 Sedan 1994,"[104, 231, 659, 431]",cars_test/06245.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[11, 8, 575, 314]",cars_train/06880.jpg
+1,AM General Hummer SUV 2000,"[51, 73, 570, 426]",cars_train/02848.jpg
+78,Chrysler Town and Country Minivan 2012,"[25, 31, 393, 289]",cars_test/00986.jpg
+127,Honda Odyssey Minivan 2007,"[38, 129, 1765, 1002]",cars_train/03202.jpg
+89,Dodge Journey SUV 2012,"[120, 164, 963, 656]",cars_test/01899.jpg
+63,Chevrolet Sonic Sedan 2012,"[133, 61, 582, 318]",cars_train/02022.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[14, 38, 241, 170]",cars_test/00454.jpg
+83,Dodge Caliber Wagon 2012,"[23, 122, 602, 353]",cars_train/07604.jpg
+181,Suzuki Aerio Sedan 2007,"[30, 71, 602, 397]",cars_test/07312.jpg
+108,Ford Freestar Minivan 2007,"[35, 121, 596, 427]",cars_test/03462.jpg
+189,Toyota 4Runner SUV 2012,"[49, 62, 585, 428]",cars_test/04886.jpg
+160,McLaren MP4-12C Coupe 2012,"[541, 140, 1148, 517]",cars_test/07890.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[595, 447, 7224, 3835]",cars_test/03216.jpg
+12,Audi RS 4 Convertible 2008,"[32, 218, 988, 658]",cars_test/01367.jpg
+40,Bentley Arnage Sedan 2009,"[106, 145, 589, 377]",cars_test/06583.jpg
+128,Honda Accord Coupe 2012,"[65, 66, 630, 406]",cars_test/07273.jpg
+92,Dodge Magnum Wagon 2008,"[17, 52, 284, 156]",cars_train/07182.jpg
+157,MINI Cooper Roadster Convertible 2012,"[31, 68, 544, 386]",cars_test/06727.jpg
+83,Dodge Caliber Wagon 2012,"[15, 18, 788, 417]",cars_train/06551.jpg
+96,Dodge Charger Sedan 2012,"[92, 81, 556, 334]",cars_test/01455.jpg
+114,Ford F-150 Regular Cab 2007,"[13, 29, 290, 210]",cars_test/04537.jpg
+20,Audi S6 Sedan 2011,"[29, 24, 591, 388]",cars_train/00602.jpg
+131,Hyundai Santa Fe SUV 2012,"[37, 51, 477, 313]",cars_test/03944.jpg
+128,Honda Accord Coupe 2012,"[32, 87, 598, 359]",cars_test/06503.jpg
+15,Audi R8 Coupe 2012,"[16, 54, 300, 146]",cars_test/00521.jpg
+59,Chevrolet Camaro Convertible 2012,"[74, 89, 553, 238]",cars_test/06687.jpg
+151,Lamborghini Aventador Coupe 2012,"[86, 332, 989, 565]",cars_test/00464.jpg
+173,Porsche Panamera Sedan 2012,"[25, 215, 625, 411]",cars_train/02104.jpg
+153,Lamborghini Diablo Coupe 2001,"[44, 95, 595, 435]",cars_train/02613.jpg
+119,GMC Savana Van 2012,"[23, 54, 429, 284]",cars_train/05383.jpg
+105,Fisker Karma Sedan 2012,"[16, 63, 432, 196]",cars_test/02386.jpg
+149,Jeep Compass SUV 2012,"[32, 43, 600, 380]",cars_train/07629.jpg
+119,GMC Savana Van 2012,"[17, 79, 584, 429]",cars_test/04036.jpg
+60,Chevrolet HHR SS 2010,"[9, 112, 298, 226]",cars_test/07956.jpg
+76,Chrysler Aspen SUV 2009,"[150, 55, 488, 367]",cars_train/04688.jpg
+186,Toyota Sequoia SUV 2012,"[77, 124, 528, 297]",cars_train/06023.jpg
+153,Lamborghini Diablo Coupe 2001,"[76, 475, 949, 702]",cars_test/01927.jpg
+172,Plymouth Neon Coupe 1999,"[9, 72, 618, 366]",cars_test/03264.jpg
+64,Chevrolet Express Cargo Van 2007,"[36, 25, 597, 423]",cars_test/00259.jpg
+185,Tesla Model S Sedan 2012,"[90, 233, 1172, 766]",cars_test/00316.jpg
+101,Ferrari FF Coupe 2012,"[21, 195, 588, 478]",cars_train/06648.jpg
+195,Volvo XC90 SUV 2007,"[21, 9, 492, 375]",cars_test/05263.jpg
+52,Cadillac SRX SUV 2012,"[15, 12, 276, 215]",cars_train/05698.jpg
+110,Ford Edge SUV 2012,"[138, 103, 675, 365]",cars_test/06981.jpg
+179,Spyker C8 Convertible 2009,"[37, 84, 590, 429]",cars_test/03746.jpg
+142,Infiniti QX56 SUV 2011,"[72, 103, 598, 302]",cars_train/05193.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[52, 105, 612, 327]",cars_train/06438.jpg
+184,Suzuki SX4 Sedan 2012,"[160, 43, 913, 627]",cars_test/04650.jpg
+23,Audi S4 Sedan 2012,"[15, 155, 576, 416]",cars_test/04460.jpg
+138,Hyundai Sonata Sedan 2012,"[274, 312, 668, 479]",cars_train/07357.jpg
+27,BMW 1 Series Convertible 2012,"[28, 8, 498, 342]",cars_train/07144.jpg
+84,Dodge Caliber Wagon 2007,"[22, 55, 285, 199]",cars_train/04069.jpg
+6,Acura Integra Type R 2001,"[55, 149, 531, 359]",cars_test/02595.jpg
+83,Dodge Caliber Wagon 2012,"[6, 24, 198, 109]",cars_test/05063.jpg
+151,Lamborghini Aventador Coupe 2012,"[25, 51, 768, 428]",cars_test/01500.jpg
+49,Buick Verano Sedan 2012,"[21, 30, 779, 433]",cars_test/02874.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[90, 110, 537, 287]",cars_test/04406.jpg
+167,Mitsubishi Lancer Sedan 2012,"[68, 136, 981, 539]",cars_test/06436.jpg
+2,Acura RL Sedan 2012,"[104, 183, 842, 608]",cars_train/03011.jpg
+30,BMW 3 Series Wagon 2012,"[24, 61, 568, 299]",cars_test/00742.jpg
+11,Aston Martin Virage Coupe 2012,"[59, 176, 549, 416]",cars_train/03844.jpg
+184,Suzuki SX4 Sedan 2012,"[81, 100, 637, 512]",cars_train/06114.jpg
+121,GMC Acadia SUV 2012,"[151, 114, 607, 417]",cars_test/00127.jpg
+14,Audi TTS Coupe 2012,"[19, 123, 618, 354]",cars_train/01210.jpg
+71,Chevrolet Express Van 2007,"[19, 2, 618, 400]",cars_test/04049.jpg
+140,Hyundai Azera Sedan 2012,"[44, 275, 1237, 858]",cars_train/06686.jpg
+85,Dodge Caravan Minivan 1997,"[54, 15, 639, 440]",cars_test/05113.jpg
+183,Suzuki SX4 Hatchback 2012,"[112, 150, 839, 441]",cars_train/03841.jpg
+182,Suzuki Kizashi Sedan 2012,"[63, 137, 730, 417]",cars_train/07715.jpg
+93,Dodge Challenger SRT8 2011,"[47, 72, 444, 317]",cars_train/01439.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[118, 53, 217, 230]",cars_train/01632.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[51, 37, 251, 175]",cars_test/01924.jpg
+36,BMW M6 Convertible 2010,"[1, 8, 852, 525]",cars_train/04294.jpg
+169,Nissan NV Passenger Van 2012,"[12, 9, 646, 387]",cars_train/05696.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[11, 31, 275, 171]",cars_train/06156.jpg
+17,Audi 100 Sedan 1994,"[37, 143, 559, 309]",cars_train/04549.jpg
+35,BMW M5 Sedan 2010,"[82, 243, 940, 579]",cars_test/04446.jpg
+159,Mazda Tribute SUV 2011,"[12, 31, 412, 249]",cars_train/00499.jpg
+79,Chrysler 300 SRT-8 2010,"[7, 104, 613, 408]",cars_train/07714.jpg
+119,GMC Savana Van 2012,"[11, 50, 245, 140]",cars_test/05143.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[82, 47, 565, 358]",cars_train/06653.jpg
+7,Acura ZDX Hatchback 2012,"[102, 130, 574, 310]",cars_test/05991.jpg
+114,Ford F-150 Regular Cab 2007,"[60, 124, 738, 541]",cars_test/04060.jpg
+128,Honda Accord Coupe 2012,"[11, 192, 555, 373]",cars_train/04145.jpg
+98,Eagle Talon Hatchback 1998,"[61, 156, 600, 342]",cars_test/05043.jpg
+33,BMW X6 SUV 2012,"[72, 83, 718, 457]",cars_train/05314.jpg
+169,Nissan NV Passenger Van 2012,"[59, 224, 915, 708]",cars_train/01960.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[67, 126, 862, 632]",cars_test/05968.jpg
+112,Ford GT Coupe 2006,"[179, 433, 1095, 807]",cars_test/02123.jpg
+28,BMW 1 Series Coupe 2012,"[13, 34, 214, 145]",cars_test/06050.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[3, 75, 298, 181]",cars_test/03502.jpg
+138,Hyundai Sonata Sedan 2012,"[5, 3, 498, 241]",cars_test/05568.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[15, 27, 251, 170]",cars_test/07599.jpg
+113,Ford F-150 Regular Cab 2012,"[42, 105, 581, 433]",cars_train/06402.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[23, 57, 232, 186]",cars_train/02107.jpg
+178,Scion xD Hatchback 2012,"[54, 87, 730, 385]",cars_test/00772.jpg
+93,Dodge Challenger SRT8 2011,"[17, 202, 312, 429]",cars_test/07230.jpg
+154,Land Rover Range Rover SUV 2012,"[35, 142, 1250, 776]",cars_test/05423.jpg
+104,Ferrari 458 Italia Coupe 2012,"[241, 198, 638, 373]",cars_test/05093.jpg
+12,Audi RS 4 Convertible 2008,"[77, 121, 725, 448]",cars_test/06878.jpg
+68,Chevrolet TrailBlazer SS 2009,"[12, 24, 639, 456]",cars_test/02834.jpg
+43,Bentley Continental GT Coupe 2007,"[108, 228, 558, 415]",cars_train/01130.jpg
+119,GMC Savana Van 2012,"[62, 98, 583, 416]",cars_train/08056.jpg
+160,McLaren MP4-12C Coupe 2012,"[273, 247, 1099, 705]",cars_test/02868.jpg
+21,Audi S5 Convertible 2012,"[36, 178, 988, 669]",cars_train/05482.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[14, 23, 250, 163]",cars_train/01815.jpg
+13,Audi A5 Coupe 2012,"[55, 83, 381, 249]",cars_test/05965.jpg
+2,Acura RL Sedan 2012,"[68, 93, 440, 317]",cars_train/04011.jpg
+156,Lincoln Town Car Sedan 2011,"[16, 65, 264, 200]",cars_test/02238.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[7, 226, 1022, 767]",cars_test/05175.jpg
+47,Buick Regal GS 2012,"[27, 62, 594, 239]",cars_train/01614.jpg
+104,Ferrari 458 Italia Coupe 2012,"[39, 67, 346, 206]",cars_train/00096.jpg
+184,Suzuki SX4 Sedan 2012,"[18, 1, 1022, 637]",cars_test/04304.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[190, 142, 886, 511]",cars_test/03651.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[25, 61, 583, 277]",cars_train/01714.jpg
+10,Aston Martin Virage Convertible 2012,"[3, 24, 572, 275]",cars_train/05143.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[39, 36, 283, 148]",cars_test/05287.jpg
+33,BMW X6 SUV 2012,"[19, 122, 433, 282]",cars_test/02648.jpg
+101,Ferrari FF Coupe 2012,"[9, 203, 1204, 785]",cars_test/07200.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[9, 24, 250, 172]",cars_test/02085.jpg
+186,Toyota Sequoia SUV 2012,"[37, 83, 435, 276]",cars_test/05307.jpg
+151,Lamborghini Aventador Coupe 2012,"[12, 13, 191, 132]",cars_test/00337.jpg
+111,Ford Ranger SuperCab 2011,"[9, 95, 258, 180]",cars_test/01328.jpg
+92,Dodge Magnum Wagon 2008,"[1, 190, 639, 382]",cars_test/01318.jpg
+149,Jeep Compass SUV 2012,"[108, 152, 920, 607]",cars_test/01487.jpg
+10,Aston Martin Virage Convertible 2012,"[29, 10, 525, 368]",cars_test/01897.jpg
+93,Dodge Challenger SRT8 2011,"[31, 71, 409, 279]",cars_test/03728.jpg
+16,Audi V8 Sedan 1994,"[14, 7, 198, 120]",cars_test/02497.jpg
+194,Volvo 240 Sedan 1993,"[39, 44, 997, 631]",cars_test/07634.jpg
+88,Dodge Sprinter Cargo Van 2009,"[24, 78, 366, 232]",cars_train/00401.jpg
+187,Toyota Camry Sedan 2012,"[344, 701, 3332, 2269]",cars_test/06540.jpg
+107,Ford Mustang Convertible 2007,"[31, 50, 241, 156]",cars_test/02583.jpg
+147,Jeep Liberty SUV 2012,"[91, 68, 934, 602]",cars_train/03704.jpg
+35,BMW M5 Sedan 2010,"[28, 88, 424, 287]",cars_test/06332.jpg
+124,HUMMER H3T Crew Cab 2010,"[7, 101, 584, 397]",cars_train/05843.jpg
+179,Spyker C8 Convertible 2009,"[48, 36, 732, 539]",cars_test/00500.jpg
+105,Fisker Karma Sedan 2012,"[23, 67, 305, 178]",cars_test/05290.jpg
+171,Nissan 240SX Coupe 1998,"[53, 136, 557, 350]",cars_train/04253.jpg
+4,Acura TL Type-S 2008,"[63, 110, 710, 451]",cars_test/04235.jpg
+101,Ferrari FF Coupe 2012,"[513, 430, 999, 684]",cars_test/05089.jpg
+102,Ferrari California Convertible 2012,"[3, 227, 637, 452]",cars_train/07043.jpg
+122,GMC Canyon Extended Cab 2012,"[15, 70, 357, 186]",cars_train/00270.jpg
+95,Dodge Durango SUV 2007,"[71, 99, 607, 460]",cars_train/07644.jpg
+15,Audi R8 Coupe 2012,"[39, 44, 472, 247]",cars_train/01783.jpg
+188,Toyota Corolla Sedan 2012,"[18, 94, 397, 300]",cars_train/07725.jpg
+185,Tesla Model S Sedan 2012,"[108, 1, 550, 295]",cars_train/00683.jpg
+102,Ferrari California Convertible 2012,"[27, 389, 1893, 1098]",cars_test/01655.jpg
+126,Honda Odyssey Minivan 2012,"[28, 142, 513, 343]",cars_test/00406.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[13, 125, 462, 291]",cars_test/01986.jpg
+29,BMW 3 Series Sedan 2012,"[118, 48, 456, 217]",cars_test/00796.jpg
+5,Acura TSX Sedan 2012,"[346, 264, 1155, 800]",cars_test/01509.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[47, 136, 588, 356]",cars_test/07367.jpg
+23,Audi S4 Sedan 2012,"[130, 88, 389, 257]",cars_test/01602.jpg
+135,Hyundai Elantra Sedan 2007,"[8, 17, 388, 287]",cars_train/00819.jpg
+132,Hyundai Tucson SUV 2012,"[190, 139, 508, 394]",cars_train/02280.jpg
+16,Audi V8 Sedan 1994,"[206, 96, 736, 365]",cars_train/01251.jpg
+141,Infiniti G Coupe IPL 2012,"[133, 368, 1311, 928]",cars_test/03886.jpg
+48,Buick Rainier SUV 2007,"[202, 181, 1513, 1120]",cars_train/07058.jpg
+186,Toyota Sequoia SUV 2012,"[24, 85, 341, 252]",cars_train/04573.jpg
+103,Ferrari 458 Italia Convertible 2012,"[120, 192, 562, 356]",cars_train/03911.jpg
+144,Jaguar XK XKR 2012,"[108, 65, 624, 414]",cars_train/01119.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[93, 137, 586, 456]",cars_test/02877.jpg
+95,Dodge Durango SUV 2007,"[19, 18, 799, 469]",cars_test/03893.jpg
+36,BMW M6 Convertible 2010,"[75, 213, 634, 469]",cars_test/02256.jpg
+48,Buick Rainier SUV 2007,"[12, 54, 362, 275]",cars_test/06741.jpg
+132,Hyundai Tucson SUV 2012,"[20, 69, 576, 480]",cars_train/08064.jpg
+158,Maybach Landaulet Convertible 2012,"[24, 247, 2044, 911]",cars_train/01451.jpg
+126,Honda Odyssey Minivan 2012,"[26, 79, 493, 336]",cars_test/04377.jpg
+120,GMC Yukon Hybrid SUV 2012,"[180, 9, 555, 286]",cars_test/00620.jpg
+111,Ford Ranger SuperCab 2011,"[27, 47, 248, 175]",cars_test/02027.jpg
+117,Ford Fiesta Sedan 2012,"[26, 74, 618, 411]",cars_train/04068.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[30, 92, 611, 390]",cars_test/05381.jpg
+42,Bentley Continental GT Coupe 2012,"[36, 47, 466, 264]",cars_test/05037.jpg
+84,Dodge Caliber Wagon 2007,"[10, 58, 480, 357]",cars_test/04647.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[33, 1, 638, 480]",cars_test/05301.jpg
+141,Infiniti G Coupe IPL 2012,"[217, 199, 631, 358]",cars_train/00385.jpg
+146,Jeep Wrangler SUV 2012,"[22, 57, 280, 214]",cars_test/01224.jpg
+148,Jeep Grand Cherokee SUV 2012,"[20, 11, 281, 185]",cars_test/02248.jpg
+29,BMW 3 Series Sedan 2012,"[113, 64, 410, 251]",cars_test/01177.jpg
+118,GMC Terrain SUV 2012,"[48, 65, 621, 443]",cars_train/04087.jpg
+117,Ford Fiesta Sedan 2012,"[4, 69, 539, 292]",cars_test/02332.jpg
+181,Suzuki Aerio Sedan 2007,"[56, 154, 437, 343]",cars_test/05573.jpg
+2,Acura RL Sedan 2012,"[32, 96, 565, 362]",cars_test/03525.jpg
+76,Chrysler Aspen SUV 2009,"[52, 145, 530, 373]",cars_test/06413.jpg
+196,smart fortwo Convertible 2012,"[73, 38, 512, 374]",cars_train/06373.jpg
+118,GMC Terrain SUV 2012,"[25, 132, 590, 360]",cars_test/03343.jpg
+170,Nissan Juke Hatchback 2012,"[190, 446, 1357, 926]",cars_test/03629.jpg
+183,Suzuki SX4 Hatchback 2012,"[126, 72, 900, 606]",cars_train/05700.jpg
+13,Audi A5 Coupe 2012,"[36, 162, 982, 675]",cars_train/07976.jpg
+31,BMW 6 Series Convertible 2007,"[26, 65, 603, 366]",cars_test/05229.jpg
+147,Jeep Liberty SUV 2012,"[84, 23, 905, 644]",cars_train/05637.jpg
+114,Ford F-150 Regular Cab 2007,"[110, 117, 597, 437]",cars_test/05877.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[68, 129, 571, 349]",cars_test/03377.jpg
+191,Volkswagen Golf Hatchback 1991,"[59, 109, 934, 656]",cars_test/07147.jpg
+140,Hyundai Azera Sedan 2012,"[75, 6, 864, 628]",cars_train/00688.jpg
+34,BMW M3 Coupe 2012,"[62, 128, 615, 389]",cars_train/00592.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[15, 36, 237, 181]",cars_test/00544.jpg
+114,Ford F-150 Regular Cab 2007,"[71, 92, 599, 389]",cars_train/05649.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[258, 26, 564, 245]",cars_test/01889.jpg
+63,Chevrolet Sonic Sedan 2012,"[654, 435, 1975, 1061]",cars_test/03033.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[23, 28, 600, 412]",cars_train/01822.jpg
+157,MINI Cooper Roadster Convertible 2012,"[44, 179, 685, 475]",cars_train/03016.jpg
+49,Buick Verano Sedan 2012,"[103, 199, 511, 423]",cars_test/06972.jpg
+179,Spyker C8 Convertible 2009,"[90, 30, 577, 396]",cars_train/02727.jpg
+56,Chevrolet Corvette ZR1 2012,"[59, 62, 576, 367]",cars_test/01782.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[31, 20, 229, 133]",cars_train/07490.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[60, 185, 587, 438]",cars_train/05914.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[10, 69, 317, 216]",cars_train/01290.jpg
+157,MINI Cooper Roadster Convertible 2012,"[196, 108, 460, 266]",cars_train/01633.jpg
+116,Ford E-Series Wagon Van 2012,"[18, 17, 256, 194]",cars_train/04842.jpg
+97,Dodge Charger SRT-8 2009,"[61, 61, 461, 371]",cars_test/02400.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[20, 56, 419, 265]",cars_train/01736.jpg
+76,Chrysler Aspen SUV 2009,"[28, 8, 245, 171]",cars_train/02881.jpg
+187,Toyota Camry Sedan 2012,"[23, 83, 605, 339]",cars_test/00675.jpg
+123,Geo Metro Convertible 1993,"[1, 37, 260, 161]",cars_train/06943.jpg
+76,Chrysler Aspen SUV 2009,"[1, 128, 942, 722]",cars_test/05785.jpg
+78,Chrysler Town and Country Minivan 2012,"[37, 87, 463, 298]",cars_train/01939.jpg
+11,Aston Martin Virage Coupe 2012,"[102, 271, 1374, 783]",cars_train/07610.jpg
+130,Hyundai Veloster Hatchback 2012,"[69, 181, 424, 373]",cars_train/01748.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[12, 21, 258, 161]",cars_train/06640.jpg
+107,Ford Mustang Convertible 2007,"[23, 113, 618, 367]",cars_test/05714.jpg
+12,Audi RS 4 Convertible 2008,"[76, 163, 1213, 721]",cars_test/00899.jpg
+148,Jeep Grand Cherokee SUV 2012,"[4, 94, 272, 201]",cars_test/02960.jpg
+48,Buick Rainier SUV 2007,"[5, 18, 228, 175]",cars_train/02971.jpg
+94,Dodge Durango SUV 2012,"[124, 132, 522, 283]",cars_test/02569.jpg
+52,Cadillac SRX SUV 2012,"[37, 86, 425, 291]",cars_test/06371.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[34, 12, 544, 238]",cars_test/05161.jpg
+195,Volvo XC90 SUV 2007,"[41, 52, 757, 490]",cars_train/04076.jpg
+103,Ferrari 458 Italia Convertible 2012,"[17, 52, 484, 305]",cars_test/01493.jpg
+59,Chevrolet Camaro Convertible 2012,"[25, 57, 520, 297]",cars_train/02458.jpg
+101,Ferrari FF Coupe 2012,"[349, 199, 770, 365]",cars_test/05978.jpg
+102,Ferrari California Convertible 2012,"[241, 379, 1016, 731]",cars_test/00291.jpg
+60,Chevrolet HHR SS 2010,"[57, 143, 1149, 731]",cars_test/01920.jpg
+15,Audi R8 Coupe 2012,"[249, 242, 1549, 1380]",cars_test/06010.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[24, 32, 241, 165]",cars_test/04652.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[32, 132, 595, 333]",cars_train/07626.jpg
+195,Volvo XC90 SUV 2007,"[32, 47, 209, 144]",cars_test/02364.jpg
+36,BMW M6 Convertible 2010,"[5, 21, 404, 251]",cars_train/04052.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[54, 69, 508, 391]",cars_test/07290.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[23, 82, 407, 267]",cars_test/01957.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[20, 24, 636, 295]",cars_train/06483.jpg
+115,Ford Focus Sedan 2007,"[2, 107, 639, 396]",cars_test/00823.jpg
+47,Buick Regal GS 2012,"[57, 134, 526, 289]",cars_test/05697.jpg
+109,Ford Expedition EL SUV 2009,"[20, 11, 633, 339]",cars_test/04637.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[17, 54, 238, 153]",cars_test/05330.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[63, 70, 553, 410]",cars_test/07001.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[140, 173, 1358, 762]",cars_train/05618.jpg
+173,Porsche Panamera Sedan 2012,"[49, 325, 1261, 1081]",cars_train/07231.jpg
+47,Buick Regal GS 2012,"[22, 100, 435, 313]",cars_train/06787.jpg
+186,Toyota Sequoia SUV 2012,"[10, 52, 280, 215]",cars_test/04553.jpg
+159,Mazda Tribute SUV 2011,"[152, 195, 595, 446]",cars_train/08024.jpg
+111,Ford Ranger SuperCab 2011,"[45, 8, 233, 178]",cars_train/01907.jpg
+58,Chevrolet Traverse SUV 2012,"[18, 90, 623, 462]",cars_test/01482.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[19, 53, 289, 223]",cars_test/05445.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[37, 182, 774, 475]",cars_test/04892.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[38, 96, 601, 315]",cars_test/02691.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[37, 235, 921, 640]",cars_train/06347.jpg
+186,Toyota Sequoia SUV 2012,"[19, 86, 384, 252]",cars_test/07666.jpg
+101,Ferrari FF Coupe 2012,"[63, 209, 1206, 764]",cars_test/05083.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[316, 177, 1286, 897]",cars_test/01197.jpg
+143,Isuzu Ascender SUV 2008,"[42, 47, 223, 168]",cars_test/00584.jpg
+51,Cadillac CTS-V Sedan 2012,"[5, 49, 255, 164]",cars_test/00283.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[47, 57, 612, 455]",cars_train/00662.jpg
+98,Eagle Talon Hatchback 1998,"[85, 31, 577, 272]",cars_test/03754.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[6, 7, 215, 118]",cars_test/00081.jpg
+82,Daewoo Nubira Wagon 2002,"[54, 49, 528, 336]",cars_train/00558.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[46, 28, 564, 370]",cars_train/04459.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[30, 217, 759, 522]",cars_train/05382.jpg
+140,Hyundai Azera Sedan 2012,"[60, 81, 629, 376]",cars_train/05898.jpg
+22,Audi S5 Coupe 2012,"[36, 146, 558, 342]",cars_train/01883.jpg
+63,Chevrolet Sonic Sedan 2012,"[144, 117, 871, 527]",cars_test/00079.jpg
+17,Audi 100 Sedan 1994,"[5, 4, 214, 121]",cars_train/07566.jpg
+55,Chevrolet Corvette Convertible 2012,"[18, 103, 626, 365]",cars_test/06958.jpg
+129,Honda Accord Sedan 2012,"[8, 29, 258, 165]",cars_train/04112.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[10, 120, 478, 292]",cars_test/07665.jpg
+183,Suzuki SX4 Hatchback 2012,"[63, 23, 759, 560]",cars_test/00648.jpg
+40,Bentley Arnage Sedan 2009,"[198, 213, 589, 377]",cars_train/02534.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[44, 79, 584, 392]",cars_train/02308.jpg
+64,Chevrolet Express Cargo Van 2007,"[41, 68, 551, 399]",cars_test/02043.jpg
+150,Lamborghini Reventon Coupe 2008,"[26, 61, 411, 231]",cars_test/02556.jpg
+179,Spyker C8 Convertible 2009,"[51, 114, 433, 296]",cars_train/03153.jpg
+131,Hyundai Santa Fe SUV 2012,"[3, 12, 300, 211]",cars_train/04964.jpg
+193,Volvo C30 Hatchback 2012,"[80, 67, 502, 365]",cars_train/03668.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[5, 127, 329, 251]",cars_test/04473.jpg
+180,Spyker C8 Coupe 2009,"[67, 66, 407, 314]",cars_test/04429.jpg
+194,Volvo 240 Sedan 1993,"[45, 32, 959, 719]",cars_test/07580.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[44, 96, 621, 360]",cars_train/06635.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[6, 6, 496, 223]",cars_train/04937.jpg
+52,Cadillac SRX SUV 2012,"[5, 112, 739, 406]",cars_test/04552.jpg
+78,Chrysler Town and Country Minivan 2012,"[66, 93, 381, 284]",cars_test/05583.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[28, 108, 415, 225]",cars_test/07439.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[44, 40, 547, 417]",cars_test/03694.jpg
+155,Land Rover LR2 SUV 2012,"[21, 57, 285, 201]",cars_test/07090.jpg
+59,Chevrolet Camaro Convertible 2012,"[42, 76, 379, 262]",cars_test/07276.jpg
+83,Dodge Caliber Wagon 2012,"[13, 129, 593, 480]",cars_train/07247.jpg
+50,Buick Enclave SUV 2012,"[56, 6, 595, 469]",cars_train/07341.jpg
+129,Honda Accord Sedan 2012,"[23, 23, 244, 173]",cars_test/03357.jpg
+84,Dodge Caliber Wagon 2007,"[47, 125, 687, 471]",cars_train/05598.jpg
+158,Maybach Landaulet Convertible 2012,"[58, 354, 741, 558]",cars_test/04263.jpg
+43,Bentley Continental GT Coupe 2007,"[66, 128, 617, 379]",cars_train/04243.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[66, 111, 754, 459]",cars_train/05788.jpg
+38,BMW Z4 Convertible 2012,"[80, 100, 401, 371]",cars_train/05258.jpg
+85,Dodge Caravan Minivan 1997,"[10, 28, 434, 370]",cars_train/02956.jpg
+97,Dodge Charger SRT-8 2009,"[58, 562, 1528, 1081]",cars_train/00054.jpg
+188,Toyota Corolla Sedan 2012,"[60, 67, 582, 398]",cars_train/04416.jpg
+55,Chevrolet Corvette Convertible 2012,"[27, 146, 587, 398]",cars_train/03908.jpg
+61,Chevrolet Impala Sedan 2007,"[73, 112, 424, 288]",cars_test/03937.jpg
+118,GMC Terrain SUV 2012,"[13, 44, 784, 538]",cars_train/01246.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[61, 58, 269, 148]",cars_train/06669.jpg
+22,Audi S5 Coupe 2012,"[44, 174, 733, 482]",cars_test/06941.jpg
+58,Chevrolet Traverse SUV 2012,"[48, 13, 609, 445]",cars_test/04760.jpg
+51,Cadillac CTS-V Sedan 2012,"[57, 109, 951, 675]",cars_test/00073.jpg
+25,Audi TT RS Coupe 2012,"[68, 37, 698, 446]",cars_train/00684.jpg
+195,Volvo XC90 SUV 2007,"[17, 12, 275, 183]",cars_train/07609.jpg
+170,Nissan Juke Hatchback 2012,"[62, 211, 1444, 1014]",cars_test/03917.jpg
+154,Land Rover Range Rover SUV 2012,"[81, 18, 577, 369]",cars_test/02160.jpg
+76,Chrysler Aspen SUV 2009,"[1, 28, 253, 183]",cars_test/04119.jpg
+77,Chrysler Sebring Convertible 2010,"[29, 40, 489, 325]",cars_test/05277.jpg
+136,Hyundai Accent Sedan 2012,"[59, 52, 247, 155]",cars_train/00680.jpg
+196,smart fortwo Convertible 2012,"[20, 27, 613, 413]",cars_train/07500.jpg
+192,Volkswagen Beetle Hatchback 2012,"[35, 89, 608, 391]",cars_test/00610.jpg
+142,Infiniti QX56 SUV 2011,"[99, 176, 536, 376]",cars_train/04532.jpg
+121,GMC Acadia SUV 2012,"[33, 46, 383, 309]",cars_test/04078.jpg
+24,Audi S4 Sedan 2007,"[17, 129, 632, 378]",cars_test/06948.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[9, 101, 316, 212]",cars_test/05266.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[32, 74, 625, 439]",cars_test/06690.jpg
+117,Ford Fiesta Sedan 2012,"[126, 143, 907, 715]",cars_train/02133.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[55, 149, 529, 343]",cars_train/04989.jpg
+58,Chevrolet Traverse SUV 2012,"[555, 288, 920, 511]",cars_test/06593.jpg
+20,Audi S6 Sedan 2011,"[13, 98, 636, 414]",cars_test/07146.jpg
+182,Suzuki Kizashi Sedan 2012,"[15, 51, 585, 417]",cars_test/05529.jpg
+147,Jeep Liberty SUV 2012,"[113, 10, 658, 258]",cars_test/02393.jpg
+41,Bentley Mulsanne Sedan 2011,"[38, 72, 257, 173]",cars_test/06341.jpg
+128,Honda Accord Coupe 2012,"[16, 16, 534, 380]",cars_test/02500.jpg
+98,Eagle Talon Hatchback 1998,"[16, 74, 283, 189]",cars_train/06216.jpg
+50,Buick Enclave SUV 2012,"[52, 133, 745, 452]",cars_train/07625.jpg
+160,McLaren MP4-12C Coupe 2012,"[343, 190, 831, 449]",cars_test/03077.jpg
+36,BMW M6 Convertible 2010,"[33, 92, 614, 348]",cars_test/06882.jpg
+59,Chevrolet Camaro Convertible 2012,"[36, 57, 436, 312]",cars_test/06241.jpg
+10,Aston Martin Virage Convertible 2012,"[178, 790, 3061, 2333]",cars_train/07386.jpg
+34,BMW M3 Coupe 2012,"[56, 147, 437, 286]",cars_test/07869.jpg
+16,Audi V8 Sedan 1994,"[43, 122, 847, 420]",cars_test/06911.jpg
+180,Spyker C8 Coupe 2009,"[21, 154, 607, 367]",cars_train/05053.jpg
+97,Dodge Charger SRT-8 2009,"[12, 47, 251, 162]",cars_train/05201.jpg
+137,Hyundai Genesis Sedan 2012,"[96, 46, 487, 186]",cars_train/02277.jpg
+59,Chevrolet Camaro Convertible 2012,"[46, 145, 331, 290]",cars_test/01726.jpg
+96,Dodge Charger Sedan 2012,"[313, 423, 1201, 901]",cars_train/05431.jpg
+124,HUMMER H3T Crew Cab 2010,"[5, 199, 720, 480]",cars_test/01559.jpg
+4,Acura TL Type-S 2008,"[40, 157, 482, 311]",cars_test/07369.jpg
+160,McLaren MP4-12C Coupe 2012,"[35, 57, 275, 153]",cars_test/06659.jpg
+145,Jeep Patriot SUV 2012,"[110, 149, 1503, 1079]",cars_train/07753.jpg
+189,Toyota 4Runner SUV 2012,"[8, 178, 796, 501]",cars_test/04431.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[120, 286, 1073, 790]",cars_train/04873.jpg
+170,Nissan Juke Hatchback 2012,"[32, 162, 2577, 1730]",cars_train/01587.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[70, 45, 436, 271]",cars_train/06911.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[5, 9, 118, 67]",cars_train/01460.jpg
+173,Porsche Panamera Sedan 2012,"[17, 55, 619, 453]",cars_test/05303.jpg
+108,Ford Freestar Minivan 2007,"[17, 17, 298, 210]",cars_train/03744.jpg
+114,Ford F-150 Regular Cab 2007,"[6, 19, 285, 174]",cars_train/06905.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[6, 63, 638, 391]",cars_train/03465.jpg
+123,Geo Metro Convertible 1993,"[35, 54, 564, 361]",cars_train/02182.jpg
+71,Chevrolet Express Van 2007,"[1, 37, 300, 237]",cars_train/06357.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[15, 25, 242, 182]",cars_test/05624.jpg
+93,Dodge Challenger SRT8 2011,"[246, 339, 1215, 788]",cars_train/01576.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[37, 104, 382, 268]",cars_train/03249.jpg
+89,Dodge Journey SUV 2012,"[96, 299, 967, 705]",cars_train/02522.jpg
+160,McLaren MP4-12C Coupe 2012,"[154, 370, 1708, 1198]",cars_test/04899.jpg
+157,MINI Cooper Roadster Convertible 2012,"[42, 123, 602, 413]",cars_test/05329.jpg
+25,Audi TT RS Coupe 2012,"[53, 180, 1119, 725]",cars_train/05425.jpg
+111,Ford Ranger SuperCab 2011,"[13, 74, 450, 333]",cars_train/07716.jpg
+140,Hyundai Azera Sedan 2012,"[21, 110, 627, 367]",cars_test/00593.jpg
+133,Hyundai Veracruz SUV 2012,"[238, 218, 718, 433]",cars_test/05502.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[142, 69, 753, 451]",cars_train/00048.jpg
+11,Aston Martin Virage Coupe 2012,"[73, 159, 445, 376]",cars_train/00318.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[37, 20, 359, 266]",cars_test/00605.jpg
+30,BMW 3 Series Wagon 2012,"[82, 57, 988, 656]",cars_test/00591.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[202, 346, 1738, 997]",cars_test/02741.jpg
+95,Dodge Durango SUV 2007,"[77, 99, 682, 435]",cars_test/06116.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[31, 15, 378, 185]",cars_train/06578.jpg
+115,Ford Focus Sedan 2007,"[56, 60, 346, 222]",cars_train/05005.jpg
+21,Audi S5 Convertible 2012,"[278, 284, 917, 539]",cars_train/04689.jpg
+14,Audi TTS Coupe 2012,"[44, 62, 555, 294]",cars_train/06586.jpg
+141,Infiniti G Coupe IPL 2012,"[28, 189, 424, 349]",cars_test/03166.jpg
+112,Ford GT Coupe 2006,"[214, 463, 1210, 910]",cars_train/03053.jpg
+35,BMW M5 Sedan 2010,"[25, 99, 587, 384]",cars_train/05087.jpg
+119,GMC Savana Van 2012,"[20, 34, 285, 212]",cars_test/05396.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[94, 76, 219, 131]",cars_test/07441.jpg
+3,Acura TL Sedan 2012,"[373, 56, 2663, 1915]",cars_train/02364.jpg
+171,Nissan 240SX Coupe 1998,"[49, 51, 590, 433]",cars_test/07242.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[31, 44, 379, 250]",cars_train/05107.jpg
+112,Ford GT Coupe 2006,"[253, 313, 1372, 919]",cars_train/07837.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[190, 118, 1157, 759]",cars_test/03409.jpg
+108,Ford Freestar Minivan 2007,"[28, 46, 263, 183]",cars_train/06788.jpg
+7,Acura ZDX Hatchback 2012,"[133, 431, 1962, 1072]",cars_train/06518.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[1, 96, 631, 363]",cars_train/07999.jpg
+168,Nissan Leaf Hatchback 2012,"[219, 213, 1156, 543]",cars_train/01019.jpg
+108,Ford Freestar Minivan 2007,"[74, 59, 342, 287]",cars_test/06608.jpg
+189,Toyota 4Runner SUV 2012,"[14, 157, 601, 411]",cars_test/03340.jpg
+49,Buick Verano Sedan 2012,"[33, 178, 606, 390]",cars_test/04853.jpg
+68,Chevrolet TrailBlazer SS 2009,"[14, 7, 478, 272]",cars_train/04707.jpg
+121,GMC Acadia SUV 2012,"[13, 16, 254, 172]",cars_train/07794.jpg
+189,Toyota 4Runner SUV 2012,"[87, 33, 740, 451]",cars_test/07754.jpg
+38,BMW Z4 Convertible 2012,"[16, 100, 377, 257]",cars_test/03853.jpg
+104,Ferrari 458 Italia Coupe 2012,"[32, 48, 252, 163]",cars_test/04214.jpg
+51,Cadillac CTS-V Sedan 2012,"[10, 11, 235, 154]",cars_test/06657.jpg
+12,Audi RS 4 Convertible 2008,"[52, 377, 952, 674]",cars_test/02437.jpg
+196,smart fortwo Convertible 2012,"[30, 93, 232, 215]",cars_test/05706.jpg
+194,Volvo 240 Sedan 1993,"[3, 111, 639, 368]",cars_test/07498.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[48, 72, 590, 378]",cars_train/03421.jpg
+123,Geo Metro Convertible 1993,"[2, 17, 88, 56]",cars_test/00924.jpg
+120,GMC Yukon Hybrid SUV 2012,"[31, 99, 585, 461]",cars_test/05066.jpg
+135,Hyundai Elantra Sedan 2007,"[92, 185, 398, 346]",cars_train/07215.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[81, 45, 533, 304]",cars_test/06837.jpg
+109,Ford Expedition EL SUV 2009,"[43, 40, 232, 172]",cars_test/03320.jpg
+89,Dodge Journey SUV 2012,"[1, 18, 631, 422]",cars_test/01640.jpg
+167,Mitsubishi Lancer Sedan 2012,"[68, 197, 1238, 721]",cars_train/01875.jpg
+105,Fisker Karma Sedan 2012,"[112, 190, 664, 342]",cars_train/00283.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[8, 33, 195, 119]",cars_train/03454.jpg
+181,Suzuki Aerio Sedan 2007,"[23, 52, 288, 183]",cars_train/01759.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[106, 96, 419, 286]",cars_test/05586.jpg
+171,Nissan 240SX Coupe 1998,"[9, 24, 200, 109]",cars_train/07653.jpg
+90,Dodge Dakota Crew Cab 2010,"[55, 20, 393, 205]",cars_train/06711.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[6, 87, 255, 173]",cars_test/00632.jpg
+38,BMW Z4 Convertible 2012,"[27, 63, 305, 220]",cars_train/04729.jpg
+138,Hyundai Sonata Sedan 2012,"[96, 91, 593, 377]",cars_test/07568.jpg
+56,Chevrolet Corvette ZR1 2012,"[156, 228, 515, 423]",cars_test/03277.jpg
+84,Dodge Caliber Wagon 2007,"[26, 152, 626, 438]",cars_test/07688.jpg
+89,Dodge Journey SUV 2012,"[70, 262, 815, 740]",cars_train/05791.jpg
+148,Jeep Grand Cherokee SUV 2012,"[134, 15, 530, 317]",cars_train/08065.jpg
+100,FIAT 500 Convertible 2012,"[85, 82, 515, 350]",cars_test/02843.jpg
+73,Chevrolet Malibu Sedan 2007,"[24, 122, 914, 604]",cars_test/05257.jpg
+66,Chevrolet Cobalt SS 2010,"[38, 194, 1175, 953]",cars_train/07161.jpg
+58,Chevrolet Traverse SUV 2012,"[73, 42, 531, 462]",cars_test/02208.jpg
+73,Chevrolet Malibu Sedan 2007,"[16, 29, 480, 283]",cars_train/06273.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[14, 57, 418, 242]",cars_test/04201.jpg
+92,Dodge Magnum Wagon 2008,"[44, 58, 221, 149]",cars_train/05978.jpg
+122,GMC Canyon Extended Cab 2012,"[32, 58, 288, 183]",cars_test/04690.jpg
+30,BMW 3 Series Wagon 2012,"[22, 39, 547, 250]",cars_test/00039.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[131, 135, 533, 297]",cars_test/00694.jpg
+118,GMC Terrain SUV 2012,"[1, 1, 500, 375]",cars_train/05771.jpg
+121,GMC Acadia SUV 2012,"[36, 13, 285, 200]",cars_test/06433.jpg
+19,Audi TT Hatchback 2011,"[182, 615, 1950, 1371]",cars_test/06112.jpg
+48,Buick Rainier SUV 2007,"[14, 90, 625, 441]",cars_test/06226.jpg
+6,Acura Integra Type R 2001,"[229, 96, 417, 211]",cars_train/05671.jpg
+129,Honda Accord Sedan 2012,"[67, 101, 577, 384]",cars_test/03912.jpg
+95,Dodge Durango SUV 2007,"[7, 113, 621, 435]",cars_test/01776.jpg
+94,Dodge Durango SUV 2012,"[134, 55, 553, 420]",cars_train/07762.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[15, 43, 271, 198]",cars_train/04610.jpg
+34,BMW M3 Coupe 2012,"[24, 152, 460, 314]",cars_train/07922.jpg
+188,Toyota Corolla Sedan 2012,"[19, 64, 285, 185]",cars_test/04547.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[108, 29, 1427, 925]",cars_train/02567.jpg
+104,Ferrari 458 Italia Coupe 2012,"[17, 86, 786, 387]",cars_test/05775.jpg
+47,Buick Regal GS 2012,"[32, 122, 486, 286]",cars_train/07921.jpg
+21,Audi S5 Convertible 2012,"[20, 29, 583, 270]",cars_train/01370.jpg
+41,Bentley Mulsanne Sedan 2011,"[13, 59, 433, 240]",cars_test/06711.jpg
+49,Buick Verano Sedan 2012,"[58, 59, 390, 264]",cars_train/02794.jpg
+148,Jeep Grand Cherokee SUV 2012,"[12, 33, 379, 268]",cars_test/00429.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[42, 66, 461, 272]",cars_train/06507.jpg
+43,Bentley Continental GT Coupe 2007,"[129, 714, 1773, 1295]",cars_test/02153.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[37, 93, 427, 298]",cars_train/03122.jpg
+3,Acura TL Sedan 2012,"[14, 165, 574, 387]",cars_test/03838.jpg
+137,Hyundai Genesis Sedan 2012,"[25, 69, 481, 291]",cars_test/04895.jpg
+190,Volkswagen Golf Hatchback 2012,"[183, 74, 504, 347]",cars_test/06367.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[8, 26, 442, 313]",cars_train/05034.jpg
+194,Volvo 240 Sedan 1993,"[6, 128, 448, 341]",cars_train/01814.jpg
+105,Fisker Karma Sedan 2012,"[24, 268, 1022, 567]",cars_train/04367.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[51, 61, 534, 355]",cars_train/06363.jpg
+5,Acura TSX Sedan 2012,"[56, 80, 594, 365]",cars_test/00030.jpg
+159,Mazda Tribute SUV 2011,"[10, 20, 291, 182]",cars_test/05440.jpg
+66,Chevrolet Cobalt SS 2010,"[66, 141, 739, 427]",cars_train/04246.jpg
+60,Chevrolet HHR SS 2010,"[48, 209, 745, 465]",cars_test/02471.jpg
+183,Suzuki SX4 Hatchback 2012,"[237, 33, 926, 658]",cars_test/05403.jpg
+61,Chevrolet Impala Sedan 2007,"[13, 127, 629, 415]",cars_test/00118.jpg
+64,Chevrolet Express Cargo Van 2007,"[33, 84, 606, 379]",cars_test/07616.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[150, 35, 613, 509]",cars_test/06955.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[31, 81, 608, 391]",cars_train/04815.jpg
+43,Bentley Continental GT Coupe 2007,"[45, 203, 982, 564]",cars_train/01008.jpg
+35,BMW M5 Sedan 2010,"[140, 61, 482, 283]",cars_train/03399.jpg
+150,Lamborghini Reventon Coupe 2008,"[90, 102, 576, 336]",cars_test/07784.jpg
+107,Ford Mustang Convertible 2007,"[92, 47, 553, 364]",cars_test/02562.jpg
+7,Acura ZDX Hatchback 2012,"[73, 421, 1525, 1114]",cars_test/00036.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[31, 45, 602, 409]",cars_test/02974.jpg
+36,BMW M6 Convertible 2010,"[41, 150, 602, 331]",cars_test/00060.jpg
+47,Buick Regal GS 2012,"[23, 66, 499, 311]",cars_train/00152.jpg
+100,FIAT 500 Convertible 2012,"[200, 147, 615, 465]",cars_train/04055.jpg
+141,Infiniti G Coupe IPL 2012,"[31, 138, 608, 371]",cars_test/07035.jpg
+18,Audi 100 Wagon 1994,"[2, 1, 280, 96]",cars_train/04744.jpg
+167,Mitsubishi Lancer Sedan 2012,"[249, 154, 981, 569]",cars_train/04766.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[27, 115, 667, 404]",cars_train/01230.jpg
+172,Plymouth Neon Coupe 1999,"[56, 34, 655, 424]",cars_train/07601.jpg
+178,Scion xD Hatchback 2012,"[109, 118, 1456, 1150]",cars_train/06479.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[17, 55, 285, 166]",cars_train/04384.jpg
+127,Honda Odyssey Minivan 2007,"[13, 49, 393, 275]",cars_train/01942.jpg
+127,Honda Odyssey Minivan 2007,"[13, 1, 629, 480]",cars_train/07284.jpg
+20,Audi S6 Sedan 2011,"[15, 82, 337, 223]",cars_train/05212.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[445, 240, 984, 479]",cars_test/07875.jpg
+24,Audi S4 Sedan 2007,"[35, 75, 351, 212]",cars_train/03269.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[201, 100, 674, 471]",cars_train/05774.jpg
+182,Suzuki Kizashi Sedan 2012,"[83, 275, 1068, 715]",cars_test/01792.jpg
+88,Dodge Sprinter Cargo Van 2009,"[39, 12, 216, 187]",cars_train/00737.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[25, 53, 238, 167]",cars_train/06587.jpg
+55,Chevrolet Corvette Convertible 2012,"[69, 109, 461, 284]",cars_train/00872.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[29, 74, 294, 188]",cars_test/04739.jpg
+195,Volvo XC90 SUV 2007,"[37, 48, 365, 266]",cars_test/07075.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[9, 58, 220, 165]",cars_train/05946.jpg
+3,Acura TL Sedan 2012,"[73, 41, 422, 296]",cars_test/06478.jpg
+2,Acura RL Sedan 2012,"[37, 30, 292, 190]",cars_test/02035.jpg
+55,Chevrolet Corvette Convertible 2012,"[53, 123, 1205, 656]",cars_test/06109.jpg
+58,Chevrolet Traverse SUV 2012,"[44, 71, 594, 416]",cars_train/04264.jpg
+91,Dodge Dakota Club Cab 2007,"[12, 38, 288, 157]",cars_test/06428.jpg
+68,Chevrolet TrailBlazer SS 2009,"[66, 138, 751, 517]",cars_train/02503.jpg
+43,Bentley Continental GT Coupe 2007,"[49, 202, 398, 391]",cars_test/04524.jpg
+173,Porsche Panamera Sedan 2012,"[14, 67, 616, 353]",cars_train/07814.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[17, 49, 614, 461]",cars_test/00407.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[3, 181, 601, 413]",cars_train/06261.jpg
+88,Dodge Sprinter Cargo Van 2009,"[23, 12, 244, 186]",cars_test/01378.jpg
+24,Audi S4 Sedan 2007,"[69, 51, 370, 276]",cars_test/01732.jpg
+142,Infiniti QX56 SUV 2011,"[3, 40, 297, 157]",cars_train/00180.jpg
+172,Plymouth Neon Coupe 1999,"[1, 328, 758, 773]",cars_train/00537.jpg
+111,Ford Ranger SuperCab 2011,"[4, 29, 257, 169]",cars_test/06003.jpg
+59,Chevrolet Camaro Convertible 2012,"[45, 52, 353, 270]",cars_test/05604.jpg
+187,Toyota Camry Sedan 2012,"[97, 39, 925, 700]",cars_train/00064.jpg
+92,Dodge Magnum Wagon 2008,"[52, 89, 424, 269]",cars_train/07573.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[96, 149, 443, 291]",cars_test/01977.jpg
+196,smart fortwo Convertible 2012,"[58, 123, 1305, 1043]",cars_test/04973.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[169, 258, 1086, 741]",cars_test/06159.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[13, 35, 399, 243]",cars_test/03158.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[128, 115, 506, 358]",cars_train/04494.jpg
+76,Chrysler Aspen SUV 2009,"[61, 120, 967, 646]",cars_test/06125.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[74, 70, 251, 170]",cars_train/02142.jpg
+144,Jaguar XK XKR 2012,"[26, 144, 615, 342]",cars_test/03010.jpg
+185,Tesla Model S Sedan 2012,"[80, 41, 551, 319]",cars_test/05997.jpg
+145,Jeep Patriot SUV 2012,"[523, 249, 1085, 588]",cars_test/00791.jpg
+189,Toyota 4Runner SUV 2012,"[19, 18, 254, 198]",cars_train/01699.jpg
+64,Chevrolet Express Cargo Van 2007,"[227, 252, 1353, 993]",cars_test/05393.jpg
+109,Ford Expedition EL SUV 2009,"[22, 53, 329, 204]",cars_train/06761.jpg
+107,Ford Mustang Convertible 2007,"[18, 66, 398, 237]",cars_test/05889.jpg
+104,Ferrari 458 Italia Coupe 2012,"[23, 99, 311, 194]",cars_test/03822.jpg
+127,Honda Odyssey Minivan 2007,"[20, 116, 588, 338]",cars_train/06041.jpg
+122,GMC Canyon Extended Cab 2012,"[14, 162, 472, 319]",cars_test/03752.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[17, 120, 563, 359]",cars_train/00534.jpg
+94,Dodge Durango SUV 2012,"[133, 146, 1130, 674]",cars_test/06495.jpg
+107,Ford Mustang Convertible 2007,"[75, 1, 573, 458]",cars_test/04013.jpg
+61,Chevrolet Impala Sedan 2007,"[48, 74, 442, 304]",cars_test/07760.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[187, 327, 1211, 769]",cars_train/00194.jpg
+25,Audi TT RS Coupe 2012,"[19, 64, 468, 217]",cars_test/02173.jpg
+20,Audi S6 Sedan 2011,"[28, 180, 988, 694]",cars_train/03157.jpg
+170,Nissan Juke Hatchback 2012,"[66, 247, 949, 644]",cars_test/07311.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[46, 92, 413, 286]",cars_train/03906.jpg
+168,Nissan Leaf Hatchback 2012,"[25, 156, 610, 363]",cars_train/04710.jpg
+66,Chevrolet Cobalt SS 2010,"[37, 226, 959, 554]",cars_train/03638.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[366, 163, 602, 301]",cars_train/03250.jpg
+78,Chrysler Town and Country Minivan 2012,"[127, 49, 552, 331]",cars_train/01796.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[72, 109, 513, 301]",cars_test/02038.jpg
+24,Audi S4 Sedan 2007,"[30, 73, 619, 401]",cars_train/01600.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[5, 6, 291, 147]",cars_test/01388.jpg
+168,Nissan Leaf Hatchback 2012,"[1, 26, 570, 336]",cars_train/06348.jpg
+120,GMC Yukon Hybrid SUV 2012,"[35, 63, 464, 331]",cars_train/01456.jpg
+11,Aston Martin Virage Coupe 2012,"[111, 209, 712, 487]",cars_test/05990.jpg
+35,BMW M5 Sedan 2010,"[17, 32, 578, 300]",cars_train/04742.jpg
+151,Lamborghini Aventador Coupe 2012,"[53, 388, 1236, 729]",cars_train/06721.jpg
+64,Chevrolet Express Cargo Van 2007,"[71, 19, 602, 475]",cars_test/03400.jpg
+21,Audi S5 Convertible 2012,"[73, 255, 1866, 934]",cars_test/01965.jpg
+90,Dodge Dakota Crew Cab 2010,"[40, 107, 601, 330]",cars_test/07182.jpg
+34,BMW M3 Coupe 2012,"[58, 67, 720, 282]",cars_train/02691.jpg
+50,Buick Enclave SUV 2012,"[77, 229, 588, 433]",cars_train/08042.jpg
+182,Suzuki Kizashi Sedan 2012,"[25, 71, 625, 399]",cars_test/05409.jpg
+80,Chrysler Crossfire Convertible 2008,"[4, 109, 580, 329]",cars_train/01577.jpg
+102,Ferrari California Convertible 2012,"[17, 246, 635, 465]",cars_test/05483.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[37, 95, 423, 251]",cars_test/04493.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[40, 232, 544, 444]",cars_test/00627.jpg
+187,Toyota Camry Sedan 2012,"[52, 28, 525, 452]",cars_test/01800.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[58, 160, 661, 442]",cars_test/00239.jpg
+108,Ford Freestar Minivan 2007,"[24, 43, 249, 186]",cars_test/07726.jpg
+116,Ford E-Series Wagon Van 2012,"[8, 37, 257, 175]",cars_train/01793.jpg
+82,Daewoo Nubira Wagon 2002,"[11, 23, 370, 234]",cars_train/05456.jpg
+183,Suzuki SX4 Hatchback 2012,"[126, 216, 1469, 997]",cars_test/02064.jpg
+35,BMW M5 Sedan 2010,"[19, 36, 618, 470]",cars_test/03475.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[5, 31, 282, 229]",cars_test/00511.jpg
+192,Volkswagen Beetle Hatchback 2012,"[45, 79, 663, 423]",cars_test/00881.jpg
+154,Land Rover Range Rover SUV 2012,"[150, 150, 631, 340]",cars_test/02814.jpg
+191,Volkswagen Golf Hatchback 1991,"[31, 71, 1775, 1010]",cars_train/07949.jpg
+41,Bentley Mulsanne Sedan 2011,"[79, 130, 565, 361]",cars_train/05971.jpg
+28,BMW 1 Series Coupe 2012,"[36, 26, 413, 313]",cars_train/05404.jpg
+122,GMC Canyon Extended Cab 2012,"[9, 105, 892, 561]",cars_test/04083.jpg
+105,Fisker Karma Sedan 2012,"[28, 67, 262, 171]",cars_test/03674.jpg
+131,Hyundai Santa Fe SUV 2012,"[24, 12, 569, 458]",cars_test/04808.jpg
+119,GMC Savana Van 2012,"[15, 45, 639, 420]",cars_train/00776.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[27, 43, 563, 348]",cars_test/01561.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[82, 109, 450, 300]",cars_train/01823.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[5, 40, 579, 450]",cars_test/02561.jpg
+195,Volvo XC90 SUV 2007,"[54, 44, 440, 286]",cars_test/05376.jpg
+156,Lincoln Town Car Sedan 2011,"[89, 52, 546, 262]",cars_test/00829.jpg
+127,Honda Odyssey Minivan 2007,"[39, 80, 606, 393]",cars_test/00258.jpg
+149,Jeep Compass SUV 2012,"[44, 103, 596, 376]",cars_train/01045.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[10, 43, 245, 179]",cars_test/02828.jpg
+150,Lamborghini Reventon Coupe 2008,"[258, 211, 1409, 868]",cars_train/03810.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[7, 39, 254, 177]",cars_train/00519.jpg
+112,Ford GT Coupe 2006,"[116, 141, 921, 579]",cars_test/01316.jpg
+151,Lamborghini Aventador Coupe 2012,"[328, 260, 1610, 935]",cars_train/02084.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[210, 257, 2274, 1379]",cars_train/03278.jpg
+49,Buick Verano Sedan 2012,"[122, 30, 491, 401]",cars_train/03578.jpg
+173,Porsche Panamera Sedan 2012,"[162, 127, 874, 638]",cars_test/04956.jpg
+151,Lamborghini Aventador Coupe 2012,"[17, 88, 239, 155]",cars_test/07803.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[40, 134, 607, 418]",cars_test/07780.jpg
+153,Lamborghini Diablo Coupe 2001,"[37, 51, 370, 268]",cars_train/00636.jpg
+88,Dodge Sprinter Cargo Van 2009,"[31, 55, 228, 172]",cars_test/06275.jpg
+115,Ford Focus Sedan 2007,"[29, 12, 623, 386]",cars_test/02950.jpg
+141,Infiniti G Coupe IPL 2012,"[6, 21, 397, 179]",cars_test/01623.jpg
+94,Dodge Durango SUV 2012,"[92, 48, 585, 325]",cars_test/05384.jpg
+99,FIAT 500 Abarth 2012,"[52, 28, 752, 429]",cars_train/05458.jpg
+37,BMW X3 SUV 2012,"[96, 143, 463, 405]",cars_test/06395.jpg
+111,Ford Ranger SuperCab 2011,"[30, 54, 236, 182]",cars_test/00383.jpg
+148,Jeep Grand Cherokee SUV 2012,"[20, 110, 415, 294]",cars_train/02024.jpg
+159,Mazda Tribute SUV 2011,"[12, 10, 503, 300]",cars_test/00667.jpg
+140,Hyundai Azera Sedan 2012,"[46, 240, 1467, 1115]",cars_train/02397.jpg
+12,Audi RS 4 Convertible 2008,"[22, 206, 514, 363]",cars_train/01640.jpg
+148,Jeep Grand Cherokee SUV 2012,"[36, 81, 618, 354]",cars_test/03958.jpg
+50,Buick Enclave SUV 2012,"[27, 151, 623, 391]",cars_train/02303.jpg
+123,Geo Metro Convertible 1993,"[38, 31, 180, 112]",cars_train/01760.jpg
+63,Chevrolet Sonic Sedan 2012,"[132, 85, 1127, 624]",cars_train/05759.jpg
+105,Fisker Karma Sedan 2012,"[25, 26, 264, 139]",cars_test/03877.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[62, 162, 607, 458]",cars_train/00597.jpg
+118,GMC Terrain SUV 2012,"[39, 135, 290, 233]",cars_train/05883.jpg
+24,Audi S4 Sedan 2007,"[199, 329, 1349, 829]",cars_train/04480.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[10, 19, 293, 150]",cars_test/03763.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[169, 77, 576, 369]",cars_train/05789.jpg
+3,Acura TL Sedan 2012,"[73, 69, 542, 373]",cars_test/00828.jpg
+131,Hyundai Santa Fe SUV 2012,"[14, 29, 643, 408]",cars_train/00883.jpg
+4,Acura TL Type-S 2008,"[14, 135, 605, 445]",cars_train/03102.jpg
+130,Hyundai Veloster Hatchback 2012,"[1, 47, 639, 438]",cars_train/02434.jpg
+127,Honda Odyssey Minivan 2007,"[1, 1, 447, 293]",cars_test/06365.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[30, 78, 488, 302]",cars_test/04329.jpg
+153,Lamborghini Diablo Coupe 2001,"[209, 13, 1783, 1008]",cars_test/05154.jpg
+124,HUMMER H3T Crew Cab 2010,"[108, 37, 682, 555]",cars_train/04369.jpg
+119,GMC Savana Van 2012,"[214, 382, 1459, 1117]",cars_train/01000.jpg
+20,Audi S6 Sedan 2011,"[36, 49, 387, 252]",cars_train/03025.jpg
+110,Ford Edge SUV 2012,"[129, 73, 519, 405]",cars_train/05246.jpg
+132,Hyundai Tucson SUV 2012,"[77, 125, 601, 399]",cars_train/07816.jpg
+20,Audi S6 Sedan 2011,"[13, 11, 312, 150]",cars_test/07178.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[55, 116, 639, 377]",cars_train/06840.jpg
+167,Mitsubishi Lancer Sedan 2012,"[94, 385, 1399, 1071]",cars_train/04455.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[59, 87, 1737, 1211]",cars_train/01338.jpg
+90,Dodge Dakota Crew Cab 2010,"[22, 32, 297, 188]",cars_train/06564.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[18, 29, 242, 176]",cars_train/02684.jpg
+155,Land Rover LR2 SUV 2012,"[115, 46, 243, 137]",cars_test/07459.jpg
+68,Chevrolet TrailBlazer SS 2009,"[18, 83, 1000, 592]",cars_test/01769.jpg
+151,Lamborghini Aventador Coupe 2012,"[11, 87, 564, 334]",cars_train/07560.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[16, 59, 466, 241]",cars_train/04812.jpg
+130,Hyundai Veloster Hatchback 2012,"[26, 31, 381, 251]",cars_train/04503.jpg
+16,Audi V8 Sedan 1994,"[16, 56, 187, 108]",cars_test/01583.jpg
+124,HUMMER H3T Crew Cab 2010,"[143, 91, 556, 370]",cars_train/01834.jpg
+56,Chevrolet Corvette ZR1 2012,"[46, 34, 453, 269]",cars_test/06591.jpg
+55,Chevrolet Corvette Convertible 2012,"[4, 106, 494, 274]",cars_train/06386.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[30, 118, 476, 325]",cars_test/03758.jpg
+113,Ford F-150 Regular Cab 2012,"[15, 18, 245, 181]",cars_train/07732.jpg
+156,Lincoln Town Car Sedan 2011,"[1, 26, 185, 110]",cars_test/04975.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[4, 4, 110, 68]",cars_test/06528.jpg
+187,Toyota Camry Sedan 2012,"[56, 134, 613, 329]",cars_test/05617.jpg
+93,Dodge Challenger SRT8 2011,"[64, 214, 648, 444]",cars_train/03047.jpg
+194,Volvo 240 Sedan 1993,"[96, 159, 427, 329]",cars_train/03345.jpg
+64,Chevrolet Express Cargo Van 2007,"[15, 20, 630, 477]",cars_train/06579.jpg
+1,AM General Hummer SUV 2000,"[9, 14, 490, 368]",cars_train/06052.jpg
+73,Chevrolet Malibu Sedan 2007,"[20, 91, 422, 229]",cars_test/05497.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[18, 48, 238, 179]",cars_test/03044.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[70, 306, 963, 750]",cars_test/02953.jpg
+1,AM General Hummer SUV 2000,"[18, 18, 328, 190]",cars_train/04544.jpg
+181,Suzuki Aerio Sedan 2007,"[8, 159, 466, 357]",cars_train/03358.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[1, 39, 243, 135]",cars_train/04279.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[20, 110, 611, 377]",cars_test/01237.jpg
+133,Hyundai Veracruz SUV 2012,"[74, 42, 617, 425]",cars_test/03131.jpg
+108,Ford Freestar Minivan 2007,"[33, 80, 282, 209]",cars_test/00537.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[50, 45, 1723, 824]",cars_test/03982.jpg
+193,Volvo C30 Hatchback 2012,"[12, 89, 453, 353]",cars_train/08071.jpg
+193,Volvo C30 Hatchback 2012,"[36, 51, 817, 531]",cars_train/03555.jpg
+92,Dodge Magnum Wagon 2008,"[95, 181, 913, 877]",cars_test/04045.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[192, 581, 3976, 1791]",cars_train/04303.jpg
+5,Acura TSX Sedan 2012,"[13, 30, 285, 182]",cars_test/03818.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[17, 54, 235, 174]",cars_test/02876.jpg
+132,Hyundai Tucson SUV 2012,"[124, 318, 1455, 972]",cars_test/01724.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[31, 22, 474, 277]",cars_test/03925.jpg
+14,Audi TTS Coupe 2012,"[40, 66, 269, 164]",cars_train/05266.jpg
+61,Chevrolet Impala Sedan 2007,"[52, 129, 579, 320]",cars_train/06807.jpg
+146,Jeep Wrangler SUV 2012,"[111, 31, 554, 305]",cars_train/04220.jpg
+150,Lamborghini Reventon Coupe 2008,"[11, 43, 472, 232]",cars_train/02307.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[23, 47, 380, 215]",cars_test/01248.jpg
+16,Audi V8 Sedan 1994,"[5, 42, 154, 88]",cars_test/04858.jpg
+42,Bentley Continental GT Coupe 2012,"[325, 190, 1627, 997]",cars_train/03469.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[112, 129, 887, 478]",cars_train/06342.jpg
+21,Audi S5 Convertible 2012,"[76, 264, 730, 526]",cars_train/03738.jpg
+103,Ferrari 458 Italia Convertible 2012,"[73, 118, 465, 242]",cars_test/06235.jpg
+136,Hyundai Accent Sedan 2012,"[50, 79, 351, 196]",cars_test/07511.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[33, 24, 590, 365]",cars_test/07809.jpg
+186,Toyota Sequoia SUV 2012,"[14, 97, 353, 262]",cars_test/06959.jpg
+38,BMW Z4 Convertible 2012,"[51, 135, 1247, 736]",cars_train/05337.jpg
+170,Nissan Juke Hatchback 2012,"[32, 99, 965, 656]",cars_test/06962.jpg
+118,GMC Terrain SUV 2012,"[29, 51, 259, 187]",cars_train/02030.jpg
+196,smart fortwo Convertible 2012,"[103, 99, 894, 679]",cars_train/02961.jpg
+182,Suzuki Kizashi Sedan 2012,"[44, 126, 613, 429]",cars_train/06889.jpg
+56,Chevrolet Corvette ZR1 2012,"[41, 82, 337, 197]",cars_train/03832.jpg
+23,Audi S4 Sedan 2012,"[10, 5, 545, 315]",cars_train/05268.jpg
+60,Chevrolet HHR SS 2010,"[25, 34, 588, 254]",cars_train/06925.jpg
+37,BMW X3 SUV 2012,"[16, 9, 618, 414]",cars_train/01568.jpg
+104,Ferrari 458 Italia Coupe 2012,"[81, 49, 263, 157]",cars_train/05638.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[2, 24, 255, 138]",cars_train/06848.jpg
+179,Spyker C8 Convertible 2009,"[242, 544, 1315, 1006]",cars_train/06371.jpg
+85,Dodge Caravan Minivan 1997,"[117, 31, 516, 415]",cars_train/01384.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[9, 11, 290, 200]",cars_train/01330.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[19, 175, 1582, 1081]",cars_train/04167.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[33, 57, 255, 162]",cars_train/06698.jpg
+146,Jeep Wrangler SUV 2012,"[12, 12, 595, 426]",cars_test/02870.jpg
+29,BMW 3 Series Sedan 2012,"[212, 395, 1655, 996]",cars_test/00434.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[233, 327, 1141, 713]",cars_train/01512.jpg
+91,Dodge Dakota Club Cab 2007,"[45, 199, 615, 432]",cars_train/00774.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[64, 103, 934, 617]",cars_train/00693.jpg
+196,smart fortwo Convertible 2012,"[83, 102, 648, 485]",cars_test/07467.jpg
+142,Infiniti QX56 SUV 2011,"[48, 13, 499, 345]",cars_train/04426.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[133, 318, 1129, 812]",cars_train/07867.jpg
+50,Buick Enclave SUV 2012,"[13, 68, 627, 425]",cars_train/07529.jpg
+131,Hyundai Santa Fe SUV 2012,"[29, 35, 236, 167]",cars_train/01648.jpg
+28,BMW 1 Series Coupe 2012,"[22, 16, 434, 332]",cars_train/01292.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[14, 19, 606, 275]",cars_train/02706.jpg
+36,BMW M6 Convertible 2010,"[26, 62, 444, 289]",cars_test/06311.jpg
+127,Honda Odyssey Minivan 2007,"[80, 170, 722, 411]",cars_test/07635.jpg
+20,Audi S6 Sedan 2011,"[172, 6, 1127, 616]",cars_train/03952.jpg
+82,Daewoo Nubira Wagon 2002,"[6, 38, 289, 163]",cars_train/02648.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[70, 364, 1519, 1105]",cars_train/07507.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[67, 143, 444, 344]",cars_test/07736.jpg
+181,Suzuki Aerio Sedan 2007,"[6, 65, 639, 377]",cars_test/04538.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[17, 13, 313, 226]",cars_train/04207.jpg
+2,Acura RL Sedan 2012,"[41, 161, 449, 337]",cars_test/00459.jpg
+79,Chrysler 300 SRT-8 2010,"[7, 4, 2056, 1236]",cars_test/04462.jpg
+29,BMW 3 Series Sedan 2012,"[61, 53, 441, 311]",cars_test/06582.jpg
+126,Honda Odyssey Minivan 2012,"[49, 26, 497, 323]",cars_test/07528.jpg
+114,Ford F-150 Regular Cab 2007,"[47, 97, 612, 377]",cars_train/04785.jpg
+83,Dodge Caliber Wagon 2012,"[8, 38, 266, 146]",cars_train/00646.jpg
+145,Jeep Patriot SUV 2012,"[44, 40, 763, 426]",cars_test/04616.jpg
+78,Chrysler Town and Country Minivan 2012,"[91, 258, 925, 711]",cars_test/02986.jpg
+153,Lamborghini Diablo Coupe 2001,"[72, 13, 642, 510]",cars_test/04560.jpg
+85,Dodge Caravan Minivan 1997,"[35, 46, 639, 429]",cars_test/03888.jpg
+172,Plymouth Neon Coupe 1999,"[59, 139, 1003, 644]",cars_train/03485.jpg
+149,Jeep Compass SUV 2012,"[1, 329, 3054, 2242]",cars_train/03489.jpg
+48,Buick Rainier SUV 2007,"[25, 48, 252, 178]",cars_train/04556.jpg
+154,Land Rover Range Rover SUV 2012,"[2, 6, 500, 279]",cars_test/07199.jpg
+16,Audi V8 Sedan 1994,"[22, 57, 155, 120]",cars_train/07496.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[14, 8, 579, 299]",cars_test/04210.jpg
+120,GMC Yukon Hybrid SUV 2012,"[60, 169, 588, 467]",cars_train/02690.jpg
+128,Honda Accord Coupe 2012,"[15, 59, 409, 265]",cars_test/04680.jpg
+173,Porsche Panamera Sedan 2012,"[219, 479, 1077, 808]",cars_test/00217.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[12, 21, 313, 205]",cars_test/00727.jpg
+120,GMC Yukon Hybrid SUV 2012,"[85, 53, 623, 405]",cars_test/07078.jpg
+48,Buick Rainier SUV 2007,"[9, 7, 293, 196]",cars_train/07238.jpg
+40,Bentley Arnage Sedan 2009,"[49, 293, 1003, 696]",cars_train/06768.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[79, 45, 493, 316]",cars_train/03213.jpg
+58,Chevrolet Traverse SUV 2012,"[1, 74, 639, 334]",cars_train/01364.jpg
+155,Land Rover LR2 SUV 2012,"[339, 360, 1375, 890]",cars_test/06223.jpg
+167,Mitsubishi Lancer Sedan 2012,"[187, 133, 1504, 891]",cars_train/01049.jpg
+18,Audi 100 Wagon 1994,"[17, 105, 385, 243]",cars_train/00154.jpg
+111,Ford Ranger SuperCab 2011,"[42, 89, 595, 399]",cars_test/01544.jpg
+13,Audi A5 Coupe 2012,"[6, 40, 250, 157]",cars_train/01608.jpg
+24,Audi S4 Sedan 2007,"[49, 26, 380, 237]",cars_test/04143.jpg
+25,Audi TT RS Coupe 2012,"[98, 104, 929, 574]",cars_test/07749.jpg
+99,FIAT 500 Abarth 2012,"[44, 9, 625, 371]",cars_test/07133.jpg
+90,Dodge Dakota Crew Cab 2010,"[18, 26, 623, 342]",cars_train/00483.jpg
+184,Suzuki SX4 Sedan 2012,"[49, 149, 537, 375]",cars_test/07772.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[63, 81, 771, 552]",cars_train/01442.jpg
+117,Ford Fiesta Sedan 2012,"[14, 59, 408, 290]",cars_train/04419.jpg
+37,BMW X3 SUV 2012,"[39, 188, 332, 342]",cars_train/06308.jpg
+123,Geo Metro Convertible 1993,"[5, 18, 111, 73]",cars_train/03431.jpg
+123,Geo Metro Convertible 1993,"[1, 145, 1126, 735]",cars_train/07761.jpg
+119,GMC Savana Van 2012,"[8, 8, 234, 143]",cars_train/06626.jpg
+71,Chevrolet Express Van 2007,"[4, 51, 422, 314]",cars_train/06563.jpg
+115,Ford Focus Sedan 2007,"[97, 141, 955, 585]",cars_train/05091.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[75, 47, 327, 246]",cars_train/06834.jpg
+180,Spyker C8 Coupe 2009,"[66, 117, 506, 289]",cars_train/00449.jpg
+91,Dodge Dakota Club Cab 2007,"[1, 41, 620, 461]",cars_test/01783.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[8, 29, 252, 188]",cars_train/06809.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[34, 43, 335, 166]",cars_train/02351.jpg
+23,Audi S4 Sedan 2012,"[32, 50, 278, 166]",cars_train/04940.jpg
+50,Buick Enclave SUV 2012,"[97, 93, 588, 429]",cars_test/07297.jpg
+144,Jaguar XK XKR 2012,"[86, 63, 509, 317]",cars_train/06275.jpg
+158,Maybach Landaulet Convertible 2012,"[180, 78, 600, 402]",cars_train/02197.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[667, 274, 3686, 2221]",cars_train/05537.jpg
+181,Suzuki Aerio Sedan 2007,"[11, 47, 270, 155]",cars_train/04228.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[8, 7, 480, 298]",cars_test/01435.jpg
+71,Chevrolet Express Van 2007,"[24, 49, 996, 767]",cars_train/01745.jpg
+15,Audi R8 Coupe 2012,"[8, 13, 644, 255]",cars_train/00936.jpg
+79,Chrysler 300 SRT-8 2010,"[1, 268, 1528, 829]",cars_train/05628.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[74, 157, 504, 398]",cars_train/01280.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[80, 78, 400, 326]",cars_train/01731.jpg
+33,BMW X6 SUV 2012,"[38, 14, 225, 160]",cars_train/07131.jpg
+32,BMW X5 SUV 2007,"[23, 50, 626, 461]",cars_train/02655.jpg
+36,BMW M6 Convertible 2010,"[27, 349, 760, 564]",cars_train/05830.jpg
+1,AM General Hummer SUV 2000,"[26, 25, 283, 157]",cars_train/02363.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[25, 39, 221, 155]",cars_test/03147.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[21, 36, 243, 126]",cars_test/01285.jpg
+61,Chevrolet Impala Sedan 2007,"[34, 210, 662, 425]",cars_test/00995.jpg
+11,Aston Martin Virage Coupe 2012,"[93, 44, 488, 207]",cars_train/02921.jpg
+58,Chevrolet Traverse SUV 2012,"[71, 169, 593, 447]",cars_train/03154.jpg
+13,Audi A5 Coupe 2012,"[36, 77, 603, 419]",cars_test/02138.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[268, 269, 641, 454]",cars_train/08095.jpg
+43,Bentley Continental GT Coupe 2007,"[82, 45, 746, 497]",cars_test/00451.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[8, 27, 581, 456]",cars_test/02062.jpg
+37,BMW X3 SUV 2012,"[57, 155, 589, 426]",cars_train/03558.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[56, 363, 1232, 702]",cars_test/06559.jpg
+91,Dodge Dakota Club Cab 2007,"[3, 226, 1017, 621]",cars_train/02448.jpg
+132,Hyundai Tucson SUV 2012,"[53, 39, 600, 417]",cars_test/00270.jpg
+131,Hyundai Santa Fe SUV 2012,"[193, 316, 1697, 1090]",cars_test/01891.jpg
+38,BMW Z4 Convertible 2012,"[43, 114, 486, 253]",cars_train/05094.jpg
+155,Land Rover LR2 SUV 2012,"[22, 25, 309, 226]",cars_test/03573.jpg
+37,BMW X3 SUV 2012,"[16, 17, 485, 248]",cars_train/03022.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[49, 53, 596, 398]",cars_train/00268.jpg
+96,Dodge Charger Sedan 2012,"[54, 85, 575, 361]",cars_test/01196.jpg
+184,Suzuki SX4 Sedan 2012,"[329, 287, 1546, 1011]",cars_test/07259.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[12, 189, 741, 415]",cars_train/01984.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[64, 93, 444, 295]",cars_test/02392.jpg
+194,Volvo 240 Sedan 1993,"[168, 287, 948, 671]",cars_test/07526.jpg
+37,BMW X3 SUV 2012,"[37, 78, 602, 427]",cars_test/06839.jpg
+80,Chrysler Crossfire Convertible 2008,"[45, 151, 481, 347]",cars_test/07096.jpg
+190,Volkswagen Golf Hatchback 2012,"[93, 44, 727, 495]",cars_test/01310.jpg
+154,Land Rover Range Rover SUV 2012,"[73, 93, 528, 341]",cars_test/05988.jpg
+160,McLaren MP4-12C Coupe 2012,"[54, 176, 493, 388]",cars_train/06007.jpg
+79,Chrysler 300 SRT-8 2010,"[44, 61, 603, 375]",cars_test/06602.jpg
+99,FIAT 500 Abarth 2012,"[42, 115, 299, 288]",cars_train/00223.jpg
+33,BMW X6 SUV 2012,"[52, 88, 373, 248]",cars_train/04803.jpg
+19,Audi TT Hatchback 2011,"[10, 40, 252, 163]",cars_test/05420.jpg
+11,Aston Martin Virage Coupe 2012,"[33, 72, 540, 322]",cars_train/04292.jpg
+5,Acura TSX Sedan 2012,"[20, 216, 562, 391]",cars_train/03054.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[21, 20, 281, 167]",cars_train/06251.jpg
+142,Infiniti QX56 SUV 2011,"[115, 83, 692, 379]",cars_test/06923.jpg
+59,Chevrolet Camaro Convertible 2012,"[14, 76, 292, 195]",cars_train/00368.jpg
+59,Chevrolet Camaro Convertible 2012,"[51, 87, 489, 290]",cars_train/00384.jpg
+82,Daewoo Nubira Wagon 2002,"[44, 83, 601, 347]",cars_test/03093.jpg
+40,Bentley Arnage Sedan 2009,"[61, 48, 478, 300]",cars_test/06855.jpg
+11,Aston Martin Virage Coupe 2012,"[80, 164, 678, 389]",cars_train/07340.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[205, 34, 1333, 864]",cars_train/01688.jpg
+155,Land Rover LR2 SUV 2012,"[49, 4, 825, 313]",cars_train/05796.jpg
+183,Suzuki SX4 Hatchback 2012,"[537, 329, 1214, 955]",cars_train/04587.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[42, 24, 302, 317]",cars_test/07663.jpg
+182,Suzuki Kizashi Sedan 2012,"[67, 24, 530, 431]",cars_test/05945.jpg
+185,Tesla Model S Sedan 2012,"[10, 33, 340, 135]",cars_train/07435.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[34, 52, 442, 319]",cars_train/01032.jpg
+170,Nissan Juke Hatchback 2012,"[53, 126, 973, 621]",cars_train/00024.jpg
+60,Chevrolet HHR SS 2010,"[14, 63, 419, 297]",cars_train/07165.jpg
+143,Isuzu Ascender SUV 2008,"[27, 60, 355, 213]",cars_test/01675.jpg
+147,Jeep Liberty SUV 2012,"[172, 244, 1459, 1102]",cars_test/05272.jpg
+28,BMW 1 Series Coupe 2012,"[38, 15, 276, 194]",cars_test/07720.jpg
+122,GMC Canyon Extended Cab 2012,"[8, 18, 254, 182]",cars_test/04759.jpg
+92,Dodge Magnum Wagon 2008,"[10, 44, 251, 175]",cars_test/04969.jpg
+121,GMC Acadia SUV 2012,"[574, 57, 1292, 445]",cars_test/00825.jpg
+168,Nissan Leaf Hatchback 2012,"[124, 75, 1069, 673]",cars_train/04229.jpg
+73,Chevrolet Malibu Sedan 2007,"[78, 59, 557, 402]",cars_train/01542.jpg
+90,Dodge Dakota Crew Cab 2010,"[62, 113, 601, 393]",cars_test/04826.jpg
+71,Chevrolet Express Van 2007,"[45, 41, 420, 280]",cars_train/00854.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[35, 75, 614, 392]",cars_train/01641.jpg
+146,Jeep Wrangler SUV 2012,"[132, 89, 940, 686]",cars_train/02043.jpg
+128,Honda Accord Coupe 2012,"[22, 61, 277, 192]",cars_test/05184.jpg
+131,Hyundai Santa Fe SUV 2012,"[18, 12, 251, 183]",cars_train/05044.jpg
+153,Lamborghini Diablo Coupe 2001,"[28, 63, 560, 321]",cars_train/05632.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[17, 44, 247, 156]",cars_test/02610.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[11, 44, 405, 313]",cars_test/07385.jpg
+144,Jaguar XK XKR 2012,"[39, 64, 558, 215]",cars_train/01744.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[124, 43, 955, 406]",cars_train/01839.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[49, 55, 589, 363]",cars_test/01227.jpg
+100,FIAT 500 Convertible 2012,"[34, 56, 589, 393]",cars_test/01488.jpg
+23,Audi S4 Sedan 2012,"[110, 31, 833, 422]",cars_train/01022.jpg
+52,Cadillac SRX SUV 2012,"[69, 23, 435, 322]",cars_test/02456.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[17, 70, 505, 302]",cars_test/02634.jpg
+103,Ferrari 458 Italia Convertible 2012,"[30, 193, 568, 350]",cars_test/05316.jpg
+29,BMW 3 Series Sedan 2012,"[39, 225, 778, 514]",cars_test/04989.jpg
+112,Ford GT Coupe 2006,"[80, 191, 948, 623]",cars_train/01351.jpg
+131,Hyundai Santa Fe SUV 2012,"[44, 25, 493, 272]",cars_test/02394.jpg
+3,Acura TL Sedan 2012,"[28, 34, 297, 182]",cars_train/07121.jpg
+24,Audi S4 Sedan 2007,"[13, 44, 477, 289]",cars_train/00313.jpg
+18,Audi 100 Wagon 1994,"[2, 16, 200, 89]",cars_test/02046.jpg
+168,Nissan Leaf Hatchback 2012,"[32, 80, 615, 421]",cars_train/07510.jpg
+41,Bentley Mulsanne Sedan 2011,"[218, 146, 1091, 770]",cars_train/05722.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[16, 6, 268, 178]",cars_train/03074.jpg
+25,Audi TT RS Coupe 2012,"[6, 54, 250, 197]",cars_test/01295.jpg
+115,Ford Focus Sedan 2007,"[21, 63, 602, 422]",cars_test/06289.jpg
+22,Audi S5 Coupe 2012,"[12, 58, 294, 149]",cars_test/05033.jpg
+187,Toyota Camry Sedan 2012,"[75, 254, 2514, 1929]",cars_train/00259.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[19, 62, 282, 189]",cars_test/00971.jpg
+37,BMW X3 SUV 2012,"[56, 63, 367, 245]",cars_train/02391.jpg
+34,BMW M3 Coupe 2012,"[20, 43, 490, 294]",cars_train/07228.jpg
+89,Dodge Journey SUV 2012,"[68, 329, 1561, 1025]",cars_train/05927.jpg
+171,Nissan 240SX Coupe 1998,"[1, 55, 1022, 709]",cars_test/06822.jpg
+140,Hyundai Azera Sedan 2012,"[81, 58, 1550, 1069]",cars_train/04491.jpg
+97,Dodge Charger SRT-8 2009,"[24, 216, 1021, 654]",cars_train/04914.jpg
+193,Volvo C30 Hatchback 2012,"[105, 84, 651, 472]",cars_train/03177.jpg
+49,Buick Verano Sedan 2012,"[24, 55, 607, 427]",cars_train/02420.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[9, 16, 297, 156]",cars_test/01751.jpg
+66,Chevrolet Cobalt SS 2010,"[185, 226, 1765, 1223]",cars_train/06129.jpg
+56,Chevrolet Corvette ZR1 2012,"[27, 466, 1249, 813]",cars_test/02530.jpg
+32,BMW X5 SUV 2007,"[24, 44, 264, 163]",cars_train/07592.jpg
+112,Ford GT Coupe 2006,"[94, 484, 1504, 925]",cars_test/01070.jpg
+31,BMW 6 Series Convertible 2007,"[16, 63, 598, 372]",cars_test/00181.jpg
+123,Geo Metro Convertible 1993,"[6, 19, 160, 106]",cars_train/02998.jpg
+109,Ford Expedition EL SUV 2009,"[34, 70, 617, 375]",cars_test/07131.jpg
+133,Hyundai Veracruz SUV 2012,"[12, 41, 652, 341]",cars_train/00625.jpg
+16,Audi V8 Sedan 1994,"[4, 19, 255, 172]",cars_train/00239.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[18, 12, 287, 186]",cars_train/05949.jpg
+130,Hyundai Veloster Hatchback 2012,"[71, 1, 850, 599]",cars_train/01631.jpg
+144,Jaguar XK XKR 2012,"[109, 182, 513, 408]",cars_test/06749.jpg
+169,Nissan NV Passenger Van 2012,"[41, 103, 994, 692]",cars_train/00300.jpg
+97,Dodge Charger SRT-8 2009,"[44, 51, 253, 144]",cars_train/08112.jpg
+126,Honda Odyssey Minivan 2012,"[50, 168, 937, 501]",cars_train/02302.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[173, 139, 960, 576]",cars_train/07969.jpg
+100,FIAT 500 Convertible 2012,"[165, 159, 679, 515]",cars_test/05865.jpg
+28,BMW 1 Series Coupe 2012,"[17, 18, 165, 96]",cars_test/02641.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[1, 1, 141, 80]",cars_test/00124.jpg
+148,Jeep Grand Cherokee SUV 2012,"[7, 32, 254, 178]",cars_test/07180.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[24, 153, 796, 430]",cars_test/07507.jpg
+79,Chrysler 300 SRT-8 2010,"[157, 77, 565, 352]",cars_test/07015.jpg
+146,Jeep Wrangler SUV 2012,"[15, 53, 624, 433]",cars_test/00436.jpg
+122,GMC Canyon Extended Cab 2012,"[118, 356, 925, 725]",cars_test/06456.jpg
+94,Dodge Durango SUV 2012,"[25, 87, 617, 393]",cars_train/05799.jpg
+51,Cadillac CTS-V Sedan 2012,"[1, 46, 261, 156]",cars_train/05701.jpg
+142,Infiniti QX56 SUV 2011,"[61, 68, 488, 294]",cars_train/01466.jpg
+33,BMW X6 SUV 2012,"[101, 80, 547, 329]",cars_train/05685.jpg
+138,Hyundai Sonata Sedan 2012,"[100, 70, 674, 396]",cars_test/05599.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[14, 59, 253, 142]",cars_train/00520.jpg
+2,Acura RL Sedan 2012,"[45, 22, 745, 514]",cars_train/03875.jpg
+79,Chrysler 300 SRT-8 2010,"[19, 5, 587, 359]",cars_train/05559.jpg
+158,Maybach Landaulet Convertible 2012,"[2, 95, 318, 183]",cars_train/06766.jpg
+47,Buick Regal GS 2012,"[46, 87, 566, 346]",cars_test/04922.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[109, 327, 938, 648]",cars_test/00115.jpg
+196,smart fortwo Convertible 2012,"[82, 56, 740, 502]",cars_test/01293.jpg
+110,Ford Edge SUV 2012,"[106, 61, 394, 306]",cars_train/03440.jpg
+79,Chrysler 300 SRT-8 2010,"[22, 82, 988, 533]",cars_train/06944.jpg
+190,Volkswagen Golf Hatchback 2012,"[10, 13, 249, 181]",cars_test/02339.jpg
+76,Chrysler Aspen SUV 2009,"[6, 15, 315, 142]",cars_train/06742.jpg
+29,BMW 3 Series Sedan 2012,"[366, 112, 1216, 692]",cars_test/02261.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[29, 94, 456, 261]",cars_train/04695.jpg
+66,Chevrolet Cobalt SS 2010,"[48, 155, 589, 362]",cars_test/02287.jpg
+127,Honda Odyssey Minivan 2007,"[15, 77, 454, 272]",cars_train/02178.jpg
+145,Jeep Patriot SUV 2012,"[42, 165, 789, 498]",cars_train/07986.jpg
+190,Volkswagen Golf Hatchback 2012,"[43, 119, 537, 366]",cars_test/00766.jpg
+192,Volkswagen Beetle Hatchback 2012,"[55, 77, 703, 438]",cars_test/04571.jpg
+43,Bentley Continental GT Coupe 2007,"[65, 79, 614, 374]",cars_test/05178.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[61, 253, 959, 575]",cars_test/00513.jpg
+30,BMW 3 Series Wagon 2012,"[39, 120, 558, 429]",cars_train/01128.jpg
+94,Dodge Durango SUV 2012,"[50, 72, 596, 402]",cars_test/06281.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[71, 137, 595, 441]",cars_train/05004.jpg
+42,Bentley Continental GT Coupe 2012,"[42, 62, 603, 364]",cars_test/03162.jpg
+82,Daewoo Nubira Wagon 2002,"[4, 37, 220, 119]",cars_train/06695.jpg
+100,FIAT 500 Convertible 2012,"[55, 36, 426, 314]",cars_train/05239.jpg
+19,Audi TT Hatchback 2011,"[17, 121, 550, 344]",cars_train/01954.jpg
+40,Bentley Arnage Sedan 2009,"[48, 103, 2497, 1572]",cars_train/04746.jpg
+117,Ford Fiesta Sedan 2012,"[84, 89, 564, 435]",cars_train/03229.jpg
+30,BMW 3 Series Wagon 2012,"[110, 83, 590, 370]",cars_train/01340.jpg
+19,Audi TT Hatchback 2011,"[70, 238, 727, 523]",cars_test/01719.jpg
+25,Audi TT RS Coupe 2012,"[39, 48, 275, 180]",cars_train/04269.jpg
+10,Aston Martin Virage Convertible 2012,"[66, 68, 512, 289]",cars_train/03101.jpg
+83,Dodge Caliber Wagon 2012,"[90, 65, 721, 503]",cars_train/03899.jpg
+116,Ford E-Series Wagon Van 2012,"[1, 42, 495, 313]",cars_test/00013.jpg
+101,Ferrari FF Coupe 2012,"[69, 43, 868, 467]",cars_train/00637.jpg
+146,Jeep Wrangler SUV 2012,"[166, 103, 1402, 1114]",cars_train/01621.jpg
+132,Hyundai Tucson SUV 2012,"[31, 79, 602, 425]",cars_test/08021.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[14, 43, 268, 147]",cars_test/06858.jpg
+41,Bentley Mulsanne Sedan 2011,"[26, 143, 496, 352]",cars_train/07285.jpg
+12,Audi RS 4 Convertible 2008,"[56, 69, 558, 354]",cars_train/01313.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[10, 41, 628, 410]",cars_test/02229.jpg
+21,Audi S5 Convertible 2012,"[27, 51, 442, 313]",cars_test/03598.jpg
+137,Hyundai Genesis Sedan 2012,"[58, 90, 674, 438]",cars_test/02081.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[34, 120, 597, 329]",cars_test/05906.jpg
+120,GMC Yukon Hybrid SUV 2012,"[11, 81, 629, 398]",cars_test/03396.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[64, 58, 341, 177]",cars_train/02447.jpg
+160,McLaren MP4-12C Coupe 2012,"[146, 373, 1103, 708]",cars_test/02032.jpg
+73,Chevrolet Malibu Sedan 2007,"[72, 1, 578, 349]",cars_train/03216.jpg
+78,Chrysler Town and Country Minivan 2012,"[45, 77, 592, 479]",cars_train/01559.jpg
+31,BMW 6 Series Convertible 2007,"[30, 48, 222, 144]",cars_train/04138.jpg
+112,Ford GT Coupe 2006,"[99, 301, 1167, 680]",cars_train/07820.jpg
+185,Tesla Model S Sedan 2012,"[31, 38, 627, 349]",cars_test/07174.jpg
+1,AM General Hummer SUV 2000,"[8, 5, 85, 69]",cars_test/03876.jpg
+138,Hyundai Sonata Sedan 2012,"[45, 60, 251, 171]",cars_train/00240.jpg
+48,Buick Rainier SUV 2007,"[31, 74, 549, 384]",cars_train/02181.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[212, 268, 984, 832]",cars_test/04811.jpg
+80,Chrysler Crossfire Convertible 2008,"[51, 36, 371, 233]",cars_test/03032.jpg
+95,Dodge Durango SUV 2007,"[44, 29, 187, 133]",cars_train/01260.jpg
+20,Audi S6 Sedan 2011,"[105, 119, 429, 254]",cars_test/01041.jpg
+148,Jeep Grand Cherokee SUV 2012,"[18, 27, 298, 211]",cars_train/02327.jpg
+120,GMC Yukon Hybrid SUV 2012,"[53, 2, 448, 333]",cars_test/03928.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[1, 23, 254, 140]",cars_test/06710.jpg
+190,Volkswagen Golf Hatchback 2012,"[19, 42, 296, 185]",cars_train/03922.jpg
+147,Jeep Liberty SUV 2012,"[116, 22, 556, 343]",cars_train/03727.jpg
+27,BMW 1 Series Convertible 2012,"[6, 72, 518, 294]",cars_test/01066.jpg
+66,Chevrolet Cobalt SS 2010,"[25, 112, 588, 334]",cars_train/05112.jpg
+153,Lamborghini Diablo Coupe 2001,"[10, 205, 778, 390]",cars_test/02666.jpg
+48,Buick Rainier SUV 2007,"[88, 1, 588, 316]",cars_train/03287.jpg
+35,BMW M5 Sedan 2010,"[83, 114, 1201, 843]",cars_test/06532.jpg
+156,Lincoln Town Car Sedan 2011,"[7, 43, 257, 147]",cars_test/07506.jpg
+183,Suzuki SX4 Hatchback 2012,"[7, 1, 1597, 1207]",cars_train/06602.jpg
+15,Audi R8 Coupe 2012,"[103, 75, 675, 433]",cars_test/05768.jpg
+51,Cadillac CTS-V Sedan 2012,"[6, 66, 413, 317]",cars_test/05636.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[27, 37, 614, 429]",cars_test/05954.jpg
+119,GMC Savana Van 2012,"[47, 31, 588, 445]",cars_test/02747.jpg
+59,Chevrolet Camaro Convertible 2012,"[94, 281, 2952, 1412]",cars_train/06628.jpg
+84,Dodge Caliber Wagon 2007,"[26, 37, 242, 173]",cars_test/02550.jpg
+80,Chrysler Crossfire Convertible 2008,"[16, 91, 257, 177]",cars_train/08038.jpg
+107,Ford Mustang Convertible 2007,"[108, 123, 460, 298]",cars_test/06798.jpg
+91,Dodge Dakota Club Cab 2007,"[15, 70, 385, 236]",cars_test/02409.jpg
+4,Acura TL Type-S 2008,"[18, 149, 621, 354]",cars_train/07752.jpg
+194,Volvo 240 Sedan 1993,"[43, 103, 746, 316]",cars_test/00954.jpg
+93,Dodge Challenger SRT8 2011,"[75, 66, 420, 274]",cars_train/03082.jpg
+146,Jeep Wrangler SUV 2012,"[6, 41, 494, 294]",cars_test/05177.jpg
+156,Lincoln Town Car Sedan 2011,"[6, 17, 300, 136]",cars_test/07463.jpg
+95,Dodge Durango SUV 2007,"[47, 177, 1228, 769]",cars_test/03418.jpg
+146,Jeep Wrangler SUV 2012,"[239, 180, 692, 417]",cars_train/02571.jpg
+94,Dodge Durango SUV 2012,"[51, 87, 573, 355]",cars_train/06651.jpg
+7,Acura ZDX Hatchback 2012,"[82, 33, 542, 234]",cars_train/00912.jpg
+144,Jaguar XK XKR 2012,"[90, 408, 1510, 866]",cars_train/03409.jpg
+123,Geo Metro Convertible 1993,"[5, 14, 84, 55]",cars_train/08087.jpg
+180,Spyker C8 Coupe 2009,"[109, 277, 945, 557]",cars_test/02863.jpg
+1,AM General Hummer SUV 2000,"[46, 115, 623, 469]",cars_test/01802.jpg
+119,GMC Savana Van 2012,"[14, 19, 235, 175]",cars_test/05625.jpg
+129,Honda Accord Sedan 2012,"[4, 29, 237, 154]",cars_test/03841.jpg
+43,Bentley Continental GT Coupe 2007,"[198, 278, 1502, 1054]",cars_train/04924.jpg
+135,Hyundai Elantra Sedan 2007,"[65, 67, 581, 410]",cars_train/04851.jpg
+36,BMW M6 Convertible 2010,"[50, 84, 739, 287]",cars_test/00134.jpg
+38,BMW Z4 Convertible 2012,"[34, 19, 254, 159]",cars_train/02343.jpg
+195,Volvo XC90 SUV 2007,"[81, 44, 449, 273]",cars_train/04445.jpg
+148,Jeep Grand Cherokee SUV 2012,"[54, 91, 268, 211]",cars_train/05455.jpg
+108,Ford Freestar Minivan 2007,"[3, 9, 498, 345]",cars_test/07706.jpg
+192,Volkswagen Beetle Hatchback 2012,"[65, 203, 566, 385]",cars_test/04829.jpg
+19,Audi TT Hatchback 2011,"[16, 58, 386, 253]",cars_test/01785.jpg
+124,HUMMER H3T Crew Cab 2010,"[1, 77, 480, 275]",cars_train/07271.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[492, 248, 916, 538]",cars_train/04089.jpg
+145,Jeep Patriot SUV 2012,"[102, 67, 668, 459]",cars_test/07885.jpg
+126,Honda Odyssey Minivan 2012,"[62, 91, 607, 415]",cars_test/02923.jpg
+32,BMW X5 SUV 2007,"[63, 1, 594, 316]",cars_train/03534.jpg
+124,HUMMER H3T Crew Cab 2010,"[334, 249, 879, 510]",cars_test/00840.jpg
+124,HUMMER H3T Crew Cab 2010,"[6, 19, 392, 250]",cars_test/03005.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[20, 13, 416, 257]",cars_train/07261.jpg
+55,Chevrolet Corvette Convertible 2012,"[24, 85, 225, 159]",cars_train/08125.jpg
+80,Chrysler Crossfire Convertible 2008,"[7, 21, 253, 169]",cars_test/05546.jpg
+110,Ford Edge SUV 2012,"[23, 39, 366, 251]",cars_train/03894.jpg
+47,Buick Regal GS 2012,"[96, 144, 652, 394]",cars_train/01933.jpg
+173,Porsche Panamera Sedan 2012,"[37, 192, 493, 450]",cars_test/01803.jpg
+193,Volvo C30 Hatchback 2012,"[46, 106, 608, 392]",cars_test/03725.jpg
+133,Hyundai Veracruz SUV 2012,"[112, 28, 1459, 1006]",cars_test/06184.jpg
+30,BMW 3 Series Wagon 2012,"[62, 46, 420, 280]",cars_test/00723.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[1, 31, 443, 299]",cars_train/05158.jpg
+42,Bentley Continental GT Coupe 2012,"[13, 108, 454, 305]",cars_train/00351.jpg
+180,Spyker C8 Coupe 2009,"[83, 368, 1225, 769]",cars_test/07567.jpg
+153,Lamborghini Diablo Coupe 2001,"[66, 249, 742, 496]",cars_test/01728.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[25, 62, 555, 330]",cars_train/01818.jpg
+18,Audi 100 Wagon 1994,"[91, 99, 529, 381]",cars_train/01097.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[43, 46, 260, 160]",cars_test/05344.jpg
+115,Ford Focus Sedan 2007,"[81, 171, 582, 452]",cars_train/01855.jpg
+149,Jeep Compass SUV 2012,"[74, 105, 590, 411]",cars_test/06554.jpg
+96,Dodge Charger Sedan 2012,"[225, 452, 1974, 1339]",cars_train/07621.jpg
+59,Chevrolet Camaro Convertible 2012,"[295, 340, 1374, 796]",cars_test/02607.jpg
+170,Nissan Juke Hatchback 2012,"[99, 204, 1252, 746]",cars_train/02864.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[11, 50, 616, 339]",cars_train/05370.jpg
+193,Volvo C30 Hatchback 2012,"[29, 28, 432, 249]",cars_train/00326.jpg
+171,Nissan 240SX Coupe 1998,"[15, 96, 504, 279]",cars_train/00904.jpg
+170,Nissan Juke Hatchback 2012,"[365, 37, 1444, 869]",cars_test/00299.jpg
+99,FIAT 500 Abarth 2012,"[116, 150, 481, 385]",cars_test/03691.jpg
+168,Nissan Leaf Hatchback 2012,"[63, 131, 950, 610]",cars_test/00050.jpg
+114,Ford F-150 Regular Cab 2007,"[95, 84, 612, 391]",cars_train/02112.jpg
+38,BMW Z4 Convertible 2012,"[27, 93, 620, 350]",cars_train/04975.jpg
+186,Toyota Sequoia SUV 2012,"[43, 26, 467, 324]",cars_test/03101.jpg
+56,Chevrolet Corvette ZR1 2012,"[91, 83, 392, 284]",cars_test/07144.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[47, 170, 1324, 658]",cars_test/06521.jpg
+30,BMW 3 Series Wagon 2012,"[42, 79, 371, 273]",cars_train/06934.jpg
+180,Spyker C8 Coupe 2009,"[1, 18, 424, 207]",cars_test/00560.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[121, 241, 916, 559]",cars_test/00571.jpg
+7,Acura ZDX Hatchback 2012,"[49, 113, 463, 280]",cars_train/07169.jpg
+155,Land Rover LR2 SUV 2012,"[135, 43, 663, 571]",cars_train/01244.jpg
+119,GMC Savana Van 2012,"[140, 317, 1457, 840]",cars_train/03095.jpg
+183,Suzuki SX4 Hatchback 2012,"[223, 542, 3692, 2478]",cars_train/00230.jpg
+143,Isuzu Ascender SUV 2008,"[26, 69, 227, 194]",cars_train/07946.jpg
+117,Ford Fiesta Sedan 2012,"[28, 71, 411, 278]",cars_train/04571.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[225, 182, 576, 390]",cars_test/05174.jpg
+196,smart fortwo Convertible 2012,"[21, 30, 468, 320]",cars_train/04876.jpg
+133,Hyundai Veracruz SUV 2012,"[68, 165, 585, 375]",cars_test/05041.jpg
+18,Audi 100 Wagon 1994,"[5, 94, 251, 183]",cars_test/07653.jpg
+4,Acura TL Type-S 2008,"[2, 50, 617, 488]",cars_train/07214.jpg
+61,Chevrolet Impala Sedan 2007,"[138, 163, 783, 417]",cars_train/06693.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[12, 67, 496, 266]",cars_train/02058.jpg
+52,Cadillac SRX SUV 2012,"[7, 1, 491, 313]",cars_test/06637.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[9, 30, 250, 166]",cars_test/03402.jpg
+135,Hyundai Elantra Sedan 2007,"[121, 87, 567, 465]",cars_train/03710.jpg
+4,Acura TL Type-S 2008,"[33, 182, 617, 386]",cars_train/04349.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[72, 73, 316, 217]",cars_train/06530.jpg
+192,Volkswagen Beetle Hatchback 2012,"[50, 131, 605, 351]",cars_test/01996.jpg
+4,Acura TL Type-S 2008,"[19, 151, 630, 404]",cars_test/06871.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[110, 172, 819, 536]",cars_train/05819.jpg
+131,Hyundai Santa Fe SUV 2012,"[24, 43, 946, 744]",cars_test/01600.jpg
+31,BMW 6 Series Convertible 2007,"[229, 254, 1473, 730]",cars_test/04094.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[80, 200, 595, 447]",cars_train/05416.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[31, 119, 441, 276]",cars_test/06552.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[21, 66, 251, 174]",cars_train/04478.jpg
+80,Chrysler Crossfire Convertible 2008,"[45, 143, 593, 466]",cars_test/05153.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[18, 36, 263, 146]",cars_train/05821.jpg
+155,Land Rover LR2 SUV 2012,"[75, 107, 489, 343]",cars_test/07909.jpg
+89,Dodge Journey SUV 2012,"[291, 33, 1795, 1354]",cars_test/02773.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[31, 35, 236, 162]",cars_train/04884.jpg
+141,Infiniti G Coupe IPL 2012,"[15, 53, 355, 223]",cars_train/03504.jpg
+92,Dodge Magnum Wagon 2008,"[115, 69, 531, 379]",cars_test/05649.jpg
+115,Ford Focus Sedan 2007,"[63, 55, 368, 307]",cars_test/02052.jpg
+6,Acura Integra Type R 2001,"[35, 575, 1254, 951]",cars_test/05667.jpg
+55,Chevrolet Corvette Convertible 2012,"[27, 90, 593, 399]",cars_test/00822.jpg
+1,AM General Hummer SUV 2000,"[9, 3, 93, 41]",cars_test/03246.jpg
+143,Isuzu Ascender SUV 2008,"[37, 60, 218, 144]",cars_train/00443.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[4, 131, 585, 398]",cars_test/04822.jpg
+40,Bentley Arnage Sedan 2009,"[14, 17, 289, 188]",cars_test/00681.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[85, 174, 967, 654]",cars_train/01546.jpg
+50,Buick Enclave SUV 2012,"[26, 147, 629, 386]",cars_train/05124.jpg
+136,Hyundai Accent Sedan 2012,"[101, 161, 608, 403]",cars_test/05427.jpg
+144,Jaguar XK XKR 2012,"[11, 106, 358, 288]",cars_test/01222.jpg
+98,Eagle Talon Hatchback 1998,"[11, 130, 394, 257]",cars_train/00550.jpg
+10,Aston Martin Virage Convertible 2012,"[37, 31, 407, 338]",cars_test/07265.jpg
+99,FIAT 500 Abarth 2012,"[21, 4, 495, 341]",cars_train/07412.jpg
+147,Jeep Liberty SUV 2012,"[173, 370, 1207, 960]",cars_train/00119.jpg
+123,Geo Metro Convertible 1993,"[18, 86, 613, 355]",cars_train/01135.jpg
+99,FIAT 500 Abarth 2012,"[51, 39, 337, 200]",cars_test/05893.jpg
+116,Ford E-Series Wagon Van 2012,"[54, 37, 449, 349]",cars_test/05058.jpg
+182,Suzuki Kizashi Sedan 2012,"[19, 42, 2664, 1755]",cars_test/01005.jpg
+68,Chevrolet TrailBlazer SS 2009,"[1, 63, 480, 315]",cars_train/00812.jpg
+33,BMW X6 SUV 2012,"[57, 30, 587, 455]",cars_train/03237.jpg
+138,Hyundai Sonata Sedan 2012,"[80, 82, 831, 572]",cars_train/06846.jpg
+104,Ferrari 458 Italia Coupe 2012,"[5, 52, 288, 189]",cars_test/05886.jpg
+37,BMW X3 SUV 2012,"[190, 780, 3349, 1956]",cars_train/01579.jpg
+129,Honda Accord Sedan 2012,"[26, 53, 236, 146]",cars_train/06090.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[17, 34, 231, 163]",cars_train/01874.jpg
+79,Chrysler 300 SRT-8 2010,"[12, 7, 619, 455]",cars_test/04854.jpg
+129,Honda Accord Sedan 2012,"[219, 37, 771, 354]",cars_train/02986.jpg
+31,BMW 6 Series Convertible 2007,"[316, 325, 1333, 766]",cars_test/07331.jpg
+66,Chevrolet Cobalt SS 2010,"[181, 1, 1351, 982]",cars_test/02690.jpg
+182,Suzuki Kizashi Sedan 2012,"[29, 32, 585, 379]",cars_train/02995.jpg
+58,Chevrolet Traverse SUV 2012,"[15, 17, 636, 440]",cars_train/02098.jpg
+25,Audi TT RS Coupe 2012,"[130, 85, 540, 338]",cars_test/02867.jpg
+151,Lamborghini Aventador Coupe 2012,"[16, 80, 254, 152]",cars_train/03500.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[64, 75, 256, 158]",cars_train/00900.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[24, 114, 618, 365]",cars_test/02793.jpg
+66,Chevrolet Cobalt SS 2010,"[29, 68, 494, 279]",cars_train/04502.jpg
+98,Eagle Talon Hatchback 1998,"[94, 440, 1049, 917]",cars_train/02429.jpg
+2,Acura RL Sedan 2012,"[7, 133, 716, 444]",cars_train/02540.jpg
+145,Jeep Patriot SUV 2012,"[282, 823, 2100, 1845]",cars_test/05818.jpg
+107,Ford Mustang Convertible 2007,"[20, 40, 166, 99]",cars_train/04838.jpg
+111,Ford Ranger SuperCab 2011,"[87, 80, 567, 458]",cars_train/00695.jpg
+188,Toyota Corolla Sedan 2012,"[74, 40, 513, 285]",cars_test/01323.jpg
+77,Chrysler Sebring Convertible 2010,"[43, 120, 599, 366]",cars_test/05232.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[119, 215, 1153, 719]",cars_test/00008.jpg
+61,Chevrolet Impala Sedan 2007,"[102, 195, 675, 504]",cars_train/02517.jpg
+141,Infiniti G Coupe IPL 2012,"[29, 60, 446, 266]",cars_test/03811.jpg
+78,Chrysler Town and Country Minivan 2012,"[118, 186, 820, 552]",cars_test/07586.jpg
+24,Audi S4 Sedan 2007,"[36, 13, 400, 307]",cars_test/07660.jpg
+118,GMC Terrain SUV 2012,"[14, 39, 252, 154]",cars_train/02460.jpg
+143,Isuzu Ascender SUV 2008,"[9, 44, 240, 175]",cars_test/03707.jpg
+60,Chevrolet HHR SS 2010,"[65, 64, 463, 240]",cars_test/07509.jpg
+120,GMC Yukon Hybrid SUV 2012,"[61, 124, 628, 427]",cars_test/00122.jpg
+18,Audi 100 Wagon 1994,"[19, 112, 391, 290]",cars_test/01676.jpg
+182,Suzuki Kizashi Sedan 2012,"[15, 107, 624, 363]",cars_train/05164.jpg
+89,Dodge Journey SUV 2012,"[135, 195, 915, 729]",cars_train/02853.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[70, 165, 542, 309]",cars_train/02547.jpg
+36,BMW M6 Convertible 2010,"[160, 181, 590, 417]",cars_test/04310.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[66, 68, 480, 249]",cars_train/03085.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[19, 61, 472, 309]",cars_train/05134.jpg
+78,Chrysler Town and Country Minivan 2012,"[53, 77, 455, 343]",cars_test/07376.jpg
+108,Ford Freestar Minivan 2007,"[64, 257, 656, 570]",cars_test/02252.jpg
+179,Spyker C8 Convertible 2009,"[161, 218, 1233, 721]",cars_test/02929.jpg
+7,Acura ZDX Hatchback 2012,"[61, 46, 682, 336]",cars_train/01105.jpg
+16,Audi V8 Sedan 1994,"[81, 57, 367, 234]",cars_test/07979.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[24, 20, 283, 163]",cars_train/06047.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[28, 59, 566, 367]",cars_train/05539.jpg
+121,GMC Acadia SUV 2012,"[49, 40, 444, 307]",cars_test/02439.jpg
+179,Spyker C8 Convertible 2009,"[1, 27, 640, 438]",cars_train/05001.jpg
+89,Dodge Journey SUV 2012,"[111, 100, 600, 449]",cars_test/02137.jpg
+146,Jeep Wrangler SUV 2012,"[67, 138, 491, 348]",cars_train/02819.jpg
+154,Land Rover Range Rover SUV 2012,"[21, 104, 514, 377]",cars_train/05139.jpg
+135,Hyundai Elantra Sedan 2007,"[72, 73, 348, 303]",cars_test/00363.jpg
+124,HUMMER H3T Crew Cab 2010,"[63, 51, 571, 320]",cars_train/01380.jpg
+80,Chrysler Crossfire Convertible 2008,"[74, 63, 618, 300]",cars_test/02885.jpg
+145,Jeep Patriot SUV 2012,"[47, 272, 919, 638]",cars_train/04981.jpg
+77,Chrysler Sebring Convertible 2010,"[53, 105, 461, 337]",cars_train/02614.jpg
+104,Ferrari 458 Italia Coupe 2012,"[10, 45, 196, 118]",cars_test/05499.jpg
+48,Buick Rainier SUV 2007,"[82, 107, 990, 723]",cars_train/00193.jpg
+89,Dodge Journey SUV 2012,"[69, 39, 612, 396]",cars_test/03437.jpg
+150,Lamborghini Reventon Coupe 2008,"[18, 115, 1107, 1546]",cars_test/02269.jpg
+193,Volvo C30 Hatchback 2012,"[103, 149, 503, 322]",cars_test/02291.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[151, 120, 393, 267]",cars_train/07703.jpg
+24,Audi S4 Sedan 2007,"[37, 8, 380, 290]",cars_test/05950.jpg
+137,Hyundai Genesis Sedan 2012,"[30, 99, 465, 250]",cars_test/07316.jpg
+47,Buick Regal GS 2012,"[126, 69, 402, 309]",cars_train/01281.jpg
+88,Dodge Sprinter Cargo Van 2009,"[44, 14, 588, 448]",cars_test/00170.jpg
+76,Chrysler Aspen SUV 2009,"[133, 79, 660, 551]",cars_train/00630.jpg
+121,GMC Acadia SUV 2012,"[5, 27, 347, 234]",cars_train/01376.jpg
+4,Acura TL Type-S 2008,"[147, 215, 1468, 786]",cars_train/03512.jpg
+140,Hyundai Azera Sedan 2012,"[24, 70, 601, 345]",cars_train/02943.jpg
+105,Fisker Karma Sedan 2012,"[2, 63, 300, 213]",cars_test/01188.jpg
+12,Audi RS 4 Convertible 2008,"[511, 667, 1525, 1057]",cars_test/05897.jpg
+64,Chevrolet Express Cargo Van 2007,"[30, 110, 578, 431]",cars_train/03651.jpg
+117,Ford Fiesta Sedan 2012,"[36, 38, 617, 449]",cars_train/07327.jpg
+185,Tesla Model S Sedan 2012,"[46, 1, 614, 255]",cars_test/00906.jpg
+114,Ford F-150 Regular Cab 2007,"[83, 131, 603, 414]",cars_test/05388.jpg
+68,Chevrolet TrailBlazer SS 2009,"[10, 192, 991, 568]",cars_test/06426.jpg
+4,Acura TL Type-S 2008,"[555, 520, 2755, 1743]",cars_test/02979.jpg
+30,BMW 3 Series Wagon 2012,"[79, 109, 554, 360]",cars_train/07269.jpg
+113,Ford F-150 Regular Cab 2012,"[19, 91, 482, 311]",cars_train/02093.jpg
+144,Jaguar XK XKR 2012,"[160, 59, 759, 346]",cars_train/00901.jpg
+112,Ford GT Coupe 2006,"[201, 241, 965, 594]",cars_train/05313.jpg
+17,Audi 100 Sedan 1994,"[6, 64, 241, 139]",cars_test/06963.jpg
+42,Bentley Continental GT Coupe 2012,"[10, 52, 155, 121]",cars_test/00609.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[41, 95, 600, 411]",cars_test/05051.jpg
+196,smart fortwo Convertible 2012,"[14, 22, 511, 388]",cars_test/06615.jpg
+77,Chrysler Sebring Convertible 2010,"[24, 67, 432, 327]",cars_train/07953.jpg
+191,Volkswagen Golf Hatchback 1991,"[42, 70, 820, 461]",cars_train/07866.jpg
+18,Audi 100 Wagon 1994,"[55, 48, 294, 205]",cars_train/00083.jpg
+115,Ford Focus Sedan 2007,"[15, 90, 575, 417]",cars_test/05939.jpg
+82,Daewoo Nubira Wagon 2002,"[35, 726, 2439, 1609]",cars_test/02427.jpg
+80,Chrysler Crossfire Convertible 2008,"[11, 45, 253, 189]",cars_train/06763.jpg
+160,McLaren MP4-12C Coupe 2012,"[129, 356, 881, 588]",cars_test/07542.jpg
+95,Dodge Durango SUV 2007,"[55, 91, 614, 439]",cars_train/08091.jpg
+6,Acura Integra Type R 2001,"[17, 108, 624, 431]",cars_test/06031.jpg
+148,Jeep Grand Cherokee SUV 2012,"[189, 118, 915, 700]",cars_test/06774.jpg
+183,Suzuki SX4 Hatchback 2012,"[23, 9, 641, 352]",cars_train/04153.jpg
+1,AM General Hummer SUV 2000,"[1, 13, 113, 83]",cars_train/07279.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[71, 90, 433, 290]",cars_test/06881.jpg
+169,Nissan NV Passenger Van 2012,"[131, 261, 1071, 733]",cars_train/01517.jpg
+120,GMC Yukon Hybrid SUV 2012,"[16, 43, 572, 371]",cars_test/04127.jpg
+91,Dodge Dakota Club Cab 2007,"[72, 94, 577, 397]",cars_train/01835.jpg
+52,Cadillac SRX SUV 2012,"[11, 41, 615, 416]",cars_train/04348.jpg
+133,Hyundai Veracruz SUV 2012,"[137, 974, 1317, 1781]",cars_train/04114.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[61, 55, 258, 161]",cars_train/00896.jpg
+142,Infiniti QX56 SUV 2011,"[15, 18, 575, 245]",cars_test/00236.jpg
+143,Isuzu Ascender SUV 2008,"[51, 9, 384, 309]",cars_train/07729.jpg
+5,Acura TSX Sedan 2012,"[7, 13, 208, 134]",cars_test/01022.jpg
+38,BMW Z4 Convertible 2012,"[61, 105, 418, 265]",cars_test/05339.jpg
+144,Jaguar XK XKR 2012,"[77, 107, 557, 302]",cars_test/04233.jpg
+23,Audi S4 Sedan 2012,"[67, 482, 638, 901]",cars_train/03472.jpg
+17,Audi 100 Sedan 1994,"[6, 9, 217, 110]",cars_train/05326.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[130, 99, 1649, 1039]",cars_test/04682.jpg
+137,Hyundai Genesis Sedan 2012,"[47, 106, 880, 447]",cars_train/07992.jpg
+97,Dodge Charger SRT-8 2009,"[1, 48, 417, 235]",cars_test/04890.jpg
+126,Honda Odyssey Minivan 2012,"[8, 91, 600, 408]",cars_train/06376.jpg
+80,Chrysler Crossfire Convertible 2008,"[12, 35, 278, 183]",cars_train/01606.jpg
+32,BMW X5 SUV 2007,"[32, 25, 248, 157]",cars_test/00243.jpg
+143,Isuzu Ascender SUV 2008,"[12, 23, 246, 159]",cars_train/01603.jpg
+95,Dodge Durango SUV 2007,"[29, 50, 397, 273]",cars_test/06862.jpg
+184,Suzuki SX4 Sedan 2012,"[85, 147, 510, 475]",cars_test/03250.jpg
+56,Chevrolet Corvette ZR1 2012,"[25, 37, 249, 160]",cars_test/02760.jpg
+3,Acura TL Sedan 2012,"[35, 12, 448, 331]",cars_train/03030.jpg
+185,Tesla Model S Sedan 2012,"[140, 151, 593, 339]",cars_test/00005.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[18, 27, 332, 206]",cars_train/04493.jpg
+129,Honda Accord Sedan 2012,"[30, 19, 239, 181]",cars_test/02678.jpg
+188,Toyota Corolla Sedan 2012,"[30, 167, 945, 545]",cars_train/00203.jpg
+15,Audi R8 Coupe 2012,"[34, 51, 382, 258]",cars_train/02325.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[17, 1, 486, 312]",cars_test/03154.jpg
+77,Chrysler Sebring Convertible 2010,"[59, 155, 734, 459]",cars_train/00604.jpg
+12,Audi RS 4 Convertible 2008,"[87, 260, 967, 644]",cars_test/02833.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[189, 216, 488, 374]",cars_train/04569.jpg
+130,Hyundai Veloster Hatchback 2012,"[111, 123, 657, 436]",cars_train/05037.jpg
+156,Lincoln Town Car Sedan 2011,"[56, 93, 1831, 853]",cars_test/02079.jpg
+140,Hyundai Azera Sedan 2012,"[59, 164, 716, 419]",cars_train/03583.jpg
+92,Dodge Magnum Wagon 2008,"[43, 16, 669, 400]",cars_test/04252.jpg
+29,BMW 3 Series Sedan 2012,"[120, 166, 559, 315]",cars_test/06081.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[10, 92, 677, 276]",cars_train/03689.jpg
+79,Chrysler 300 SRT-8 2010,"[68, 95, 974, 629]",cars_train/04346.jpg
+169,Nissan NV Passenger Van 2012,"[31, 59, 572, 385]",cars_test/07898.jpg
+130,Hyundai Veloster Hatchback 2012,"[10, 60, 894, 506]",cars_train/00735.jpg
+24,Audi S4 Sedan 2007,"[47, 120, 410, 283]",cars_train/03886.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[50, 213, 599, 415]",cars_train/03680.jpg
+191,Volkswagen Golf Hatchback 1991,"[247, 178, 1258, 871]",cars_train/03596.jpg
+51,Cadillac CTS-V Sedan 2012,"[1, 16, 251, 178]",cars_test/02348.jpg
+123,Geo Metro Convertible 1993,"[6, 33, 197, 125]",cars_test/02438.jpg
+93,Dodge Challenger SRT8 2011,"[14, 97, 493, 359]",cars_train/01058.jpg
+184,Suzuki SX4 Sedan 2012,"[63, 139, 560, 383]",cars_test/03456.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[712, 346, 1375, 706]",cars_train/07888.jpg
+114,Ford F-150 Regular Cab 2007,"[42, 147, 753, 414]",cars_train/00842.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[29, 107, 800, 525]",cars_train/04678.jpg
+5,Acura TSX Sedan 2012,"[50, 162, 640, 425]",cars_train/02004.jpg
+107,Ford Mustang Convertible 2007,"[17, 126, 592, 411]",cars_test/04523.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[35, 150, 1228, 786]",cars_test/07377.jpg
+61,Chevrolet Impala Sedan 2007,"[154, 223, 1378, 1030]",cars_train/03737.jpg
+36,BMW M6 Convertible 2010,"[51, 99, 988, 592]",cars_test/07372.jpg
+102,Ferrari California Convertible 2012,"[31, 147, 605, 383]",cars_test/05414.jpg
+121,GMC Acadia SUV 2012,"[86, 32, 554, 465]",cars_test/05012.jpg
+107,Ford Mustang Convertible 2007,"[20, 85, 476, 251]",cars_test/02037.jpg
+159,Mazda Tribute SUV 2011,"[22, 4, 457, 316]",cars_train/01231.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[7, 108, 339, 233]",cars_train/07798.jpg
+94,Dodge Durango SUV 2012,"[137, 115, 433, 252]",cars_test/02455.jpg
+113,Ford F-150 Regular Cab 2012,"[14, 20, 286, 140]",cars_train/03870.jpg
+95,Dodge Durango SUV 2007,"[206, 222, 746, 467]",cars_train/00915.jpg
+96,Dodge Charger Sedan 2012,"[211, 171, 594, 334]",cars_test/05964.jpg
+102,Ferrari California Convertible 2012,"[173, 62, 546, 349]",cars_train/04192.jpg
+192,Volkswagen Beetle Hatchback 2012,"[83, 105, 975, 622]",cars_test/05793.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[14, 38, 224, 173]",cars_train/01738.jpg
+131,Hyundai Santa Fe SUV 2012,"[20, 38, 639, 447]",cars_test/01145.jpg
+16,Audi V8 Sedan 1994,"[41, 154, 753, 483]",cars_test/03331.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[26, 18, 698, 468]",cars_train/02467.jpg
+14,Audi TTS Coupe 2012,"[143, 151, 470, 283]",cars_test/06905.jpg
+19,Audi TT Hatchback 2011,"[26, 21, 253, 156]",cars_train/06277.jpg
+94,Dodge Durango SUV 2012,"[63, 36, 700, 450]",cars_test/00378.jpg
+84,Dodge Caliber Wagon 2007,"[15, 110, 544, 381]",cars_train/00232.jpg
+107,Ford Mustang Convertible 2007,"[12, 60, 456, 306]",cars_train/00440.jpg
+127,Honda Odyssey Minivan 2007,"[24, 81, 472, 262]",cars_test/07349.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[9, 34, 431, 187]",cars_test/03531.jpg
+169,Nissan NV Passenger Van 2012,"[358, 128, 551, 273]",cars_train/03137.jpg
+143,Isuzu Ascender SUV 2008,"[31, 58, 215, 158]",cars_test/04065.jpg
+95,Dodge Durango SUV 2007,"[42, 106, 336, 266]",cars_train/07855.jpg
+83,Dodge Caliber Wagon 2012,"[24, 45, 260, 189]",cars_train/02929.jpg
+84,Dodge Caliber Wagon 2007,"[87, 77, 545, 362]",cars_train/06097.jpg
+10,Aston Martin Virage Convertible 2012,"[57, 123, 440, 284]",cars_test/05404.jpg
+185,Tesla Model S Sedan 2012,"[6, 117, 606, 406]",cars_train/04583.jpg
+13,Audi A5 Coupe 2012,"[19, 114, 620, 426]",cars_train/01715.jpg
+15,Audi R8 Coupe 2012,"[8, 53, 462, 252]",cars_train/07090.jpg
+155,Land Rover LR2 SUV 2012,"[1, 59, 400, 240]",cars_train/07710.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[109, 132, 468, 247]",cars_train/04121.jpg
+77,Chrysler Sebring Convertible 2010,"[81, 102, 596, 419]",cars_train/02570.jpg
+126,Honda Odyssey Minivan 2012,"[74, 64, 558, 330]",cars_train/05863.jpg
+78,Chrysler Town and Country Minivan 2012,"[7, 58, 526, 323]",cars_train/02855.jpg
+13,Audi A5 Coupe 2012,"[72, 109, 529, 323]",cars_train/05148.jpg
+4,Acura TL Type-S 2008,"[42, 170, 591, 389]",cars_train/05125.jpg
+90,Dodge Dakota Crew Cab 2010,"[8, 42, 493, 256]",cars_test/05620.jpg
+80,Chrysler Crossfire Convertible 2008,"[9, 34, 286, 184]",cars_test/06751.jpg
+173,Porsche Panamera Sedan 2012,"[62, 377, 1220, 838]",cars_train/02968.jpg
+84,Dodge Caliber Wagon 2007,"[21, 77, 262, 167]",cars_train/06468.jpg
+110,Ford Edge SUV 2012,"[47, 102, 492, 371]",cars_train/00197.jpg
+173,Porsche Panamera Sedan 2012,"[24, 206, 565, 450]",cars_test/07414.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[23, 32, 280, 183]",cars_test/07170.jpg
+29,BMW 3 Series Sedan 2012,"[225, 113, 437, 266]",cars_train/02465.jpg
+35,BMW M5 Sedan 2010,"[80, 366, 951, 637]",cars_train/02468.jpg
+132,Hyundai Tucson SUV 2012,"[62, 87, 992, 683]",cars_test/07336.jpg
+133,Hyundai Veracruz SUV 2012,"[32, 136, 843, 490]",cars_train/01368.jpg
+154,Land Rover Range Rover SUV 2012,"[15, 90, 999, 616]",cars_train/02408.jpg
+183,Suzuki SX4 Hatchback 2012,"[41, 31, 753, 468]",cars_train/02272.jpg
+121,GMC Acadia SUV 2012,"[28, 64, 500, 349]",cars_test/01954.jpg
+116,Ford E-Series Wagon Van 2012,"[30, 31, 227, 179]",cars_test/03382.jpg
+126,Honda Odyssey Minivan 2012,"[25, 18, 476, 234]",cars_train/04715.jpg
+15,Audi R8 Coupe 2012,"[51, 180, 976, 627]",cars_train/03203.jpg
+2,Acura RL Sedan 2012,"[30, 11, 269, 196]",cars_test/06990.jpg
+113,Ford F-150 Regular Cab 2012,"[41, 105, 933, 636]",cars_test/05245.jpg
+135,Hyundai Elantra Sedan 2007,"[46, 46, 193, 160]",cars_train/02888.jpg
+185,Tesla Model S Sedan 2012,"[20, 18, 619, 260]",cars_train/01490.jpg
+104,Ferrari 458 Italia Coupe 2012,"[27, 24, 286, 178]",cars_test/01220.jpg
+88,Dodge Sprinter Cargo Van 2009,"[98, 54, 304, 206]",cars_test/04003.jpg
+89,Dodge Journey SUV 2012,"[42, 216, 998, 619]",cars_train/00618.jpg
+159,Mazda Tribute SUV 2011,"[82, 2, 505, 243]",cars_test/00142.jpg
+24,Audi S4 Sedan 2007,"[14, 33, 1009, 645]",cars_test/01114.jpg
+151,Lamborghini Aventador Coupe 2012,"[128, 466, 1367, 817]",cars_test/00733.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[133, 107, 547, 396]",cars_test/03788.jpg
+83,Dodge Caliber Wagon 2012,"[22, 133, 539, 339]",cars_test/03313.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[9, 27, 453, 234]",cars_test/03613.jpg
+5,Acura TSX Sedan 2012,"[31, 43, 246, 146]",cars_test/07091.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[12, 85, 687, 410]",cars_test/01371.jpg
+135,Hyundai Elantra Sedan 2007,"[30, 36, 418, 307]",cars_train/00013.jpg
+98,Eagle Talon Hatchback 1998,"[57, 47, 619, 458]",cars_train/03671.jpg
+192,Volkswagen Beetle Hatchback 2012,"[63, 113, 597, 413]",cars_train/00082.jpg
+124,HUMMER H3T Crew Cab 2010,"[40, 120, 599, 389]",cars_test/04632.jpg
+172,Plymouth Neon Coupe 1999,"[32, 113, 527, 407]",cars_train/02660.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[2, 21, 304, 135]",cars_test/05210.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[20, 18, 263, 151]",cars_train/03094.jpg
+82,Daewoo Nubira Wagon 2002,"[4, 32, 300, 213]",cars_test/03369.jpg
+95,Dodge Durango SUV 2007,"[9, 31, 636, 443]",cars_train/04835.jpg
+32,BMW X5 SUV 2007,"[21, 29, 280, 189]",cars_test/04885.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[35, 88, 573, 339]",cars_test/01577.jpg
+52,Cadillac SRX SUV 2012,"[23, 68, 270, 176]",cars_test/07819.jpg
+141,Infiniti G Coupe IPL 2012,"[66, 95, 529, 326]",cars_train/07546.jpg
+142,Infiniti QX56 SUV 2011,"[67, 105, 427, 291]",cars_test/01392.jpg
+159,Mazda Tribute SUV 2011,"[68, 80, 594, 432]",cars_test/07194.jpg
+32,BMW X5 SUV 2007,"[8, 27, 251, 151]",cars_test/01604.jpg
+35,BMW M5 Sedan 2010,"[155, 59, 532, 361]",cars_train/00792.jpg
+118,GMC Terrain SUV 2012,"[42, 181, 585, 408]",cars_test/05772.jpg
+73,Chevrolet Malibu Sedan 2007,"[92, 99, 434, 304]",cars_test/04718.jpg
+187,Toyota Camry Sedan 2012,"[18, 57, 633, 427]",cars_test/04376.jpg
+132,Hyundai Tucson SUV 2012,"[59, 172, 724, 704]",cars_test/03761.jpg
+171,Nissan 240SX Coupe 1998,"[8, 103, 464, 254]",cars_train/04143.jpg
+193,Volvo C30 Hatchback 2012,"[136, 124, 1084, 707]",cars_train/06340.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[41, 240, 612, 429]",cars_test/05817.jpg
+90,Dodge Dakota Crew Cab 2010,"[9, 178, 1009, 765]",cars_test/08002.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[17, 39, 237, 156]",cars_train/02101.jpg
+102,Ferrari California Convertible 2012,"[7, 134, 590, 322]",cars_train/04854.jpg
+120,GMC Yukon Hybrid SUV 2012,"[27, 122, 500, 498]",cars_test/05861.jpg
+33,BMW X6 SUV 2012,"[38, 18, 475, 364]",cars_test/07802.jpg
+167,Mitsubishi Lancer Sedan 2012,"[200, 96, 899, 654]",cars_train/03548.jpg
+68,Chevrolet TrailBlazer SS 2009,"[11, 52, 595, 293]",cars_train/02060.jpg
+167,Mitsubishi Lancer Sedan 2012,"[126, 234, 809, 509]",cars_train/01106.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[37, 42, 619, 468]",cars_test/04666.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[13, 49, 242, 161]",cars_test/06326.jpg
+154,Land Rover Range Rover SUV 2012,"[36, 81, 564, 339]",cars_train/03770.jpg
+4,Acura TL Type-S 2008,"[30, 152, 602, 421]",cars_train/03467.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[62, 102, 565, 405]",cars_train/00722.jpg
+17,Audi 100 Sedan 1994,"[47, 76, 662, 380]",cars_test/05891.jpg
+63,Chevrolet Sonic Sedan 2012,"[58, 136, 973, 636]",cars_train/00209.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[34, 82, 600, 398]",cars_train/07701.jpg
+6,Acura Integra Type R 2001,"[40, 108, 1250, 752]",cars_test/01326.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[30, 45, 275, 189]",cars_test/06323.jpg
+100,FIAT 500 Convertible 2012,"[263, 25, 890, 679]",cars_train/02828.jpg
+158,Maybach Landaulet Convertible 2012,"[1, 159, 400, 286]",cars_train/02501.jpg
+1,AM General Hummer SUV 2000,"[48, 24, 441, 202]",cars_train/00946.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[19, 22, 284, 182]",cars_test/06260.jpg
+90,Dodge Dakota Crew Cab 2010,"[91, 223, 1185, 597]",cars_test/04600.jpg
+66,Chevrolet Cobalt SS 2010,"[278, 313, 1356, 852]",cars_train/07254.jpg
+82,Daewoo Nubira Wagon 2002,"[17, 35, 234, 167]",cars_train/00814.jpg
+15,Audi R8 Coupe 2012,"[25, 140, 537, 329]",cars_train/03215.jpg
+7,Acura ZDX Hatchback 2012,"[55, 53, 567, 269]",cars_train/07061.jpg
+3,Acura TL Sedan 2012,"[104, 11, 1997, 1144]",cars_test/04965.jpg
+127,Honda Odyssey Minivan 2007,"[21, 2, 233, 100]",cars_train/02071.jpg
+14,Audi TTS Coupe 2012,"[37, 186, 572, 480]",cars_test/07238.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[231, 130, 582, 430]",cars_test/05269.jpg
+34,BMW M3 Coupe 2012,"[14, 52, 294, 161]",cars_test/01667.jpg
+133,Hyundai Veracruz SUV 2012,"[48, 123, 629, 359]",cars_test/07609.jpg
+147,Jeep Liberty SUV 2012,"[66, 160, 878, 654]",cars_train/07293.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[14, 26, 467, 351]",cars_train/04643.jpg
+25,Audi TT RS Coupe 2012,"[71, 45, 752, 302]",cars_train/02323.jpg
+114,Ford F-150 Regular Cab 2007,"[28, 187, 1001, 519]",cars_test/07287.jpg
+157,MINI Cooper Roadster Convertible 2012,"[16, 24, 204, 120]",cars_test/07717.jpg
+119,GMC Savana Van 2012,"[120, 151, 534, 345]",cars_train/06813.jpg
+22,Audi S5 Coupe 2012,"[9, 33, 256, 109]",cars_train/02256.jpg
+82,Daewoo Nubira Wagon 2002,"[54, 75, 618, 427]",cars_test/03040.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[32, 43, 151, 91]",cars_test/01111.jpg
+185,Tesla Model S Sedan 2012,"[29, 192, 605, 391]",cars_train/00269.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[11, 20, 637, 445]",cars_train/06029.jpg
+131,Hyundai Santa Fe SUV 2012,"[30, 18, 252, 134]",cars_test/07820.jpg
+187,Toyota Camry Sedan 2012,"[156, 192, 572, 336]",cars_train/01550.jpg
+88,Dodge Sprinter Cargo Van 2009,"[155, 6, 1167, 908]",cars_test/03843.jpg
+187,Toyota Camry Sedan 2012,"[57, 25, 579, 433]",cars_train/01158.jpg
+119,GMC Savana Van 2012,"[3, 92, 632, 434]",cars_test/07113.jpg
+10,Aston Martin Virage Convertible 2012,"[204, 410, 986, 730]",cars_train/06675.jpg
+11,Aston Martin Virage Coupe 2012,"[47, 82, 614, 378]",cars_train/01578.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[13, 22, 601, 222]",cars_test/02192.jpg
+173,Porsche Panamera Sedan 2012,"[70, 171, 373, 275]",cars_train/03958.jpg
+48,Buick Rainier SUV 2007,"[25, 51, 282, 164]",cars_train/03718.jpg
+48,Buick Rainier SUV 2007,"[18, 95, 290, 205]",cars_train/04091.jpg
+145,Jeep Patriot SUV 2012,"[52, 238, 1710, 1188]",cars_train/06311.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[132, 20, 774, 505]",cars_train/05351.jpg
+96,Dodge Charger Sedan 2012,"[14, 64, 611, 415]",cars_train/05953.jpg
+141,Infiniti G Coupe IPL 2012,"[10, 122, 371, 256]",cars_train/07920.jpg
+148,Jeep Grand Cherokee SUV 2012,"[88, 33, 580, 347]",cars_test/02222.jpg
+83,Dodge Caliber Wagon 2012,"[8, 10, 300, 215]",cars_test/03485.jpg
+184,Suzuki SX4 Sedan 2012,"[282, 338, 1298, 748]",cars_train/03857.jpg
+151,Lamborghini Aventador Coupe 2012,"[76, 11, 539, 369]",cars_test/02522.jpg
+110,Ford Edge SUV 2012,"[23, 19, 279, 162]",cars_test/02230.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[23, 65, 598, 254]",cars_test/01507.jpg
+109,Ford Expedition EL SUV 2009,"[84, 98, 574, 320]",cars_test/01644.jpg
+31,BMW 6 Series Convertible 2007,"[20, 72, 769, 515]",cars_train/04778.jpg
+7,Acura ZDX Hatchback 2012,"[128, 167, 674, 380]",cars_test/03059.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[21, 131, 628, 305]",cars_train/06580.jpg
+108,Ford Freestar Minivan 2007,"[20, 46, 250, 129]",cars_test/03287.jpg
+188,Toyota Corolla Sedan 2012,"[28, 61, 409, 266]",cars_train/03113.jpg
+172,Plymouth Neon Coupe 1999,"[35, 105, 595, 411]",cars_train/04028.jpg
+129,Honda Accord Sedan 2012,"[70, 125, 389, 340]",cars_train/00474.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[13, 17, 313, 178]",cars_train/02528.jpg
+144,Jaguar XK XKR 2012,"[169, 159, 1027, 811]",cars_test/06429.jpg
+66,Chevrolet Cobalt SS 2010,"[19, 61, 575, 329]",cars_test/04840.jpg
+186,Toyota Sequoia SUV 2012,"[13, 9, 294, 181]",cars_train/04314.jpg
+73,Chevrolet Malibu Sedan 2007,"[55, 153, 467, 359]",cars_test/03687.jpg
+78,Chrysler Town and Country Minivan 2012,"[23, 17, 336, 281]",cars_test/02388.jpg
+159,Mazda Tribute SUV 2011,"[151, 148, 769, 445]",cars_train/04866.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[20, 122, 1009, 667]",cars_train/06747.jpg
+122,GMC Canyon Extended Cab 2012,"[32, 43, 598, 350]",cars_train/00068.jpg
+188,Toyota Corolla Sedan 2012,"[61, 224, 953, 582]",cars_train/07259.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[555, 301, 1173, 568]",cars_train/01335.jpg
+71,Chevrolet Express Van 2007,"[118, 15, 601, 450]",cars_train/05334.jpg
+188,Toyota Corolla Sedan 2012,"[1, 54, 638, 480]",cars_test/01522.jpg
+110,Ford Edge SUV 2012,"[23, 23, 620, 450]",cars_train/03556.jpg
+190,Volkswagen Golf Hatchback 2012,"[34, 101, 1461, 979]",cars_test/01781.jpg
+102,Ferrari California Convertible 2012,"[25, 60, 487, 286]",cars_train/05298.jpg
+42,Bentley Continental GT Coupe 2012,"[2, 5, 298, 162]",cars_train/00146.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[123, 344, 1195, 664]",cars_test/06766.jpg
+192,Volkswagen Beetle Hatchback 2012,"[29, 74, 605, 431]",cars_train/05045.jpg
+168,Nissan Leaf Hatchback 2012,"[47, 74, 595, 352]",cars_train/05504.jpg
+115,Ford Focus Sedan 2007,"[26, 80, 630, 458]",cars_train/06619.jpg
+109,Ford Expedition EL SUV 2009,"[73, 120, 565, 380]",cars_test/06217.jpg
+43,Bentley Continental GT Coupe 2007,"[26, 192, 628, 389]",cars_train/03975.jpg
+85,Dodge Caravan Minivan 1997,"[5, 82, 550, 442]",cars_train/04793.jpg
+156,Lincoln Town Car Sedan 2011,"[64, 48, 460, 334]",cars_test/05784.jpg
+155,Land Rover LR2 SUV 2012,"[119, 90, 269, 185]",cars_train/05880.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[3, 39, 300, 128]",cars_train/00540.jpg
+63,Chevrolet Sonic Sedan 2012,"[57, 107, 961, 680]",cars_test/01876.jpg
+6,Acura Integra Type R 2001,"[282, 154, 592, 336]",cars_train/07171.jpg
+18,Audi 100 Wagon 1994,"[9, 77, 376, 189]",cars_train/03439.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[1, 103, 456, 266]",cars_train/04234.jpg
+194,Volvo 240 Sedan 1993,"[45, 142, 591, 337]",cars_train/06960.jpg
+146,Jeep Wrangler SUV 2012,"[17, 49, 584, 433]",cars_train/05189.jpg
+6,Acura Integra Type R 2001,"[6, 63, 571, 303]",cars_train/06196.jpg
+76,Chrysler Aspen SUV 2009,"[208, 298, 1408, 1021]",cars_test/05338.jpg
+171,Nissan 240SX Coupe 1998,"[18, 50, 280, 162]",cars_train/00434.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[37, 137, 997, 602]",cars_train/01680.jpg
+156,Lincoln Town Car Sedan 2011,"[29, 116, 464, 311]",cars_train/01235.jpg
+43,Bentley Continental GT Coupe 2007,"[57, 15, 553, 415]",cars_test/06148.jpg
+102,Ferrari California Convertible 2012,"[179, 549, 1004, 879]",cars_train/06558.jpg
+20,Audi S6 Sedan 2011,"[44, 56, 397, 306]",cars_train/05122.jpg
+5,Acura TSX Sedan 2012,"[31, 7, 893, 347]",cars_test/07048.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[12, 339, 1437, 1073]",cars_train/08009.jpg
+117,Ford Fiesta Sedan 2012,"[87, 74, 507, 314]",cars_test/07448.jpg
+157,MINI Cooper Roadster Convertible 2012,"[128, 106, 553, 373]",cars_test/03874.jpg
+55,Chevrolet Corvette Convertible 2012,"[7, 406, 1492, 1024]",cars_train/06941.jpg
+132,Hyundai Tucson SUV 2012,"[78, 106, 709, 502]",cars_train/01830.jpg
+100,FIAT 500 Convertible 2012,"[53, 10, 256, 185]",cars_test/08008.jpg
+123,Geo Metro Convertible 1993,"[103, 99, 332, 189]",cars_test/04725.jpg
+1,AM General Hummer SUV 2000,"[4, 9, 96, 88]",cars_train/05754.jpg
+24,Audi S4 Sedan 2007,"[61, 324, 988, 669]",cars_test/04693.jpg
+83,Dodge Caliber Wagon 2012,"[5, 56, 430, 245]",cars_train/00371.jpg
+42,Bentley Continental GT Coupe 2012,"[11, 46, 296, 179]",cars_test/06961.jpg
+118,GMC Terrain SUV 2012,"[49, 163, 733, 438]",cars_train/02499.jpg
+60,Chevrolet HHR SS 2010,"[84, 97, 511, 380]",cars_test/06424.jpg
+105,Fisker Karma Sedan 2012,"[37, 50, 253, 158]",cars_train/00252.jpg
+154,Land Rover Range Rover SUV 2012,"[41, 85, 618, 408]",cars_train/05599.jpg
+22,Audi S5 Coupe 2012,"[12, 57, 284, 172]",cars_test/06514.jpg
+2,Acura RL Sedan 2012,"[97, 49, 455, 326]",cars_train/00670.jpg
+21,Audi S5 Convertible 2012,"[124, 151, 639, 390]",cars_test/07346.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[129, 351, 1326, 754]",cars_test/06489.jpg
+41,Bentley Mulsanne Sedan 2011,"[8, 66, 286, 214]",cars_test/06589.jpg
+153,Lamborghini Diablo Coupe 2001,"[53, 65, 424, 269]",cars_train/08132.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[74, 378, 862, 621]",cars_test/00424.jpg
+3,Acura TL Sedan 2012,"[29, 75, 271, 168]",cars_train/03772.jpg
+130,Hyundai Veloster Hatchback 2012,"[165, 183, 495, 358]",cars_train/00275.jpg
+51,Cadillac CTS-V Sedan 2012,"[45, 241, 990, 556]",cars_train/01519.jpg
+130,Hyundai Veloster Hatchback 2012,"[20, 61, 591, 362]",cars_train/03629.jpg
+138,Hyundai Sonata Sedan 2012,"[121, 311, 1286, 862]",cars_test/05843.jpg
+178,Scion xD Hatchback 2012,"[66, 106, 429, 292]",cars_train/04635.jpg
+89,Dodge Journey SUV 2012,"[24, 30, 781, 306]",cars_test/07488.jpg
+124,HUMMER H3T Crew Cab 2010,"[73, 93, 471, 332]",cars_test/07813.jpg
+35,BMW M5 Sedan 2010,"[52, 100, 450, 296]",cars_train/05706.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[75, 1, 603, 434]",cars_train/04437.jpg
+105,Fisker Karma Sedan 2012,"[54, 8, 595, 349]",cars_train/07840.jpg
+105,Fisker Karma Sedan 2012,"[223, 282, 993, 675]",cars_test/07552.jpg
+101,Ferrari FF Coupe 2012,"[58, 93, 760, 472]",cars_test/05203.jpg
+85,Dodge Caravan Minivan 1997,"[4, 1, 672, 477]",cars_test/03393.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[34, 84, 437, 258]",cars_test/07975.jpg
+82,Daewoo Nubira Wagon 2002,"[23, 17, 252, 164]",cars_test/00157.jpg
+167,Mitsubishi Lancer Sedan 2012,"[603, 287, 1435, 711]",cars_train/01548.jpg
+98,Eagle Talon Hatchback 1998,"[37, 32, 562, 376]",cars_train/02917.jpg
+28,BMW 1 Series Coupe 2012,"[27, 62, 279, 178]",cars_test/06575.jpg
+167,Mitsubishi Lancer Sedan 2012,"[203, 420, 1232, 975]",cars_test/04611.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[23, 46, 222, 163]",cars_test/00880.jpg
+51,Cadillac CTS-V Sedan 2012,"[18, 120, 784, 524]",cars_test/01079.jpg
+147,Jeep Liberty SUV 2012,"[130, 56, 687, 381]",cars_test/06139.jpg
+144,Jaguar XK XKR 2012,"[151, 568, 1954, 1271]",cars_train/00123.jpg
+171,Nissan 240SX Coupe 1998,"[42, 158, 496, 355]",cars_train/01798.jpg
+21,Audi S5 Convertible 2012,"[15, 76, 309, 168]",cars_train/03619.jpg
+123,Geo Metro Convertible 1993,"[17, 25, 183, 100]",cars_test/06072.jpg
+194,Volvo 240 Sedan 1993,"[62, 235, 591, 404]",cars_test/02403.jpg
+130,Hyundai Veloster Hatchback 2012,"[257, 205, 697, 438]",cars_train/07723.jpg
+84,Dodge Caliber Wagon 2007,"[11, 18, 190, 126]",cars_train/05536.jpg
+28,BMW 1 Series Coupe 2012,"[71, 96, 590, 393]",cars_train/01206.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[172, 158, 940, 629]",cars_test/03890.jpg
+48,Buick Rainier SUV 2007,"[14, 35, 261, 169]",cars_train/01103.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[123, 35, 487, 297]",cars_train/01703.jpg
+108,Ford Freestar Minivan 2007,"[3, 56, 251, 148]",cars_train/00960.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[24, 21, 240, 171]",cars_test/00932.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[11, 33, 257, 167]",cars_test/00974.jpg
+149,Jeep Compass SUV 2012,"[169, 186, 778, 556]",cars_train/03648.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[183, 191, 364, 317]",cars_train/06329.jpg
+108,Ford Freestar Minivan 2007,"[7, 9, 205, 125]",cars_test/07673.jpg
+89,Dodge Journey SUV 2012,"[58, 210, 899, 685]",cars_train/06993.jpg
+19,Audi TT Hatchback 2011,"[34, 37, 256, 160]",cars_test/02431.jpg
+132,Hyundai Tucson SUV 2012,"[74, 139, 926, 600]",cars_test/01379.jpg
+91,Dodge Dakota Club Cab 2007,"[14, 180, 1017, 708]",cars_train/06937.jpg
+34,BMW M3 Coupe 2012,"[69, 79, 430, 276]",cars_train/04945.jpg
+171,Nissan 240SX Coupe 1998,"[1, 63, 619, 411]",cars_train/04284.jpg
+191,Volkswagen Golf Hatchback 1991,"[19, 211, 1525, 893]",cars_train/07275.jpg
+17,Audi 100 Sedan 1994,"[30, 287, 999, 658]",cars_train/08137.jpg
+119,GMC Savana Van 2012,"[25, 79, 682, 441]",cars_test/06775.jpg
+103,Ferrari 458 Italia Convertible 2012,"[10, 122, 432, 243]",cars_train/06836.jpg
+64,Chevrolet Express Cargo Van 2007,"[23, 65, 624, 415]",cars_train/02592.jpg
+97,Dodge Charger SRT-8 2009,"[24, 52, 562, 344]",cars_test/06865.jpg
+172,Plymouth Neon Coupe 1999,"[132, 48, 533, 395]",cars_train/06045.jpg
+137,Hyundai Genesis Sedan 2012,"[54, 218, 566, 438]",cars_train/06102.jpg
+172,Plymouth Neon Coupe 1999,"[68, 50, 526, 451]",cars_test/05125.jpg
+20,Audi S6 Sedan 2011,"[49, 195, 1003, 617]",cars_train/00089.jpg
+140,Hyundai Azera Sedan 2012,"[111, 6, 1833, 1196]",cars_test/07750.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[31, 38, 262, 185]",cars_test/07751.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[433, 138, 1205, 755]",cars_test/07782.jpg
+114,Ford F-150 Regular Cab 2007,"[22, 60, 543, 357]",cars_test/04108.jpg
+159,Mazda Tribute SUV 2011,"[55, 80, 553, 433]",cars_test/01523.jpg
+111,Ford Ranger SuperCab 2011,"[36, 7, 383, 192]",cars_test/03370.jpg
+193,Volvo C30 Hatchback 2012,"[19, 23, 455, 239]",cars_test/04416.jpg
+110,Ford Edge SUV 2012,"[132, 120, 667, 401]",cars_train/00116.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[24, 45, 452, 325]",cars_train/04053.jpg
+85,Dodge Caravan Minivan 1997,"[27, 35, 639, 402]",cars_test/07177.jpg
+5,Acura TSX Sedan 2012,"[25, 221, 702, 453]",cars_test/05122.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[32, 44, 238, 167]",cars_test/02822.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[11, 12, 255, 180]",cars_test/04837.jpg
+149,Jeep Compass SUV 2012,"[67, 59, 587, 417]",cars_test/05374.jpg
+17,Audi 100 Sedan 1994,"[11, 23, 248, 172]",cars_train/03253.jpg
+109,Ford Expedition EL SUV 2009,"[55, 86, 414, 301]",cars_train/06189.jpg
+22,Audi S5 Coupe 2012,"[22, 80, 370, 230]",cars_test/01717.jpg
+194,Volvo 240 Sedan 1993,"[14, 159, 548, 457]",cars_train/05292.jpg
+13,Audi A5 Coupe 2012,"[9, 16, 438, 200]",cars_test/00782.jpg
+95,Dodge Durango SUV 2007,"[29, 91, 482, 454]",cars_train/01258.jpg
+47,Buick Regal GS 2012,"[73, 75, 553, 338]",cars_test/01215.jpg
+77,Chrysler Sebring Convertible 2010,"[49, 141, 596, 393]",cars_test/01081.jpg
+194,Volvo 240 Sedan 1993,"[40, 177, 620, 460]",cars_train/07633.jpg
+119,GMC Savana Van 2012,"[33, 73, 760, 585]",cars_train/03463.jpg
+33,BMW X6 SUV 2012,"[113, 66, 554, 369]",cars_test/00018.jpg
+6,Acura Integra Type R 2001,"[42, 96, 612, 353]",cars_train/02919.jpg
+3,Acura TL Sedan 2012,"[48, 41, 511, 237]",cars_train/03152.jpg
+178,Scion xD Hatchback 2012,"[39, 86, 600, 391]",cars_test/04964.jpg
+170,Nissan Juke Hatchback 2012,"[141, 525, 1803, 1854]",cars_train/00573.jpg
+32,BMW X5 SUV 2007,"[25, 40, 269, 209]",cars_train/07308.jpg
+97,Dodge Charger SRT-8 2009,"[25, 64, 741, 301]",cars_train/01153.jpg
+159,Mazda Tribute SUV 2011,"[100, 22, 1223, 755]",cars_test/00496.jpg
+33,BMW X6 SUV 2012,"[100, 187, 419, 316]",cars_test/04414.jpg
+151,Lamborghini Aventador Coupe 2012,"[23, 33, 273, 118]",cars_test/04255.jpg
+146,Jeep Wrangler SUV 2012,"[20, 132, 513, 365]",cars_train/06429.jpg
+6,Acura Integra Type R 2001,"[36, 103, 544, 310]",cars_train/04833.jpg
+21,Audi S5 Convertible 2012,"[16, 94, 632, 387]",cars_test/07310.jpg
+115,Ford Focus Sedan 2007,"[38, 104, 599, 385]",cars_test/04347.jpg
+105,Fisker Karma Sedan 2012,"[12, 45, 191, 128]",cars_test/02724.jpg
+182,Suzuki Kizashi Sedan 2012,"[147, 58, 789, 556]",cars_test/03450.jpg
+13,Audi A5 Coupe 2012,"[7, 49, 255, 173]",cars_train/06450.jpg
+55,Chevrolet Corvette Convertible 2012,"[128, 132, 505, 331]",cars_train/05932.jpg
+97,Dodge Charger SRT-8 2009,"[184, 216, 646, 537]",cars_test/06603.jpg
+40,Bentley Arnage Sedan 2009,"[17, 92, 377, 274]",cars_test/03363.jpg
+191,Volkswagen Golf Hatchback 1991,"[28, 61, 622, 371]",cars_train/00042.jpg
+88,Dodge Sprinter Cargo Van 2009,"[244, 131, 480, 294]",cars_test/05610.jpg
+190,Volkswagen Golf Hatchback 2012,"[123, 343, 1080, 707]",cars_test/05737.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[37, 115, 1561, 1096]",cars_test/00023.jpg
+97,Dodge Charger SRT-8 2009,"[4, 17, 593, 269]",cars_train/01421.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[22, 17, 292, 154]",cars_train/03664.jpg
+47,Buick Regal GS 2012,"[50, 204, 1231, 653]",cars_test/06760.jpg
+34,BMW M3 Coupe 2012,"[59, 85, 614, 428]",cars_test/02555.jpg
+190,Volkswagen Golf Hatchback 2012,"[21, 23, 244, 149]",cars_train/07823.jpg
+49,Buick Verano Sedan 2012,"[251, 299, 1423, 901]",cars_train/00454.jpg
+126,Honda Odyssey Minivan 2012,"[26, 23, 615, 459]",cars_train/01344.jpg
+137,Hyundai Genesis Sedan 2012,"[82, 53, 438, 306]",cars_train/03403.jpg
+166,Mercedes-Benz Sprinter Van 2012,"[75, 173, 521, 387]",cars_test/02616.jpg
+178,Scion xD Hatchback 2012,"[93, 108, 519, 332]",cars_train/07372.jpg
+178,Scion xD Hatchback 2012,"[2, 195, 459, 478]",cars_train/02937.jpg
+167,Mitsubishi Lancer Sedan 2012,"[18, 45, 980, 596]",cars_test/07534.jpg
+180,Spyker C8 Coupe 2009,"[56, 114, 338, 323]",cars_train/04210.jpg
+58,Chevrolet Traverse SUV 2012,"[13, 1, 965, 679]",cars_train/05936.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[47, 101, 965, 692]",cars_test/00404.jpg
+36,BMW M6 Convertible 2010,"[35, 34, 419, 297]",cars_train/03091.jpg
+20,Audi S6 Sedan 2011,"[8, 61, 389, 209]",cars_test/02902.jpg
+93,Dodge Challenger SRT8 2011,"[80, 86, 544, 299]",cars_train/05190.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[43, 30, 996, 554]",cars_test/06474.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[391, 169, 859, 401]",cars_train/00822.jpg
+42,Bentley Continental GT Coupe 2012,"[76, 153, 477, 362]",cars_train/04613.jpg
+27,BMW 1 Series Convertible 2012,"[42, 50, 219, 159]",cars_train/05616.jpg
+109,Ford Expedition EL SUV 2009,"[11, 63, 424, 224]",cars_test/02158.jpg
+120,GMC Yukon Hybrid SUV 2012,"[245, 245, 1379, 791]",cars_train/07682.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[72, 109, 1003, 686]",cars_train/06205.jpg
+61,Chevrolet Impala Sedan 2007,"[231, 85, 1712, 1026]",cars_train/02909.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[45, 229, 591, 555]",cars_test/03519.jpg
+155,Land Rover LR2 SUV 2012,"[45, 138, 605, 445]",cars_test/02274.jpg
+144,Jaguar XK XKR 2012,"[93, 227, 1126, 748]",cars_test/03025.jpg
+188,Toyota Corolla Sedan 2012,"[81, 24, 589, 431]",cars_train/05553.jpg
+14,Audi TTS Coupe 2012,"[137, 567, 3038, 1771]",cars_train/03750.jpg
+191,Volkswagen Golf Hatchback 1991,"[147, 69, 897, 572]",cars_train/02417.jpg
+181,Suzuki Aerio Sedan 2007,"[143, 214, 659, 624]",cars_test/06845.jpg
+72,Chevrolet Monte Carlo Coupe 2007,"[7, 94, 397, 223]",cars_train/07036.jpg
+88,Dodge Sprinter Cargo Van 2009,"[27, 113, 561, 423]",cars_test/05601.jpg
+145,Jeep Patriot SUV 2012,"[61, 45, 752, 502]",cars_train/02192.jpg
+145,Jeep Patriot SUV 2012,"[306, 153, 604, 307]",cars_test/04598.jpg
+196,smart fortwo Convertible 2012,"[79, 64, 556, 396]",cars_test/07236.jpg
+80,Chrysler Crossfire Convertible 2008,"[50, 80, 223, 167]",cars_train/06410.jpg
+50,Buick Enclave SUV 2012,"[54, 115, 605, 333]",cars_test/03200.jpg
+103,Ferrari 458 Italia Convertible 2012,"[212, 192, 578, 332]",cars_train/01937.jpg
+49,Buick Verano Sedan 2012,"[72, 149, 858, 448]",cars_test/02956.jpg
+143,Isuzu Ascender SUV 2008,"[5, 43, 258, 181]",cars_train/08057.jpg
+51,Cadillac CTS-V Sedan 2012,"[60, 98, 209, 173]",cars_test/05828.jpg
+112,Ford GT Coupe 2006,"[34, 61, 997, 585]",cars_test/03017.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[6, 108, 493, 267]",cars_train/00172.jpg
+77,Chrysler Sebring Convertible 2010,"[92, 459, 1215, 889]",cars_train/01971.jpg
+71,Chevrolet Express Van 2007,"[31, 7, 275, 174]",cars_test/04131.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[39, 33, 261, 195]",cars_train/03064.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[57, 155, 525, 364]",cars_train/05909.jpg
+122,GMC Canyon Extended Cab 2012,"[2, 73, 567, 331]",cars_train/00696.jpg
+124,HUMMER H3T Crew Cab 2010,"[38, 52, 483, 222]",cars_train/04800.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[46, 112, 396, 292]",cars_test/04876.jpg
+119,GMC Savana Van 2012,"[129, 265, 1980, 1114]",cars_train/05035.jpg
+66,Chevrolet Cobalt SS 2010,"[44, 90, 550, 298]",cars_train/08077.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[47, 60, 530, 344]",cars_train/07096.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[17, 349, 1778, 1032]",cars_test/03756.jpg
+13,Audi A5 Coupe 2012,"[27, 91, 563, 350]",cars_test/05213.jpg
+30,BMW 3 Series Wagon 2012,"[6, 138, 627, 361]",cars_train/00153.jpg
+186,Toyota Sequoia SUV 2012,"[3, 2, 495, 228]",cars_train/03385.jpg
+116,Ford E-Series Wagon Van 2012,"[13, 34, 235, 184]",cars_train/01191.jpg
+31,BMW 6 Series Convertible 2007,"[19, 40, 427, 251]",cars_test/02387.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[19, 69, 525, 310]",cars_test/01633.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[97, 101, 495, 369]",cars_train/03171.jpg
+73,Chevrolet Malibu Sedan 2007,"[111, 195, 481, 394]",cars_train/03934.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[126, 57, 1022, 589]",cars_test/03803.jpg
+92,Dodge Magnum Wagon 2008,"[60, 240, 1201, 656]",cars_train/07242.jpg
+104,Ferrari 458 Italia Coupe 2012,"[24, 27, 936, 380]",cars_train/00293.jpg
+63,Chevrolet Sonic Sedan 2012,"[18, 170, 1004, 520]",cars_test/04319.jpg
+112,Ford GT Coupe 2006,"[133, 412, 1507, 1105]",cars_test/03622.jpg
+82,Daewoo Nubira Wagon 2002,"[42, 142, 655, 457]",cars_train/07522.jpg
+58,Chevrolet Traverse SUV 2012,"[96, 3, 635, 445]",cars_train/00998.jpg
+56,Chevrolet Corvette ZR1 2012,"[16, 45, 258, 157]",cars_test/02872.jpg
+175,Rolls-Royce Phantom Drophead Coupe Convertible 2012,"[29, 99, 210, 152]",cars_test/05591.jpg
+194,Volvo 240 Sedan 1993,"[284, 291, 1247, 732]",cars_train/07067.jpg
+77,Chrysler Sebring Convertible 2010,"[24, 55, 982, 569]",cars_train/02785.jpg
+180,Spyker C8 Coupe 2009,"[268, 248, 1751, 1227]",cars_test/06978.jpg
+76,Chrysler Aspen SUV 2009,"[8, 15, 253, 165]",cars_train/06441.jpg
+155,Land Rover LR2 SUV 2012,"[81, 185, 385, 333]",cars_train/01813.jpg
+192,Volkswagen Beetle Hatchback 2012,"[143, 229, 971, 598]",cars_train/00958.jpg
+171,Nissan 240SX Coupe 1998,"[41, 110, 1002, 638]",cars_test/07391.jpg
+173,Porsche Panamera Sedan 2012,"[89, 113, 494, 293]",cars_test/04451.jpg
+135,Hyundai Elantra Sedan 2007,"[43, 285, 953, 625]",cars_train/05746.jpg
+147,Jeep Liberty SUV 2012,"[285, 159, 1438, 835]",cars_test/05829.jpg
+38,BMW Z4 Convertible 2012,"[73, 133, 474, 326]",cars_test/02389.jpg
+179,Spyker C8 Convertible 2009,"[19, 13, 409, 268]",cars_train/04963.jpg
+116,Ford E-Series Wagon Van 2012,"[32, 70, 370, 287]",cars_train/00964.jpg
+43,Bentley Continental GT Coupe 2007,"[15, 166, 488, 383]",cars_train/01929.jpg
+160,McLaren MP4-12C Coupe 2012,"[155, 174, 557, 338]",cars_test/03252.jpg
+84,Dodge Caliber Wagon 2007,"[39, 81, 597, 465]",cars_train/00459.jpg
+18,Audi 100 Wagon 1994,"[75, 115, 576, 378]",cars_train/07649.jpg
+150,Lamborghini Reventon Coupe 2008,"[3, 63, 427, 233]",cars_test/03872.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[21, 30, 423, 255]",cars_train/03464.jpg
+23,Audi S4 Sedan 2012,"[300, 253, 1670, 1011]",cars_test/00604.jpg
+143,Isuzu Ascender SUV 2008,"[8, 23, 233, 174]",cars_train/07632.jpg
+67,Chevrolet Malibu Hybrid Sedan 2010,"[22, 80, 463, 231]",cars_test/05508.jpg
+58,Chevrolet Traverse SUV 2012,"[17, 8, 611, 443]",cars_train/04394.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[37, 341, 1020, 720]",cars_test/02314.jpg
+122,GMC Canyon Extended Cab 2012,"[20, 87, 600, 391]",cars_train/01266.jpg
+190,Volkswagen Golf Hatchback 2012,"[10, 47, 253, 148]",cars_test/02300.jpg
+27,BMW 1 Series Convertible 2012,"[67, 87, 619, 378]",cars_test/00384.jpg
+82,Daewoo Nubira Wagon 2002,"[36, 71, 607, 385]",cars_train/05593.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[29, 31, 181, 119]",cars_test/05361.jpg
+6,Acura Integra Type R 2001,"[83, 28, 490, 307]",cars_test/05230.jpg
+145,Jeep Patriot SUV 2012,"[518, 493, 1090, 981]",cars_train/05297.jpg
+102,Ferrari California Convertible 2012,"[15, 26, 476, 300]",cars_test/02553.jpg
+63,Chevrolet Sonic Sedan 2012,"[78, 95, 999, 667]",cars_train/01190.jpg
+170,Nissan Juke Hatchback 2012,"[113, 89, 953, 1469]",cars_train/04853.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[74, 274, 1011, 598]",cars_test/04239.jpg
+192,Volkswagen Beetle Hatchback 2012,"[34, 145, 962, 622]",cars_test/06124.jpg
+31,BMW 6 Series Convertible 2007,"[13, 106, 291, 222]",cars_test/04836.jpg
+73,Chevrolet Malibu Sedan 2007,"[23, 78, 383, 254]",cars_train/01042.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[12, 28, 295, 186]",cars_test/07712.jpg
+149,Jeep Compass SUV 2012,"[38, 32, 729, 484]",cars_test/02685.jpg
+149,Jeep Compass SUV 2012,"[91, 53, 579, 325]",cars_train/04193.jpg
+12,Audi RS 4 Convertible 2008,"[24, 56, 283, 174]",cars_test/04631.jpg
+24,Audi S4 Sedan 2007,"[70, 1, 1597, 1099]",cars_train/02680.jpg
+172,Plymouth Neon Coupe 1999,"[19, 74, 1013, 659]",cars_train/06144.jpg
+103,Ferrari 458 Italia Convertible 2012,"[70, 15, 399, 173]",cars_test/04444.jpg
+90,Dodge Dakota Crew Cab 2010,"[45, 14, 261, 191]",cars_train/03132.jpg
+168,Nissan Leaf Hatchback 2012,"[42, 80, 727, 420]",cars_train/04382.jpg
+56,Chevrolet Corvette ZR1 2012,"[69, 21, 450, 275]",cars_test/07683.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[355, 323, 1316, 897]",cars_train/01331.jpg
+130,Hyundai Veloster Hatchback 2012,"[74, 1, 1448, 855]",cars_train/01286.jpg
+131,Hyundai Santa Fe SUV 2012,"[18, 53, 244, 175]",cars_train/00388.jpg
+59,Chevrolet Camaro Convertible 2012,"[62, 192, 753, 449]",cars_test/04418.jpg
+59,Chevrolet Camaro Convertible 2012,"[90, 222, 852, 583]",cars_train/07388.jpg
+14,Audi TTS Coupe 2012,"[18, 33, 190, 117]",cars_train/07586.jpg
+98,Eagle Talon Hatchback 1998,"[44, 99, 525, 371]",cars_train/02710.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[221, 136, 425, 226]",cars_train/04401.jpg
+158,Maybach Landaulet Convertible 2012,"[118, 75, 286, 202]",cars_train/04130.jpg
+111,Ford Ranger SuperCab 2011,"[14, 59, 1266, 744]",cars_test/03602.jpg
+96,Dodge Charger Sedan 2012,"[58, 280, 1561, 979]",cars_test/02159.jpg
+14,Audi TTS Coupe 2012,"[9, 44, 688, 395]",cars_test/00997.jpg
+73,Chevrolet Malibu Sedan 2007,"[22, 55, 283, 178]",cars_test/02144.jpg
+182,Suzuki Kizashi Sedan 2012,"[112, 274, 1534, 886]",cars_train/01922.jpg
+158,Maybach Landaulet Convertible 2012,"[7, 28, 237, 183]",cars_test/06190.jpg
+17,Audi 100 Sedan 1994,"[33, 27, 602, 252]",cars_test/08039.jpg
+15,Audi R8 Coupe 2012,"[128, 111, 547, 320]",cars_train/03909.jpg
+109,Ford Expedition EL SUV 2009,"[90, 42, 340, 265]",cars_train/03232.jpg
+156,Lincoln Town Car Sedan 2011,"[7, 59, 417, 259]",cars_test/01934.jpg
+136,Hyundai Accent Sedan 2012,"[175, 89, 616, 430]",cars_test/03895.jpg
+73,Chevrolet Malibu Sedan 2007,"[50, 89, 584, 387]",cars_train/00419.jpg
+68,Chevrolet TrailBlazer SS 2009,"[46, 48, 431, 303]",cars_test/02475.jpg
+117,Ford Fiesta Sedan 2012,"[12, 1, 252, 108]",cars_test/02526.jpg
+40,Bentley Arnage Sedan 2009,"[28, 27, 277, 155]",cars_train/01650.jpg
+63,Chevrolet Sonic Sedan 2012,"[128, 102, 2540, 1962]",cars_test/02552.jpg
+58,Chevrolet Traverse SUV 2012,"[82, 115, 706, 505]",cars_test/07198.jpg
+86,Dodge Ram Pickup 3500 Crew Cab 2010,"[159, 140, 509, 339]",cars_test/06303.jpg
+194,Volvo 240 Sedan 1993,"[124, 151, 786, 421]",cars_test/03305.jpg
+157,MINI Cooper Roadster Convertible 2012,"[107, 87, 398, 271]",cars_train/05505.jpg
+193,Volvo C30 Hatchback 2012,"[57, 59, 539, 285]",cars_test/04204.jpg
+157,MINI Cooper Roadster Convertible 2012,"[18, 16, 274, 196]",cars_test/06370.jpg
+137,Hyundai Genesis Sedan 2012,"[97, 128, 435, 389]",cars_test/06343.jpg
+180,Spyker C8 Coupe 2009,"[91, 23, 575, 357]",cars_test/06984.jpg
+79,Chrysler 300 SRT-8 2010,"[68, 137, 663, 402]",cars_test/04253.jpg
+136,Hyundai Accent Sedan 2012,"[55, 91, 986, 613]",cars_test/03318.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[7, 41, 83, 64]",cars_train/06284.jpg
+101,Ferrari FF Coupe 2012,"[13, 167, 465, 293]",cars_train/05608.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[23, 92, 633, 402]",cars_test/07045.jpg
+189,Toyota 4Runner SUV 2012,"[71, 167, 567, 402]",cars_train/03692.jpg
+108,Ford Freestar Minivan 2007,"[1, 1, 519, 269]",cars_test/05883.jpg
+168,Nissan Leaf Hatchback 2012,"[188, 53, 758, 411]",cars_test/04796.jpg
+184,Suzuki SX4 Sedan 2012,"[118, 93, 380, 317]",cars_train/00719.jpg
+117,Ford Fiesta Sedan 2012,"[33, 128, 581, 458]",cars_train/00427.jpg
+133,Hyundai Veracruz SUV 2012,"[134, 121, 929, 515]",cars_test/00370.jpg
+193,Volvo C30 Hatchback 2012,"[135, 95, 481, 367]",cars_test/06949.jpg
+110,Ford Edge SUV 2012,"[39, 135, 512, 346]",cars_train/02977.jpg
+93,Dodge Challenger SRT8 2011,"[1, 200, 1278, 817]",cars_test/04489.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[58, 117, 497, 311]",cars_test/00894.jpg
+7,Acura ZDX Hatchback 2012,"[88, 292, 1202, 770]",cars_test/04583.jpg
+178,Scion xD Hatchback 2012,"[37, 415, 1528, 1060]",cars_train/02293.jpg
+33,BMW X6 SUV 2012,"[80, 51, 650, 409]",cars_train/06714.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[20, 127, 584, 370]",cars_test/07191.jpg
+181,Suzuki Aerio Sedan 2007,"[19, 62, 387, 288]",cars_test/01172.jpg
+15,Audi R8 Coupe 2012,"[1, 69, 280, 228]",cars_train/00311.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[30, 36, 452, 237]",cars_train/01842.jpg
+36,BMW M6 Convertible 2010,"[5, 42, 636, 473]",cars_train/06203.jpg
+68,Chevrolet TrailBlazer SS 2009,"[45, 108, 468, 306]",cars_test/06565.jpg
+29,BMW 3 Series Sedan 2012,"[62, 81, 257, 185]",cars_train/01493.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[20, 164, 980, 713]",cars_test/01166.jpg
+93,Dodge Challenger SRT8 2011,"[37, 235, 729, 542]",cars_test/06516.jpg
+140,Hyundai Azera Sedan 2012,"[135, 36, 1181, 885]",cars_train/00145.jpg
+150,Lamborghini Reventon Coupe 2008,"[97, 48, 569, 290]",cars_test/02801.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[1, 16, 212, 134]",cars_test/02317.jpg
+60,Chevrolet HHR SS 2010,"[9, 29, 259, 153]",cars_train/06667.jpg
+150,Lamborghini Reventon Coupe 2008,"[92, 108, 442, 340]",cars_test/01003.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[5, 56, 495, 210]",cars_train/01841.jpg
+13,Audi A5 Coupe 2012,"[18, 34, 470, 346]",cars_test/01457.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[31, 21, 258, 171]",cars_test/02306.jpg
+14,Audi TTS Coupe 2012,"[12, 61, 606, 259]",cars_test/01236.jpg
+192,Volkswagen Beetle Hatchback 2012,"[135, 95, 1142, 789]",cars_train/05977.jpg
+147,Jeep Liberty SUV 2012,"[21, 99, 576, 429]",cars_test/03840.jpg
+96,Dodge Charger Sedan 2012,"[40, 76, 584, 315]",cars_train/07832.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[127, 627, 1993, 1308]",cars_train/01074.jpg
+133,Hyundai Veracruz SUV 2012,"[71, 87, 591, 380]",cars_train/07179.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[23, 89, 617, 479]",cars_train/04245.jpg
+181,Suzuki Aerio Sedan 2007,"[107, 143, 494, 332]",cars_test/03079.jpg
+119,GMC Savana Van 2012,"[32, 151, 886, 619]",cars_test/07308.jpg
+112,Ford GT Coupe 2006,"[328, 242, 847, 397]",cars_train/05846.jpg
+30,BMW 3 Series Wagon 2012,"[39, 76, 969, 593]",cars_train/01395.jpg
+150,Lamborghini Reventon Coupe 2008,"[6, 65, 398, 228]",cars_test/03964.jpg
+31,BMW 6 Series Convertible 2007,"[34, 90, 452, 352]",cars_train/06443.jpg
+40,Bentley Arnage Sedan 2009,"[10, 102, 641, 373]",cars_test/02407.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[7, 65, 257, 158]",cars_test/00763.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[1, 8, 85, 53]",cars_test/00900.jpg
+47,Buick Regal GS 2012,"[34, 287, 568, 584]",cars_train/02988.jpg
+21,Audi S5 Convertible 2012,"[359, 44, 743, 440]",cars_test/04165.jpg
+157,MINI Cooper Roadster Convertible 2012,"[78, 111, 457, 274]",cars_test/02845.jpg
+93,Dodge Challenger SRT8 2011,"[37, 334, 1486, 1120]",cars_train/01804.jpg
+29,BMW 3 Series Sedan 2012,"[2, 186, 561, 504]",cars_test/03265.jpg
+173,Porsche Panamera Sedan 2012,"[166, 543, 887, 903]",cars_train/00049.jpg
+40,Bentley Arnage Sedan 2009,"[140, 255, 1158, 711]",cars_test/07371.jpg
+195,Volvo XC90 SUV 2007,"[31, 62, 621, 414]",cars_train/07413.jpg
+112,Ford GT Coupe 2006,"[18, 274, 789, 507]",cars_test/03999.jpg
+114,Ford F-150 Regular Cab 2007,"[17, 20, 242, 182]",cars_test/07145.jpg
+27,BMW 1 Series Convertible 2012,"[62, 127, 732, 442]",cars_test/06759.jpg
+73,Chevrolet Malibu Sedan 2007,"[12, 43, 384, 177]",cars_test/06654.jpg
+160,McLaren MP4-12C Coupe 2012,"[11, 4, 289, 180]",cars_train/05097.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[93, 153, 807, 472]",cars_train/06706.jpg
+152,Lamborghini Gallardo LP 570-4 Superleggera 2012,"[252, 167, 483, 266]",cars_train/01666.jpg
+37,BMW X3 SUV 2012,"[28, 116, 440, 339]",cars_test/06517.jpg
+179,Spyker C8 Convertible 2009,"[51, 146, 650, 360]",cars_test/03132.jpg
+132,Hyundai Tucson SUV 2012,"[75, 69, 690, 529]",cars_test/00776.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[33, 71, 615, 435]",cars_train/00314.jpg
+104,Ferrari 458 Italia Coupe 2012,"[159, 191, 613, 336]",cars_test/07275.jpg
+136,Hyundai Accent Sedan 2012,"[48, 171, 678, 400]",cars_train/07915.jpg
+147,Jeep Liberty SUV 2012,"[276, 83, 654, 352]",cars_train/04922.jpg
+189,Toyota 4Runner SUV 2012,"[5, 57, 584, 389]",cars_test/02396.jpg
+122,GMC Canyon Extended Cab 2012,"[24, 102, 583, 441]",cars_test/02316.jpg
+91,Dodge Dakota Club Cab 2007,"[56, 299, 1266, 721]",cars_train/00287.jpg
+142,Infiniti QX56 SUV 2011,"[34, 181, 619, 401]",cars_test/01254.jpg
+75,Chevrolet Silverado 1500 Regular Cab 2012,"[32, 125, 600, 342]",cars_test/05858.jpg
+188,Toyota Corolla Sedan 2012,"[48, 31, 539, 470]",cars_train/03628.jpg
+140,Hyundai Azera Sedan 2012,"[64, 251, 1221, 664]",cars_test/06863.jpg
+111,Ford Ranger SuperCab 2011,"[24, 41, 270, 158]",cars_train/01238.jpg
+177,Rolls-Royce Phantom Sedan 2012,"[4, 70, 321, 215]",cars_train/07807.jpg
+37,BMW X3 SUV 2012,"[111, 18, 531, 264]",cars_test/05459.jpg
+196,smart fortwo Convertible 2012,"[104, 165, 416, 381]",cars_train/06870.jpg
+135,Hyundai Elantra Sedan 2007,"[36, 93, 481, 344]",cars_train/03705.jpg
+88,Dodge Sprinter Cargo Van 2009,"[36, 127, 620, 458]",cars_test/03599.jpg
+160,McLaren MP4-12C Coupe 2012,"[14, 56, 279, 152]",cars_test/05537.jpg
+183,Suzuki SX4 Hatchback 2012,"[94, 59, 888, 523]",cars_test/04794.jpg
+126,Honda Odyssey Minivan 2012,"[50, 75, 611, 414]",cars_test/06673.jpg
+1,AM General Hummer SUV 2000,"[31, 20, 226, 119]",cars_test/00457.jpg
+119,GMC Savana Van 2012,"[41, 147, 607, 350]",cars_test/07996.jpg
+83,Dodge Caliber Wagon 2012,"[9, 50, 250, 142]",cars_test/02850.jpg
+101,Ferrari FF Coupe 2012,"[10, 340, 1591, 950]",cars_train/02003.jpg
+172,Plymouth Neon Coupe 1999,"[27, 229, 1266, 870]",cars_test/06799.jpg
+73,Chevrolet Malibu Sedan 2007,"[12, 83, 629, 354]",cars_train/00161.jpg
+63,Chevrolet Sonic Sedan 2012,"[82, 1059, 1149, 1639]",cars_train/03035.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[129, 192, 802, 532]",cars_test/06499.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[31, 61, 427, 260]",cars_test/02406.jpg
+56,Chevrolet Corvette ZR1 2012,"[16, 39, 296, 170]",cars_test/01039.jpg
+121,GMC Acadia SUV 2012,"[147, 38, 897, 696]",cars_train/03375.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[22, 50, 265, 144]",cars_test/02111.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[9, 26, 639, 452]",cars_test/03587.jpg
+9,Aston Martin V8 Vantage Coupe 2012,"[58, 293, 803, 581]",cars_test/06212.jpg
+32,BMW X5 SUV 2007,"[9, 92, 480, 311]",cars_train/03617.jpg
+190,Volkswagen Golf Hatchback 2012,"[56, 31, 587, 452]",cars_train/05766.jpg
+129,Honda Accord Sedan 2012,"[4, 6, 261, 99]",cars_train/06724.jpg
+79,Chrysler 300 SRT-8 2010,"[20, 116, 608, 407]",cars_test/05637.jpg
+74,Chevrolet Silverado 1500 Extended Cab 2012,"[6, 209, 625, 427]",cars_test/01504.jpg
+103,Ferrari 458 Italia Convertible 2012,"[36, 135, 569, 365]",cars_test/03338.jpg
+63,Chevrolet Sonic Sedan 2012,"[87, 39, 865, 677]",cars_test/05165.jpg
+138,Hyundai Sonata Sedan 2012,"[29, 118, 554, 372]",cars_test/01113.jpg
+26,BMW ActiveHybrid 5 Sedan 2012,"[8, 13, 622, 267]",cars_train/07880.jpg
+95,Dodge Durango SUV 2007,"[9, 23, 293, 166]",cars_train/06319.jpg
+42,Bentley Continental GT Coupe 2012,"[30, 320, 938, 740]",cars_test/02012.jpg
+38,BMW Z4 Convertible 2012,"[17, 42, 258, 145]",cars_train/07027.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[80, 123, 419, 293]",cars_train/01950.jpg
+35,BMW M5 Sedan 2010,"[38, 56, 349, 232]",cars_test/00599.jpg
+112,Ford GT Coupe 2006,"[55, 193, 1716, 1024]",cars_test/04672.jpg
+99,FIAT 500 Abarth 2012,"[169, 129, 414, 278]",cars_train/04255.jpg
+91,Dodge Dakota Club Cab 2007,"[85, 109, 601, 381]",cars_train/00003.jpg
+79,Chrysler 300 SRT-8 2010,"[95, 174, 1215, 770]",cars_train/08107.jpg
+23,Audi S4 Sedan 2012,"[37, 54, 261, 175]",cars_train/00642.jpg
+82,Daewoo Nubira Wagon 2002,"[29, 98, 613, 298]",cars_train/03459.jpg
+22,Audi S5 Coupe 2012,"[80, 104, 284, 196]",cars_train/06756.jpg
+81,Chrysler PT Cruiser Convertible 2008,"[47, 27, 602, 390]",cars_test/00151.jpg
+60,Chevrolet HHR SS 2010,"[75, 121, 603, 370]",cars_train/00714.jpg
+115,Ford Focus Sedan 2007,"[55, 90, 555, 378]",cars_test/05129.jpg
+19,Audi TT Hatchback 2011,"[45, 91, 553, 346]",cars_test/03608.jpg
+52,Cadillac SRX SUV 2012,"[6, 1, 295, 213]",cars_test/02489.jpg
+8,Aston Martin V8 Vantage Convertible 2012,"[17, 46, 247, 156]",cars_train/05534.jpg
+41,Bentley Mulsanne Sedan 2011,"[40, 349, 571, 613]",cars_train/00732.jpg
+88,Dodge Sprinter Cargo Van 2009,"[10, 1, 102, 85]",cars_train/05342.jpg
+92,Dodge Magnum Wagon 2008,"[53, 253, 2179, 1571]",cars_test/02114.jpg
+43,Bentley Continental GT Coupe 2007,"[45, 34, 706, 392]",cars_train/07353.jpg
+139,Hyundai Elantra Touring Hatchback 2012,"[10, 49, 595, 311]",cars_train/01475.jpg
+188,Toyota Corolla Sedan 2012,"[8, 66, 249, 164]",cars_train/05956.jpg
+22,Audi S5 Coupe 2012,"[19, 96, 469, 266]",cars_train/00785.jpg
+89,Dodge Journey SUV 2012,"[49, 108, 605, 398]",cars_test/02014.jpg
+25,Audi TT RS Coupe 2012,"[112, 190, 697, 483]",cars_train/06593.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[30, 78, 624, 408]",cars_test/07513.jpg
+172,Plymouth Neon Coupe 1999,"[87, 54, 581, 391]",cars_train/04304.jpg
+195,Volvo XC90 SUV 2007,"[13, 147, 787, 450]",cars_train/03995.jpg
+32,BMW X5 SUV 2007,"[36, 199, 974, 733]",cars_test/07928.jpg
+45,Bugatti Veyron 16.4 Convertible 2009,"[53, 1, 396, 347]",cars_train/07296.jpg
+158,Maybach Landaulet Convertible 2012,"[41, 55, 150, 148]",cars_test/00468.jpg
+134,Hyundai Sonata Hybrid Sedan 2012,"[19, 32, 251, 164]",cars_test/05717.jpg
+160,McLaren MP4-12C Coupe 2012,"[76, 52, 530, 373]",cars_train/02964.jpg
+126,Honda Odyssey Minivan 2012,"[43, 102, 935, 588]",cars_train/03895.jpg
+162,Mercedes-Benz C-Class Sedan 2012,"[32, 20, 603, 450]",cars_test/06268.jpg
+188,Toyota Corolla Sedan 2012,"[24, 45, 262, 179]",cars_train/07410.jpg
+29,BMW 3 Series Sedan 2012,"[20, 304, 2044, 1399]",cars_test/00516.jpg
+119,GMC Savana Van 2012,"[1, 20, 140, 82]",cars_train/08025.jpg
+121,GMC Acadia SUV 2012,"[145, 53, 771, 376]",cars_test/06446.jpg
+176,Rolls-Royce Ghost Sedan 2012,"[44, 92, 446, 309]",cars_test/06887.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[72, 16, 415, 286]",cars_train/02815.jpg
+125,HUMMER H2 SUT Crew Cab 2009,"[22, 61, 277, 185]",cars_test/00489.jpg
+61,Chevrolet Impala Sedan 2007,"[21, 164, 607, 359]",cars_train/06618.jpg
+167,Mitsubishi Lancer Sedan 2012,"[41, 110, 1005, 637]",cars_train/02826.jpg
+94,Dodge Durango SUV 2012,"[34, 72, 919, 554]",cars_train/07332.jpg
+93,Dodge Challenger SRT8 2011,"[232, 154, 558, 375]",cars_test/07503.jpg
+113,Ford F-150 Regular Cab 2012,"[27, 32, 252, 168]",cars_train/06463.jpg
+157,MINI Cooper Roadster Convertible 2012,"[457, 249, 2033, 1105]",cars_test/06823.jpg
+87,Dodge Ram Pickup 3500 Quad Cab 2009,"[15, 139, 624, 343]",cars_test/06178.jpg
+187,Toyota Camry Sedan 2012,"[30, 195, 996, 591]",cars_test/00626.jpg
+107,Ford Mustang Convertible 2007,"[13, 32, 237, 173]",cars_test/02576.jpg
+55,Chevrolet Corvette Convertible 2012,"[235, 247, 1396, 823]",cars_test/03160.jpg
+103,Ferrari 458 Italia Convertible 2012,"[358, 366, 1300, 860]",cars_train/06003.jpg
+84,Dodge Caliber Wagon 2007,"[18, 84, 254, 175]",cars_train/04831.jpg
+145,Jeep Patriot SUV 2012,"[25, 50, 625, 431]",cars_train/07873.jpg
+58,Chevrolet Traverse SUV 2012,"[27, 71, 630, 422]",cars_train/00359.jpg
+127,Honda Odyssey Minivan 2007,"[93, 20, 374, 260]",cars_test/03467.jpg
+184,Suzuki SX4 Sedan 2012,"[3, 81, 778, 561]",cars_test/08036.jpg
+179,Spyker C8 Convertible 2009,"[1, 31, 495, 436]",cars_test/03789.jpg
+163,Mercedes-Benz SL-Class Coupe 2009,"[83, 83, 604, 394]",cars_train/02979.jpg
+23,Audi S4 Sedan 2012,"[394, 379, 1624, 1033]",cars_train/00988.jpg
+104,Ferrari 458 Italia Coupe 2012,"[20, 61, 588, 376]",cars_train/06098.jpg
+169,Nissan NV Passenger Van 2012,"[17, 84, 621, 391]",cars_test/05827.jpg
+3,Acura TL Sedan 2012,"[51, 57, 590, 402]",cars_train/01750.jpg
+116,Ford E-Series Wagon Van 2012,"[96, 49, 813, 514]",cars_test/03065.jpg
+40,Bentley Arnage Sedan 2009,"[61, 240, 1154, 703]",cars_train/05875.jpg
+7,Acura ZDX Hatchback 2012,"[189, 198, 756, 468]",cars_train/05349.jpg
+149,Jeep Compass SUV 2012,"[154, 120, 1051, 783]",cars_train/03255.jpg
+96,Dodge Charger Sedan 2012,"[34, 79, 749, 461]",cars_train/00875.jpg
+80,Chrysler Crossfire Convertible 2008,"[120, 380, 1333, 1018]",cars_test/02638.jpg
+50,Buick Enclave SUV 2012,"[170, 381, 885, 735]",cars_train/07894.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[108, 129, 754, 465]",cars_test/04002.jpg
+3,Acura TL Sedan 2012,"[14, 67, 482, 302]",cars_train/05967.jpg
+167,Mitsubishi Lancer Sedan 2012,"[36, 122, 3433, 1518]",cars_train/03230.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[47, 99, 595, 455]",cars_test/07761.jpg
+155,Land Rover LR2 SUV 2012,"[104, 102, 915, 581]",cars_train/02542.jpg
+34,BMW M3 Coupe 2012,"[32, 70, 212, 176]",cars_train/03865.jpg
+10,Aston Martin Virage Convertible 2012,"[36, 116, 571, 312]",cars_train/05579.jpg
+114,Ford F-150 Regular Cab 2007,"[174, 243, 846, 546]",cars_train/00824.jpg
+191,Volkswagen Golf Hatchback 1991,"[13, 99, 627, 389]",cars_test/04519.jpg
+182,Suzuki Kizashi Sedan 2012,"[64, 151, 768, 405]",cars_train/04332.jpg
+19,Audi TT Hatchback 2011,"[116, 121, 501, 339]",cars_train/05572.jpg
+85,Dodge Caravan Minivan 1997,"[2, 51, 624, 409]",cars_train/06119.jpg
+180,Spyker C8 Coupe 2009,"[30, 22, 536, 327]",cars_test/05655.jpg
+110,Ford Edge SUV 2012,"[178, 163, 729, 452]",cars_train/04144.jpg
+51,Cadillac CTS-V Sedan 2012,"[39, 41, 223, 148]",cars_test/00556.jpg
+117,Ford Fiesta Sedan 2012,"[48, 2, 249, 155]",cars_test/00274.jpg
+19,Audi TT Hatchback 2011,"[16, 39, 260, 178]",cars_test/03812.jpg
+91,Dodge Dakota Club Cab 2007,"[1, 43, 1278, 806]",cars_train/06359.jpg
+66,Chevrolet Cobalt SS 2010,"[146, 274, 1153, 775]",cars_train/02947.jpg
+34,BMW M3 Coupe 2012,"[53, 31, 460, 330]",cars_train/07034.jpg
+98,Eagle Talon Hatchback 1998,"[39, 10, 342, 285]",cars_test/05468.jpg
+11,Aston Martin Virage Coupe 2012,"[84, 107, 496, 254]",cars_train/01767.jpg
+151,Lamborghini Aventador Coupe 2012,"[268, 144, 1645, 1078]",cars_train/02471.jpg
+168,Nissan Leaf Hatchback 2012,"[43, 97, 650, 413]",cars_test/06960.jpg
+189,Toyota 4Runner SUV 2012,"[16, 21, 273, 163]",cars_test/03950.jpg
+32,BMW X5 SUV 2007,"[10, 1, 292, 213]",cars_train/07311.jpg
+113,Ford F-150 Regular Cab 2012,"[8, 22, 250, 183]",cars_test/02327.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[17, 123, 586, 333]",cars_test/02491.jpg
+54,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,"[12, 85, 557, 361]",cars_test/02063.jpg
+191,Volkswagen Golf Hatchback 1991,"[100, 52, 719, 405]",cars_test/00045.jpg
+148,Jeep Grand Cherokee SUV 2012,"[92, 75, 509, 389]",cars_test/04035.jpg
+41,Bentley Mulsanne Sedan 2011,"[108, 161, 620, 404]",cars_test/02879.jpg
+137,Hyundai Genesis Sedan 2012,"[51, 1, 561, 273]",cars_test/00656.jpg
+112,Ford GT Coupe 2006,"[11, 210, 1011, 600]",cars_train/06615.jpg
+154,Land Rover Range Rover SUV 2012,"[17, 13, 457, 328]",cars_train/07580.jpg
+66,Chevrolet Cobalt SS 2010,"[44, 123, 778, 487]",cars_train/00126.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[182, 279, 965, 674]",cars_test/03660.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[75, 29, 465, 323]",cars_test/07563.jpg
+101,Ferrari FF Coupe 2012,"[712, 742, 1192, 976]",cars_test/06147.jpg
+171,Nissan 240SX Coupe 1998,"[56, 59, 985, 532]",cars_train/02510.jpg
+28,BMW 1 Series Coupe 2012,"[29, 88, 1457, 681]",cars_train/07155.jpg
+51,Cadillac CTS-V Sedan 2012,"[24, 51, 276, 192]",cars_train/07910.jpg
+98,Eagle Talon Hatchback 1998,"[163, 319, 1588, 1027]",cars_train/03264.jpg
+56,Chevrolet Corvette ZR1 2012,"[30, 71, 951, 689]",cars_test/04327.jpg
+96,Dodge Charger Sedan 2012,"[61, 42, 614, 373]",cars_test/00615.jpg
+96,Dodge Charger Sedan 2012,"[456, 363, 1433, 905]",cars_train/04543.jpg
+106,Ford F-450 Super Duty Crew Cab 2012,"[129, 38, 326, 114]",cars_train/06775.jpg
+151,Lamborghini Aventador Coupe 2012,"[71, 204, 686, 371]",cars_train/01684.jpg
+21,Audi S5 Convertible 2012,"[11, 39, 296, 200]",cars_test/00102.jpg
+65,Chevrolet Avalanche Crew Cab 2012,"[24, 188, 582, 433]",cars_train/07603.jpg
+11,Aston Martin Virage Coupe 2012,"[70, 351, 1214, 677]",cars_test/00809.jpg
+165,Mercedes-Benz S-Class Sedan 2012,"[17, 72, 602, 386]",cars_train/06451.jpg
+90,Dodge Dakota Crew Cab 2010,"[18, 47, 594, 295]",cars_train/05960.jpg
+10,Aston Martin Virage Convertible 2012,"[55, 489, 1994, 1207]",cars_test/06722.jpg
+118,GMC Terrain SUV 2012,"[26, 46, 377, 309]",cars_test/04343.jpg
+128,Honda Accord Coupe 2012,"[14, 199, 625, 398]",cars_train/02908.jpg
+111,Ford Ranger SuperCab 2011,"[36, 117, 365, 263]",cars_test/06134.jpg
+4,Acura TL Type-S 2008,"[21, 41, 786, 297]",cars_test/04702.jpg
+14,Audi TTS Coupe 2012,"[17, 27, 207, 98]",cars_train/06857.jpg
+14,Audi TTS Coupe 2012,"[24, 43, 233, 170]",cars_test/06404.jpg
+76,Chrysler Aspen SUV 2009,"[129, 94, 502, 382]",cars_train/02106.jpg
+51,Cadillac CTS-V Sedan 2012,"[17, 35, 458, 256]",cars_train/07084.jpg
+97,Dodge Charger SRT-8 2009,"[8, 72, 143, 179]",cars_test/06658.jpg
+133,Hyundai Veracruz SUV 2012,"[24, 35, 620, 438]",cars_train/00185.jpg
+18,Audi 100 Wagon 1994,"[68, 18, 713, 439]",cars_train/07213.jpg
+137,Hyundai Genesis Sedan 2012,"[17, 74, 624, 425]",cars_train/01304.jpg
+109,Ford Expedition EL SUV 2009,"[23, 59, 457, 274]",cars_test/06189.jpg
+102,Ferrari California Convertible 2012,"[19, 192, 492, 397]",cars_test/04786.jpg
+102,Ferrari California Convertible 2012,"[233, 118, 698, 374]",cars_train/05490.jpg
+77,Chrysler Sebring Convertible 2010,"[94, 85, 721, 460]",cars_test/02049.jpg
+115,Ford Focus Sedan 2007,"[12, 34, 398, 254]",cars_train/02581.jpg
+34,BMW M3 Coupe 2012,"[19, 1, 253, 155]",cars_test/01281.jpg
+17,Audi 100 Sedan 1994,"[67, 41, 198, 155]",cars_test/05246.jpg
+107,Ford Mustang Convertible 2007,"[12, 64, 254, 140]",cars_train/05160.jpg
+111,Ford Ranger SuperCab 2011,"[68, 52, 661, 349]",cars_train/07158.jpg
+186,Toyota Sequoia SUV 2012,"[33, 56, 408, 294]",cars_train/00599.jpg
+153,Lamborghini Diablo Coupe 2001,"[7, 25, 638, 440]",cars_test/02094.jpg
+191,Volkswagen Golf Hatchback 1991,"[185, 58, 830, 604]",cars_train/04005.jpg
+94,Dodge Durango SUV 2012,"[47, 35, 590, 403]",cars_train/05103.jpg
+185,Tesla Model S Sedan 2012,"[31, 52, 574, 402]",cars_test/02785.jpg
+27,BMW 1 Series Convertible 2012,"[50, 111, 602, 351]",cars_test/00360.jpg
+20,Audi S6 Sedan 2011,"[70, 52, 503, 266]",cars_train/01643.jpg
+138,Hyundai Sonata Sedan 2012,"[2, 11, 222, 115]",cars_train/00582.jpg
+144,Jaguar XK XKR 2012,"[138, 377, 927, 731]",cars_test/05739.jpg
+120,GMC Yukon Hybrid SUV 2012,"[42, 55, 617, 425]",cars_test/03339.jpg
+97,Dodge Charger SRT-8 2009,"[59, 210, 983, 567]",cars_test/03870.jpg
+50,Buick Enclave SUV 2012,"[201, 226, 558, 409]",cars_test/00579.jpg
+69,Chevrolet Silverado 2500HD Regular Cab 2012,"[40, 176, 452, 322]",cars_test/05874.jpg
+113,Ford F-150 Regular Cab 2012,"[81, 70, 515, 292]",cars_test/07849.jpg
+39,Bentley Continental Supersports Conv. Convertible 2012,"[39, 37, 271, 203]",cars_test/03906.jpg
+167,Mitsubishi Lancer Sedan 2012,"[319, 181, 1519, 988]",cars_test/07834.jpg
+105,Fisker Karma Sedan 2012,"[43, 93, 266, 212]",cars_test/06644.jpg
+7,Acura ZDX Hatchback 2012,"[451, 625, 2092, 1763]",cars_train/03790.jpg
+1,AM General Hummer SUV 2000,"[11, 16, 135, 93]",cars_test/01918.jpg
+41,Bentley Mulsanne Sedan 2011,"[9, 13, 506, 259]",cars_test/05701.jpg
+127,Honda Odyssey Minivan 2007,"[56, 70, 594, 316]",cars_test/04289.jpg
+91,Dodge Dakota Club Cab 2007,"[35, 69, 275, 208]",cars_test/04934.jpg
+179,Spyker C8 Convertible 2009,"[41, 120, 589, 315]",cars_train/05247.jpg
+57,Chevrolet Corvette Ron Fellows Edition Z06 2007,"[164, 265, 974, 548]",cars_train/04407.jpg
+44,Bentley Continental Flying Spur Sedan 2007,"[74, 153, 962, 600]",cars_test/02854.jpg
+59,Chevrolet Camaro Convertible 2012,"[109, 142, 530, 323]",cars_train/06883.jpg
+62,Chevrolet Tahoe Hybrid SUV 2012,"[9, 42, 243, 163]",cars_test/06080.jpg
+121,GMC Acadia SUV 2012,"[13, 75, 632, 446]",cars_train/00575.jpg
+60,Chevrolet HHR SS 2010,"[17, 24, 253, 174]",cars_train/03032.jpg
+143,Isuzu Ascender SUV 2008,"[59, 121, 553, 393]",cars_train/03780.jpg
+128,Honda Accord Coupe 2012,"[12, 65, 468, 278]",cars_train/04662.jpg
+149,Jeep Compass SUV 2012,"[81, 85, 565, 405]",cars_train/02720.jpg
+181,Suzuki Aerio Sedan 2007,"[45, 149, 994, 679]",cars_test/05418.jpg
+168,Nissan Leaf Hatchback 2012,"[104, 249, 754, 578]",cars_test/02331.jpg
+104,Ferrari 458 Italia Coupe 2012,"[16, 60, 601, 315]",cars_test/06492.jpg
+129,Honda Accord Sedan 2012,"[31, 69, 288, 157]",cars_train/07687.jpg
+168,Nissan Leaf Hatchback 2012,"[67, 68, 704, 550]",cars_test/07942.jpg
+97,Dodge Charger SRT-8 2009,"[88, 263, 1874, 1358]",cars_test/04815.jpg
+40,Bentley Arnage Sedan 2009,"[50, 56, 228, 127]",cars_test/05119.jpg
+63,Chevrolet Sonic Sedan 2012,"[208, 281, 761, 602]",cars_test/05819.jpg
+85,Dodge Caravan Minivan 1997,"[87, 28, 508, 412]",cars_train/03646.jpg
+50,Buick Enclave SUV 2012,"[74, 110, 603, 369]",cars_test/01143.jpg
+33,BMW X6 SUV 2012,"[25, 8, 500, 302]",cars_test/05743.jpg
+22,Audi S5 Coupe 2012,"[16, 60, 295, 166]",cars_train/05674.jpg
+167,Mitsubishi Lancer Sedan 2012,"[7, 112, 1009, 767]",cars_test/01871.jpg
+140,Hyundai Azera Sedan 2012,"[136, 104, 1074, 594]",cars_test/04889.jpg
+121,GMC Acadia SUV 2012,"[25, 52, 240, 174]",cars_test/04510.jpg
+78,Chrysler Town and Country Minivan 2012,"[17, 31, 289, 178]",cars_train/01946.jpg
+32,BMW X5 SUV 2007,"[11, 16, 248, 178]",cars_test/02920.jpg
+60,Chevrolet HHR SS 2010,"[40, 27, 391, 205]",cars_train/03048.jpg
+189,Toyota 4Runner SUV 2012,"[205, 403, 1741, 1039]",cars_test/01385.jpg
+137,Hyundai Genesis Sedan 2012,"[30, 68, 588, 396]",cars_test/06316.jpg
+5,Acura TSX Sedan 2012,"[101, 314, 894, 612]",cars_train/06850.jpg
+123,Geo Metro Convertible 1993,"[65, 101, 583, 357]",cars_train/07071.jpg
+28,BMW 1 Series Coupe 2012,"[125, 17, 541, 330]",cars_test/00148.jpg
+35,BMW M5 Sedan 2010,"[125, 165, 574, 469]",cars_train/04978.jpg
+157,MINI Cooper Roadster Convertible 2012,"[135, 61, 667, 440]",cars_test/03151.jpg
+153,Lamborghini Diablo Coupe 2001,"[2, 49, 627, 315]",cars_test/07689.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[80, 148, 711, 465]",cars_test/01036.jpg
+94,Dodge Durango SUV 2012,"[56, 126, 557, 410]",cars_test/04824.jpg
+29,BMW 3 Series Sedan 2012,"[234, 276, 2487, 1918]",cars_test/05556.jpg
+30,BMW 3 Series Wagon 2012,"[7, 12, 287, 135]",cars_train/03214.jpg
+195,Volvo XC90 SUV 2007,"[99, 131, 566, 439]",cars_train/07683.jpg
+156,Lincoln Town Car Sedan 2011,"[1, 45, 299, 183]",cars_test/03662.jpg
+115,Ford Focus Sedan 2007,"[37, 102, 605, 389]",cars_train/05065.jpg
+30,BMW 3 Series Wagon 2012,"[26, 16, 468, 219]",cars_test/03362.jpg
+28,BMW 1 Series Coupe 2012,"[1, 82, 900, 564]",cars_test/03751.jpg
+46,Bugatti Veyron 16.4 Coupe 2009,"[161, 116, 708, 409]",cars_test/07107.jpg
+68,Chevrolet TrailBlazer SS 2009,"[17, 47, 252, 177]",cars_train/07784.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[172, 58, 412, 210]",cars_test/03743.jpg
+183,Suzuki SX4 Hatchback 2012,"[67, 71, 713, 451]",cars_train/01523.jpg
+174,Ram C/V Cargo Van Minivan 2012,"[26, 39, 252, 155]",cars_train/06634.jpg
+52,Cadillac SRX SUV 2012,"[86, 23, 542, 324]",cars_test/07132.jpg
+113,Ford F-150 Regular Cab 2012,"[20, 60, 254, 180]",cars_test/03553.jpg
+22,Audi S5 Coupe 2012,"[51, 147, 588, 422]",cars_train/06581.jpg
+161,Mercedes-Benz 300-Class Convertible 1993,"[51, 256, 1007, 585]",cars_train/01218.jpg
+98,Eagle Talon Hatchback 1998,"[2, 53, 446, 203]",cars_train/02869.jpg
+79,Chrysler 300 SRT-8 2010,"[51, 112, 976, 667]",cars_train/01538.jpg
+191,Volkswagen Golf Hatchback 1991,"[32, 156, 1021, 631]",cars_test/03518.jpg
+41,Bentley Mulsanne Sedan 2011,"[23, 32, 229, 146]",cars_test/02587.jpg
+154,Land Rover Range Rover SUV 2012,"[246, 118, 1063, 814]",cars_test/05195.jpg
+130,Hyundai Veloster Hatchback 2012,"[156, 205, 1492, 961]",cars_test/04476.jpg
+15,Audi R8 Coupe 2012,"[30, 52, 385, 190]",cars_train/00686.jpg
+146,Jeep Wrangler SUV 2012,"[220, 153, 415, 263]",cars_train/06797.jpg
+70,Chevrolet Silverado 1500 Classic Extended Cab 2007,"[11, 8, 110, 68]",cars_train/01419.jpg
+170,Nissan Juke Hatchback 2012,"[16, 109, 981, 694]",cars_train/04183.jpg
+11,Aston Martin Virage Coupe 2012,"[80, 134, 708, 456]",cars_train/04166.jpg
+146,Jeep Wrangler SUV 2012,"[258, 349, 966, 786]",cars_train/07719.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[85, 179, 1199, 695]",cars_test/07368.jpg
+107,Ford Mustang Convertible 2007,"[7, 53, 394, 268]",cars_train/02857.jpg
+83,Dodge Caliber Wagon 2012,"[22, 61, 689, 471]",cars_test/03249.jpg
+17,Audi 100 Sedan 1994,"[22, 73, 230, 158]",cars_test/06283.jpg
+49,Buick Verano Sedan 2012,"[34, 73, 394, 292]",cars_train/02801.jpg
+53,Cadillac Escalade EXT Crew Cab 2007,"[25, 172, 677, 457]",cars_train/05835.jpg
+1,AM General Hummer SUV 2000,"[67, 98, 283, 213]",cars_test/03193.jpg
+98,Eagle Talon Hatchback 1998,"[6, 127, 483, 298]",cars_train/06306.jpg
+180,Spyker C8 Coupe 2009,"[97, 141, 930, 535]",cars_test/07756.jpg
+56,Chevrolet Corvette ZR1 2012,"[51, 49, 247, 163]",cars_train/01133.jpg
+68,Chevrolet TrailBlazer SS 2009,"[2, 19, 300, 179]",cars_test/00488.jpg
+187,Toyota Camry Sedan 2012,"[9, 80, 624, 404]",cars_test/06788.jpg
+164,Mercedes-Benz E-Class Sedan 2012,"[732, 282, 1633, 963]",cars_train/07675.jpg
+110,Ford Edge SUV 2012,"[10, 199, 492, 505]",cars_train/03246.jpg
+168,Nissan Leaf Hatchback 2012,"[40, 190, 601, 478]",cars_test/04634.jpg
+178,Scion xD Hatchback 2012,"[44, 178, 564, 402]",cars_train/06927.jpg
+68,Chevrolet TrailBlazer SS 2009,"[30, 1, 234, 127]",cars_test/01424.jpg
+108,Ford Freestar Minivan 2007,"[132, 96, 525, 283]",cars_train/02698.jpg
+55,Chevrolet Corvette Convertible 2012,"[81, 196, 850, 588]",cars_train/05740.jpg
+172,Plymouth Neon Coupe 1999,"[4, 180, 1258, 831]",cars_train/07456.jpg
+22,Audi S5 Coupe 2012,"[35, 66, 228, 167]",cars_test/03521.jpg
+131,Hyundai Santa Fe SUV 2012,"[17, 45, 226, 150]",cars_test/07659.jpg
+145,Jeep Patriot SUV 2012,"[142, 351, 1438, 975]",cars_train/03586.jpg
+50,Buick Enclave SUV 2012,"[103, 7, 549, 278]",cars_train/06702.jpg
+159,Mazda Tribute SUV 2011,"[107, 4, 575, 201]",cars_test/04821.jpg
+170,Nissan Juke Hatchback 2012,"[128, 82, 1952, 1395]",cars_train/01006.jpg
+149,Jeep Compass SUV 2012,"[24, 18, 627, 434]",cars_train/08001.jpg
+61,Chevrolet Impala Sedan 2007,"[25, 189, 617, 386]",cars_train/05833.jpg
+130,Hyundai Veloster Hatchback 2012,"[32, 74, 617, 407]",cars_train/04604.jpg
+16,Audi V8 Sedan 1994,"[32, 79, 378, 221]",cars_train/00261.jpg
+109,Ford Expedition EL SUV 2009,"[4, 1, 223, 120]",cars_train/04692.jpg
+50,Buick Enclave SUV 2012,"[150, 114, 524, 433]",cars_train/00295.jpg
