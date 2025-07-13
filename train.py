@@ -27,7 +27,6 @@ import torch.optim as optim
 from torchvision import models
 from data import StanfordCarsDataset, get_train_transforms, get_val_transforms, get_dataloader
 
-
 # Paths and Constants
 TRAIN_CSV = "dataset/train1/train1.csv"
 VAL_CSV = "dataset/train1/val1.csv"
@@ -35,18 +34,15 @@ IMAGE_DIR = "dataset/"
 NUM_CLASSES = 196
 MODEL_NAME = "resnet101v1"
 
-# Device
 print(f"DEVICE: {"cuda" if torch.cuda.is_available() else "cpu"}")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Datasets and DataLoaders
 print("LOADING DATASETS/DATALOADERS...")
 train_dataset = StanfordCarsDataset(TRAIN_CSV, IMAGE_DIR, transform=get_train_transforms())
 val_dataset = StanfordCarsDataset(VAL_CSV, IMAGE_DIR, transform=get_val_transforms())
 train_loader = get_dataloader(train_dataset, batch_size=32, shuffle=True)
 val_loader = get_dataloader(val_dataset, batch_size=32, shuffle=False)
 
-# Model
 print(f"LOADING MODEL {MODEL_NAME}...")
 if MODEL_NAME == "resnet50v1":
     model = models.resnet50(weights='IMAGENET1K_V1')
@@ -64,18 +60,17 @@ else:
     raise ValueError("Unknown model name")
 model = model.to(device)
 
-# Loss, Optimizer, Scheduler
 print("LOADING LOSS, OPTIMIZER, and SCHEDULER...")
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-4)
 scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
 
-# Training Loop
 print("ENTERING TRAINING/VALIDATION LOOP...")
 NUM_EPOCHS = 10
 best_val_acc = 0.0
 
 for epoch in range(NUM_EPOCHS):
+    # training
     model.train()
     total_loss = 0
     for images, labels in train_loader:
@@ -89,7 +84,7 @@ for epoch in range(NUM_EPOCHS):
 
     scheduler.step()
 
-    # Validation
+    # validation
     model.eval()
     correct, total = 0, 0
     with torch.no_grad():
@@ -101,9 +96,9 @@ for epoch in range(NUM_EPOCHS):
             total += labels.size(0)
 
     val_acc = correct / total
-    print(f"Epoch {epoch+1}: Train Loss={total_loss:.4f} | Val Acc={val_acc:.4f}")
+    print(f"Epoch {epoch+1}: Train Loss={total_loss:.4f} | Val Acc={val_acc:.6f}")
 
-    # Save best model (highest accuracy) to models directory
+    # save best model (highest accuracy) to models directory
     if val_acc > best_val_acc:
         best_val_acc = val_acc
         torch.save(model.state_dict(), f"models/train1/1_{MODEL_NAME}.pth")
