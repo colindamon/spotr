@@ -39,7 +39,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 **Phase 2: Model Prototyping**
 - [X] Select dataset
-- [ ] (WIP!) Build and train baseline model
+- [X] Build and train baseline model
 - [ ] Evaluate car make/trim/year detection
 
 **Phase 3: Interface + Inference**
@@ -68,7 +68,7 @@ spotr/
 │   ├── loader.py
 │   └── transforms.py
 ├── dataset
-│   ├── (extracted Stanford Cars contents, not committed)
+│   ├── (Stanford Cars dataset, not committed)
 │   ├── train0
 │   └── train1
 │       ├── cars_train_annos.csv
@@ -78,15 +78,16 @@ spotr/
 │       └── test1.csv
 ├── models
 │   ├── train0
-│   └── train1
-│       └── (model weights, not committed)
+│   ├── train1
+│   |   ├── spotr_weights.pth (selected production weights, not committed)
+│   |   └── (other model weights, not committed)
+│   └── train-notes.md
 ├── scripts
 │   ├── mat_parser.py
 │   ├── split_trainval.py
 │   ├── split_trainvaltest.py
 │   ├── test_cuda.py
 │   └── test_dataloader.py
-├── project-notes.md
 ├── train.py
 └── eval.py (Phase 2 WIP)
 ```
