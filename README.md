@@ -40,10 +40,10 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 **Phase 2: Model Prototyping**
 - [X] Select dataset
 - [X] Build and train baseline model
-- [ ] Evaluate car make/trim/year detection
+- [x] Evaluate car make/trim/year detection
 
 **Phase 3: Interface + Inference**
-- [ ] Build image upload UI in Streamlit
+- [ ] (WIP!) Build image upload UI in Streamlit
 - [ ] Connect model predictions
 - [ ] Return car specs from prediction output
 
@@ -68,7 +68,7 @@ spotr/
 │   ├── loader.py
 │   └── transforms.py
 ├── dataset
-│   ├── (Stanford Cars dataset, not committed)
+│   ├── (local Stanford Cars dataset)
 │   ├── train0
 │   └── train1
 │       ├── cars_train_annos.csv
@@ -79,9 +79,11 @@ spotr/
 ├── models
 │   ├── train0
 │   ├── train1
-│   |   ├── spotr_weights.pth (selected production weights, not committed)
-│   |   └── (other model weights, not committed)
-│   └── train-notes.md
+│   |   ├── spotr_weights.pth (selected local production weights)
+│   |   └── (other local model weights)
+│   └── model-notes.md
+├── streamlit_app
+│   └── (Current WIP)
 ├── scripts
 │   ├── mat_parser.py
 │   ├── split_trainval.py
@@ -89,7 +91,7 @@ spotr/
 │   ├── test_cuda.py
 │   └── test_dataloader.py
 ├── train.py
-└── eval.py (Phase 2 WIP)
+└── eval.py
 ```
 
 ---
