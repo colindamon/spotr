@@ -44,7 +44,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 **Phase 3: Interface + Inference**
 - [X] Build image upload UI in Streamlit
-- [ ] Connect model predictions
+- [X] Connect model predictions
 - [ ] Return car specs from prediction output
 
 **Phase 4: Backend + Deployment**
@@ -70,12 +70,13 @@ spotr/
 ├── dataset
 │   ├── (local Stanford Cars dataset)
 │   ├── train0
-│   └── train1
-│       ├── cars_train_annos.csv
-│       ├── cars_test_annos.csv
-│       ├── train1.csv
-│       ├── val1.csv
-│       └── test1.csv
+│   ├── train1
+│   |   ├── train1.csv
+│   |   ├── val1.csv
+│   |   └── test1.csv
+│   ├── cars_meta.csv
+│   ├── cars_train_annos.csv
+│   └── cars_test_annos.csv
 ├── models
 │   ├── train0
 │   ├── train1
@@ -83,9 +84,11 @@ spotr/
 │   └── model-notes.md
 ├── streamlit_app
 │   ├── app.py
+│   ├── dataset.py
 │   └── model.py
 ├── scripts
-│   ├── mat_parser.py
+│   ├── mat_class_parser.py
+│   ├── mat_set_parser.py
 │   ├── split_trainval.py
 │   ├── split_trainvaltest.py
 │   ├── test_cuda.py
