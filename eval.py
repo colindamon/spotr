@@ -29,7 +29,7 @@ TEST_CSV = "dataset/train1/test1.csv"
 IMAGE_DIR = "dataset/"
 NUM_CLASSES = 196
 MODEL_NAME = "resnet101v1"
-WEIGHTS_PATH = "models/train1/spotr_weights.pth"
+WEIGHTS_PATH = "models/spotr_weights.pth"
 
 print("LOADING DEVICE, DATASET, and DATALOADER...")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
