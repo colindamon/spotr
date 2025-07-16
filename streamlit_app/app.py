@@ -23,14 +23,21 @@ NOTE: can be run with
 import streamlit as st
 from streamlit_cropper import st_cropper
 from PIL import Image
+from model import load_model, predict
 
+
+# Load model once
+@st.cache_resource
+def get_model():
+    return load_model()
+model = get_model()
+
+# Title and body
 st.set_page_config(page_title="SpotR - Car Recognition", page_icon="🚗", layout="centered")
-
 st.title("SpotR 🚗📷")
 st.markdown("**SpotR** is an AI-powered car recognition tool. Start by uploading a car image and cropping to identify the model and view enthusiast specs.")
 
 uploaded_file = st.file_uploader("Choose a car image...", type=["jpg", "jpeg", "png"])
-
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.subheader("Crop your image")
@@ -40,10 +47,10 @@ if uploaded_file is not None:
     if st.button("Identify Car"):
         st.info("🚧 Model prediction coming soon!")
         # TODO: connect SpotR model
-
 else:
     st.info("Upload an image of a car to get started!")
 
+# Footer
 st.markdown("---")
 st.markdown(
     """
