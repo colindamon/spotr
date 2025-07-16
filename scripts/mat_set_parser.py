@@ -14,23 +14,21 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Parses MAT files from dataset to CSV
+Parses MAT train/test set files from dataset to CSV format
 
-NOTE: filename specifies train/test directory
+Used to create cars_train_annos.csv and cars_test_annos.csv
+(made from original dataset's train/test MAT files)
 """
 
 from scipy.io import loadmat
 import pandas as pd
 
-# load annotation and meta MAT files
-annos_mat = loadmat('dataset/stanford_cars/car_devkit/devkit/cars_test_annos_withlabels.mat')
-meta_mat = loadmat('dataset/stanford_cars/car_devkit/devkit/cars_meta.mat')
+annos_mat = loadmat('dataset/car_devkit/devkit/cars_test_annos_withlabels.mat')
+meta_mat = loadmat('dataset/car_devkit/devkit/cars_meta.mat')
 
-# extract class names and annotations
 class_names = [name[0] for name in meta_mat['class_names'][0]]
 annos = annos_mat['annotations'][0]
 
-# parse MAT file
 records = []
 for anno in annos:
     anno = anno.item()
@@ -45,6 +43,5 @@ for anno in annos:
         'filename': f'cars_test/{filename}'
     })
 
-# write parsed data to CSV file
 df = pd.DataFrame(records)
 df.to_csv('cars_test_annos.csv', index=False)
