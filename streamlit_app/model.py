@@ -21,18 +21,19 @@ import torch
 import torch.nn as nn
 from torchvision import models, transforms
 from PIL import Image
+from dataset import CAR_DATASET_INFO
 
 
 def load_model():
     model = models.resnet101(weights='IMAGENET1K_V1')
-    model.fc = nn.Linear(model.fc.in_features, 196)
+    model.fc = nn.Linear(model.fc.in_features, CAR_DATASET_INFO["num_classes"])
     state_dict = torch.load("models/spotr_weights.pth", map_location="cpu")
     model.load_state_dict(state_dict)
     model.eval()
     return model
 
 
-def preprocess_image(image: Image.Image):
+def _preprocess_image(image: Image.Image):
     transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
@@ -46,7 +47,9 @@ def preprocess_image(image: Image.Image):
 
 
 def predict(image: Image.Image, model):
-    input_tensor = preprocess_image(image)
+    input_tensor = _preprocess_image(image)
     with torch.no_grad():
         outputs = model(input_tensor)
-    return outputs
+        predicted_class_id = outputs.argmax(dim=1).item()
+        class_name = CAR_DATASET_INFO["class_names"][predicted_class_id]
+    return class_name

@@ -45,8 +45,9 @@ if uploaded_file is not None:
     st.image(cropped_img, caption="Cropped Image", use_container_width=True)
 
     if st.button("Identify Car"):
-        st.info("🚧 Model prediction coming soon!")
-        # TODO: connect SpotR model
+        with st.spinner("Predicting..."):
+            predicted_class = predict(cropped_img, model)
+            st.write("Predicted car model:", predicted_class)
 else:
     st.info("Upload an image of a car to get started!")
 
@@ -55,9 +56,9 @@ st.markdown("---")
 st.markdown(
     """
     <div style="display: flex; justify-content: space-between; align-items: center;">
-        <span>Created by a car enthusiast, for car enthusiasts.</span>
+        <span>Made by a passionate car enthusiast. ❤️</span>
         <a href="https://github.com/colindamon" target="_blank">
-            <img src="https://img.shields.io/badge/GitHub-colindamon-181717?style=flat&logo=github" alt="GitHub" style="height:24px;">
+            <img src="https://img.shields.io/badge/colindamon-white?style=flat&logo=github&logoColor=white&logoSize=auto&labelColor=string&color=gray" alt="GitHub" style="height:24px;">
         </a>
     </div>
     """,
