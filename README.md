@@ -43,7 +43,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 - [x] Evaluate car make/trim/year detection
 
 **Phase 3: Interface + Inference**
-- [ ] (WIP!) Build image upload UI in Streamlit
+- [X] Build image upload UI in Streamlit
 - [ ] Connect model predictions
 - [ ] Return car specs from prediction output
 
@@ -79,11 +79,11 @@ spotr/
 ├── models
 │   ├── train0
 │   ├── train1
-│   |   ├── spotr_weights.pth (selected local production weights)
-│   |   └── (other local model weights)
+│   ├── spotr_weights.pth (local model weights)
 │   └── model-notes.md
 ├── streamlit_app
-│   └── (Current WIP)
+│   ├── app.py
+│   └── model.py
 ├── scripts
 │   ├── mat_parser.py
 │   ├── split_trainval.py
