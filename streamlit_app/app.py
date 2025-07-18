@@ -24,30 +24,53 @@ import streamlit as st
 from streamlit_cropper import st_cropper
 from PIL import Image
 from model import load_model, predict
+from car_specs import get_api_key, fetch_car_specs
 
 
-# Load model once
 @st.cache_resource
 def get_model():
     return load_model()
-model = get_model()
+MODEL = get_model()
+API_KEY = get_api_key()
 
-# Title and body
+# Config and title
 st.set_page_config(page_title="SpotR - Car Recognition", page_icon="🚗", layout="centered")
 st.title("SpotR 🚗📷")
-st.markdown("**SpotR** is an AI-powered car recognition tool. Start by uploading a car image and cropping to identify the model and view enthusiast specs.")
 
+# Body
+st.markdown("**SpotR** is an AI-powered car recognition tool. Start by uploading a car image and cropping to identify the model and view enthusiast specs.")
 uploaded_file = st.file_uploader("Choose a car image...", type=["jpg", "jpeg", "png"])
-if uploaded_file is not None:
+
+if uploaded_file:
     image = Image.open(uploaded_file)
     st.subheader("Crop your image")
     cropped_img = st_cropper(image, box_color='red', aspect_ratio=None)
     st.image(cropped_img, caption="Cropped Image", use_container_width=True)
 
+    if cropped_img:
+        st.session_state['cropped_img'] = cropped_img
+
     if st.button("Identify Car"):
         with st.spinner("Predicting..."):
-            predicted_class = predict(cropped_img, model)
-            st.write("Predicted car model:", predicted_class)
+            pred_class = predict(cropped_img, MODEL)
+            st.session_state['pred_class'] = pred_class
+
+    if st.session_state.get('pred_class', None):
+        pred_class = st.session_state['pred_class']
+        st.success(f"Predicted car model: {pred_class}")
+
+        if API_KEY:
+            if st.button("Show Car Specs"):
+                with st.spinner("Fetching specs..."):
+                    specs = fetch_car_specs(pred_class)
+                if specs:
+                    st.subheader("Car Specs:")
+                    for k, v in specs.items():
+                        st.write(f" • **{k.capitalize()}**: {v}")
+                else:
+                    st.warning("No specs were found for this model ):")
+        else:
+            st.info("Add an API key to enable car specs lookup. (See README for instructions)")
 else:
     st.info("Upload an image of a car to get started!")
 
