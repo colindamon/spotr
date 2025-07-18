@@ -24,7 +24,6 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-
 def get_api_key():
     return os.getenv("API_NINJAS_KEY")
 
@@ -56,18 +55,17 @@ def _parse_api_output(raw_out):
     Returns: cleaned data in a dictionary
         (e.g. "engine": "2.2-liter 4-cylinder")
     """
-    cleaned = []
     for entry in raw_out:
         engine = f'{entry["displacement"]}-liter {entry["cylinders"]}-cylinder'
         transmission = "Manual"
         if entry.get("transmission") == "a":
             transmission = "Automatic"
         specs = {
-            "class": entry.get("class"),
+            "class": entry["class"].title(),
             "engine": engine,
-            "fuel_type": entry.get("fuel_type"),
+            "fuel_type": entry["fuel_type"].title(),
             "transmission": transmission,
-            "drivetrain": entry.get("drive"),
+            "drivetrain": entry["drive"].upper(),
         }
     return specs
 
@@ -83,9 +81,7 @@ def fetch_car_specs(pred_class):
         return None
 
     url = "https://api.api-ninjas.com/v1/cars"
-    params = {"year": year,
-              "make": make,
-              "model": model}
+    params = {"year":year, "make":make, "model": model}
     headers = {"X-Api-Key": api_key}
     try:
         response = requests.get(url, headers=headers, params=params, timeout=10)
