@@ -41,6 +41,18 @@ st.title("SpotR 🚗📷")
 st.markdown("**SpotR** is an AI-powered car recognition tool. Start by uploading a car image and cropping to identify the model and view enthusiast specs.")
 uploaded_file = st.file_uploader("Choose a car image...", type=["jpg", "jpeg", "png"])
 
+# Logic to clear old prediction results on new image upload
+if 'last_uploaded_filename' not in st.session_state:
+    st.session_state['last_uploaded_filename'] = None
+
+current_filename = uploaded_file.name if uploaded_file else None
+if (st.session_state['last_uploaded_filename'] is not None and (
+    current_filename != st.session_state['last_uploaded_filename'])):
+    st.session_state.pop('pred_class', None)
+    st.session_state.pop('cropped_img', None)
+st.session_state['last_uploaded_filename'] = current_filename
+
+# Continue body
 if uploaded_file:
     image = Image.open(uploaded_file)
     st.subheader("Crop your image")
