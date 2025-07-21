@@ -54,7 +54,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 ---
 
-## 📂 Directory Structure (Current)
+## 📂 Current Directory Structure
 
 ```bash
 spotr/
@@ -78,8 +78,8 @@ spotr/
 │   ├── cars_train_annos.csv
 │   └── cars_test_annos.csv
 ├── models
-│   ├── train0
-│   ├── train1
+│   ├── train0 (local)
+│   ├── train1 (local)
 │   ├── spotr_weights.pth (local model weights)
 │   └── model-notes.md
 ├── streamlit_app
