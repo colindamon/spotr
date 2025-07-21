@@ -61,11 +61,11 @@ def _parse_api_output(raw_out):
         if entry.get("transmission") == "a":
             transmission = "Automatic"
         specs = {
-            "class": entry["class"].title(),
-            "engine": engine,
-            "fuel_type": entry["fuel_type"].title(),
-            "transmission": transmission,
-            "drivetrain": entry["drive"].upper(),
+            "Class": entry["class"].title(),
+            "Engine": engine,
+            "Fuel Type": entry["fuel_type"].title(),
+            "Transmission": transmission,
+            "Drivetrain": entry["drive"].upper(),
         }
     return specs
 

@@ -78,7 +78,7 @@ if uploaded_file:
                 if specs:
                     st.subheader("Car Specs:")
                     for k, v in specs.items():
-                        st.write(f" • **{k.capitalize()}**: {v}")
+                        st.write(f" • **{k}**: {v}")
                 else:
                     st.warning("No specs were found for this model ):")
         else:
