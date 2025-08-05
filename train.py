@@ -14,10 +14,29 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Model training script for SpotR
+SpotR model training script
 
-DEFAULT MODEL: ResNet101 IMAGENET1K_V1
-NOTE: change paths and constants section as needed
+Usage:
+    Edit the following variables at the top of this script to match
+    your dataset and preferences:
+        - TRAIN_CSV: Path to your training CSV file
+        - VAL_CSV: Path to your validation CSV file
+        - IMAGE_DIR: Path to the image directory
+        - NUM_CLASSES: Number of classes in your dataset
+        - MODEL_NAME: Model architecture 
+            (e.g. 'resnet101v1', 'resnet50v1', etc.)
+        - NUM_EPOCHS: Number of training epochs
+        - optimizer/scheduler parameters
+
+    Then run the script with:
+        python train.py
+
+The script will train a ResNet model on your dataset and save the
+best weights (by validation accuracy) in the models/new_train/
+directory by default.
+
+To use different datasets, models, or hyperparameters, edit the
+relevant variables and rerun the script.
 """
 
 import os
@@ -33,6 +52,7 @@ VAL_CSV = "dataset/train1/val1.csv"
 IMAGE_DIR = "dataset/"
 NUM_CLASSES = 196
 MODEL_NAME = "resnet101v1"
+NUM_EPOCHS = 10
 
 print(f"DEVICE: {"cuda" if torch.cuda.is_available() else "cpu"}")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -66,7 +86,6 @@ optimizer = optim.Adam(model.parameters(), lr=1e-4)
 scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
 
 print("ENTERING TRAINING/VALIDATION LOOP...")
-NUM_EPOCHS = 10
 best_val_acc = 0.0
 
 for epoch in range(NUM_EPOCHS):
@@ -101,7 +120,7 @@ for epoch in range(NUM_EPOCHS):
     # save best model (highest accuracy) to models directory
     if val_acc > best_val_acc:
         best_val_acc = val_acc
-        torch.save(model.state_dict(), f"models/train1/1_{MODEL_NAME}.pth")
+        torch.save(model.state_dict(), f"models/new_train/1_{MODEL_NAME}.pth")
 
 print("EXITING TRAINING/VALIDATION LOOP...")
 print("Training complete! Best validation accuracy:", best_val_acc)

@@ -14,9 +14,27 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-SpotR fine-tuned model evaluation script
+SpotR model evaluation script
 
-NOTE: currently accepts ResNet101 IMAGENET1K_V1 model only
+Usage:
+    Edit the following variables at the top of this script to match
+    your evaluation setup:
+        - TEST_CSV: Path to your test CSV file
+        - IMAGE_DIR: Path to the image directory
+        - NUM_CLASSES: Number of classes in your dataset
+        - MODEL_NAME: Model architecture
+            (e.g. 'resnet101v1', 'resnet50v1', etc.)
+        - WEIGHTS_PATH: Path to the trained model weights
+
+    Then run the script with:
+        python train.py
+
+The script will evaluate your trained model on the test set, print
+accuracy, and show a classification report. To additionally output
+a confusion matrix, uncomment the final two lines in this script.
+
+To use different datasets, models, or weight files, edit the
+relevant variables and rerun the script.
 """
 
 import torch
