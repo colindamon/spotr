@@ -37,8 +37,17 @@ test_dataset = StanfordCarsDataset(TEST_CSV, IMAGE_DIR, transform=get_val_transf
 test_loader = get_dataloader(test_dataset, batch_size=32, shuffle=False)
 
 print("LOADING MODEL and WEIGHTS...")
-if MODEL_NAME == "resnet101v1":
+if MODEL_NAME == "resnet50v1":
+    model = models.resnet50(weights='IMAGENET1K_V1')
+    model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
+elif MODEL_NAME == "resnet50v2":
+    model = models.resnet50(weights='IMAGENET1K_V2')
+    model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
+elif MODEL_NAME == "resnet101v1":
     model = models.resnet101(weights='IMAGENET1K_V1')
+    model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
+elif MODEL_NAME == "resnet101v2":
+    model = models.resnet101(weights='IMAGENET1K_V2')
     model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
 else:
     raise ValueError("Unknown model name")
