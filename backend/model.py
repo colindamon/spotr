@@ -14,7 +14,13 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Controls all model-related actions for web interface (`app.py`)
+Model API module for SpotR FastAPI backend
+
+Responsibilities:
+ - Load deep learning model and its weights
+ - Preprocess uploaded images to match evaluation requirements
+ - Run inference logic to make a prediction on car class
+ - Map class ID to readable class name
 """
 
 import torch

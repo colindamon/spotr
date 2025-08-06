@@ -14,7 +14,11 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Contains dictionary on dataset info for use in `model.py`
+Dataset information and utilities for SpotR FastAPI backend
+
+Responsibilities:
+ - Provide mappings and metadata for class indices and names
+ - Serve as a reference for model inference outputs
 """
 
 CAR_DATASET_INFO = {
