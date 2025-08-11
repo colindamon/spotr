@@ -27,6 +27,8 @@ This is the entry point for the SpotR backend service.
 from fastapi import FastAPI, File, UploadFile, Query
 from model import load_model, predict
 from car_specs import fetch_car_specs
+from PIL import Image
+import io
 
 
 app = FastAPI()
@@ -36,7 +38,8 @@ MODEL = load_model()
 @app.post("/predict")
 async def predict_route(file: UploadFile):
     image_bytes = await file.read()
-    pred_class = predict(image_bytes, MODEL)
+    image = Image.open(io.BytesIO(image_bytes))
+    pred_class = predict(image, MODEL)
     return {"pred_class": pred_class}
 
 
