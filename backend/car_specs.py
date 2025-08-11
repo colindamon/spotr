@@ -16,10 +16,10 @@
 """
 Car specs API client module for SpotR FastAPI backend
 
-Responsible for:
- - Constructing and sending requests to API Ninja's CarAPI for specs
- - Parsing a class name string into make/model/year
- - Parsing API responses into dictionaries
+Responsibilities:
+ - Construct and send requests to API Ninja's CarAPI for specs
+ - Parse a class name string into make/model/year
+ - Parse API responses into dictionaries
 """
 
 import os
