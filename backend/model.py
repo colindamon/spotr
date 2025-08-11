@@ -23,17 +23,20 @@ Responsibilities:
  - Map class ID to readable class name
 """
 
-import torch
-import torch.nn as nn
+from dataset import CAR_DATASET_INFO
 from torchvision import models, transforms
 from PIL import Image
-from dataset import CAR_DATASET_INFO
+import os
+import torch
+import torch.nn as nn
 
 
 def load_model():
     model = models.resnet101(weights='IMAGENET1K_V1')
     model.fc = nn.Linear(model.fc.in_features, CAR_DATASET_INFO["num_classes"])
-    state_dict = torch.load("models/spotr_weights.pth", map_location="cpu")
+    model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'spotr_weights.pth')
+    model_path = os.path.abspath(model_path) 
+    state_dict = torch.load(model_path, map_location="cpu")
     model.load_state_dict(state_dict)
     model.eval()
     return model
