@@ -14,37 +14,22 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Streamlit frontend for SpotR
+Main Streamlit frontend application for SpotR.
+
+Responsibilities:
+- Provide a user-friendly web interface web app functionality
+- Display prediction results and car specs to user
+- Handle frontend session logic and UI state
+
+This module is the entry point for the SpotR web client.
 """
 
-import streamlit as st
+from api_client import fetch_prediction, fetch_specs
 from streamlit_cropper import st_cropper
 from PIL import Image
-import requests
-import io
+import streamlit as st
 
 
-### Backend URL and API client functions
-BACKEND_URL = "http://localhost:8000"
-
-
-def fetch_prediction(image):
-    """
-    TODO: implement function
-    Calls FastAPI backend to fetch car prediction with input image
-    """
-    pass
-
-
-def fetch_specs(pred_class):
-    """
-    TODO: implement function
-    Calls FastAPI backend to fetch car specs from NinjaAPI's CarAPI
-    """
-    pass
-
-
-### Streamlit UI
 st.set_page_config(page_title="SpotR - Car Recognition", page_icon="🚗", layout="centered")
 st.title("SpotR 🚗📷")
 
@@ -52,7 +37,7 @@ st.title("SpotR 🚗📷")
 st.markdown("**SpotR** is an AI-powered car recognition tool. Start by uploading a car image and cropping to identify the model and view enthusiast specs.")
 uploaded_file = st.file_uploader("Choose a car image...", type=["jpg", "jpeg", "png"])
 
-# logic to clear old prediction results
+# clear old prediction results
 if 'last_uploaded_filename' not in st.session_state:
     st.session_state['last_uploaded_filename'] = None
 current_filename = uploaded_file.name if uploaded_file else None
@@ -81,18 +66,15 @@ if uploaded_file:
         pred_class = st.session_state['pred_class']
         st.success(f"Predicted car model: {pred_class}")
 
-        if API_KEY:
-            if st.button("Show Car Specs"):
-                with st.spinner("Fetching specs..."):
-                    specs = fetch_specs(pred_class)
-                if specs:
-                    st.subheader("Car Specs:")
-                    for k, v in specs.items():
-                        st.write(f" • **{k}**: {v}")
-                else:
-                    st.warning("No specs were found for this model ):")
-        else:
-            st.info("Add an API key to enable car specs lookup. (See README for instructions)")
+        if st.button("Show Car Specs"):
+            with st.spinner("Fetching specs..."):
+                specs = fetch_specs(pred_class)
+            if specs:
+                st.subheader("Car Specs:")
+                for k, v in specs.items():
+                    st.write(f" • **{k}**: {v}")
+            else:
+                st.warning("No specs were found, or the API key is missing/invalid (See README!)")
 else:
     st.info("Upload an image of a car to get started!")
 
