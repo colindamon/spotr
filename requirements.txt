@@ -1,7 +1,11 @@
 # Core Dependencies
+fastapi
+uvicorn[standard]
+streamlit
+streamlit-cropper
 torch
 torchvision
 pandas
 scikit-learn
-Pillow
-streamlit
+pillow
+requests
