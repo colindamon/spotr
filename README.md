@@ -50,7 +50,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 - [X] Return car specs from prediction output
 
 **Phase 4: Backend + Deployment**
-- [ ] Migrate logic to FastAPI
+- [X] Migrate logic to FastAPI
 - [ ] Containerize with Docker
 - [ ] Optimize for performance and scale
 
