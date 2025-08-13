@@ -25,8 +25,8 @@ This is the entry point for the SpotR backend service.
 """
 
 from fastapi import FastAPI, File, UploadFile, Query
-from model import load_model, predict
-from car_specs import fetch_car_specs
+from backend.model import load_model, predict
+from backend.car_specs import fetch_car_specs
 from PIL import Image
 import io
 

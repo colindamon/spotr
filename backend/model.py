@@ -23,7 +23,7 @@ Responsibilities:
  - Map class ID to readable class name
 """
 
-from dataset import CAR_DATASET_INFO
+from backend.dataset import CAR_DATASET_INFO
 from torchvision import models, transforms
 from PIL import Image
 import os
