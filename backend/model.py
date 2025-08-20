@@ -32,7 +32,7 @@ import torch.nn as nn
 
 
 def load_model():
-    model = models.resnet101(weights='IMAGENET1K_V1')
+    model = models.resnet101(weights=None)
     model.fc = nn.Linear(model.fc.in_features, CAR_DATASET_INFO["num_classes"])
     model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'spotr_weights.pth')
     model_path = os.path.abspath(model_path) 
