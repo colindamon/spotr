@@ -8,6 +8,12 @@ services:
     restart: unless-stopped
     environment:
       - API_NINJAS_KEY=${API_NINJAS_KEY}
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      interval: 90s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
 
   frontend:
     build: .
@@ -15,7 +21,8 @@ services:
     ports:
       - "8501:8501"
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
     volumes:
       - ./frontend:/app/frontend
     restart: unless-stopped

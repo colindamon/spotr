@@ -49,3 +49,9 @@ def car_specs_route(pred_class: str):
     if specs is None:
         return {"error": "Specs not found or API error."}
     return specs
+
+
+@app.get("/health")
+def health_check():
+    """Health check endpoint for Docker health checks"""
+    return {"status": "healthy", "model_loaded": MODEL is not None}
