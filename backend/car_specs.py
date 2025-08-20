@@ -14,8 +14,12 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Responsible for all car API call functionality, including
-parsing inputs/outputs, getting API keys, and sending queries
+Car specs API client module for SpotR FastAPI backend
+
+Responsibilities:
+ - Construct and send requests to API Ninja's CarAPI for specs
+ - Parse a class name string into make/model/year
+ - Parse API responses into dictionaries
 """
 
 import os

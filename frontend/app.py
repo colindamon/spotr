@@ -14,37 +14,32 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Streamlit main web interface for SpotR
+Main Streamlit frontend application for SpotR.
 
-NOTE: can be run with
-    streamlit run app.py
+Responsibilities:
+- Provide a user-friendly web interface web app functionality
+- Display prediction results and car specs to user
+- Handle frontend session logic and UI state
+
+This module is the entry point for the SpotR web client.
 """
 
-import streamlit as st
+from api_client import fetch_prediction, fetch_specs
 from streamlit_cropper import st_cropper
 from PIL import Image
-from model import load_model, predict
-from car_specs import get_api_key, fetch_car_specs
+import streamlit as st
 
 
-@st.cache_resource
-def get_model():
-    return load_model()
-MODEL = get_model()
-API_KEY = get_api_key()
-
-# Config and title
 st.set_page_config(page_title="SpotR - Car Recognition", page_icon="🚗", layout="centered")
 st.title("SpotR 🚗📷")
 
-# Body
+# body
 st.markdown("**SpotR** is an AI-powered car recognition tool. Start by uploading a car image and cropping to identify the model and view enthusiast specs.")
 uploaded_file = st.file_uploader("Choose a car image...", type=["jpg", "jpeg", "png"])
 
-# Logic to clear old prediction results on new image upload
+# clear old prediction results
 if 'last_uploaded_filename' not in st.session_state:
     st.session_state['last_uploaded_filename'] = None
-
 current_filename = uploaded_file.name if uploaded_file else None
 if (st.session_state['last_uploaded_filename'] is not None and (
     current_filename != st.session_state['last_uploaded_filename'])):
@@ -52,7 +47,7 @@ if (st.session_state['last_uploaded_filename'] is not None and (
     st.session_state.pop('cropped_img', None)
 st.session_state['last_uploaded_filename'] = current_filename
 
-# Continue body
+# continue body
 if uploaded_file:
     image = Image.open(uploaded_file)
     st.subheader("Crop your image")
@@ -64,29 +59,26 @@ if uploaded_file:
 
     if st.button("Identify Car"):
         with st.spinner("Predicting..."):
-            pred_class = predict(cropped_img, MODEL)
+            pred_class = fetch_prediction(cropped_img)
             st.session_state['pred_class'] = pred_class
 
     if st.session_state.get('pred_class', None):
         pred_class = st.session_state['pred_class']
         st.success(f"Predicted car model: {pred_class}")
 
-        if API_KEY:
-            if st.button("Show Car Specs"):
-                with st.spinner("Fetching specs..."):
-                    specs = fetch_car_specs(pred_class)
-                if specs:
-                    st.subheader("Car Specs:")
-                    for k, v in specs.items():
-                        st.write(f" • **{k}**: {v}")
-                else:
-                    st.warning("No specs were found for this model ):")
-        else:
-            st.info("Add an API key to enable car specs lookup. (See README for instructions)")
+        if st.button("Show Car Specs"):
+            with st.spinner("Fetching specs..."):
+                specs = fetch_specs(pred_class)
+            if specs:
+                st.subheader("Car Specs:")
+                for k, v in specs.items():
+                    st.write(f" • **{k}**: {v}")
+            else:
+                st.warning("No specs were found, or the API key is missing/invalid (See README!)")
 else:
     st.info("Upload an image of a car to get started!")
 
-# Footer
+# footer
 st.markdown("---")
 st.markdown(
     """

@@ -1,0 +1,30 @@
+services:
+  backend:
+    build: .
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./models:/app/models
+      - ./backend:/app/backend
+    restart: unless-stopped
+    environment:
+      - API_NINJAS_KEY=${API_NINJAS_KEY}
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      interval: 90s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  frontend:
+    build: .
+    command: streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    depends_on:
+      backend:
+        condition: service_healthy
+    volumes:
+      - ./frontend:/app/frontend
+    restart: unless-stopped
+    environment:
+      - BACKEND_URL=http://backend:8000
