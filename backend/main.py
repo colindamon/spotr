@@ -37,18 +37,27 @@ MODEL = load_model()
 
 @app.post("/predict")
 async def predict_route(file: UploadFile):
-    image_bytes = await file.read()
-    image = Image.open(io.BytesIO(image_bytes))
-    pred_class = predict(image, MODEL)
-    return {"pred_class": pred_class}
+    try:
+        if not file.content_type.startswith('image/'):
+            raise HTTPException(status_code=400, detail="File must be an image")
+        
+        image_bytes = await file.read()
+        image = Image.open(io.BytesIO(image_bytes))
+        pred_class = predict(image, MODEL)
+        return {"pred_class": pred_class}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
 
 
 @app.get("/car-specs")
 def car_specs_route(pred_class: str):
-    specs = fetch_car_specs(pred_class)
-    if specs is None:
-        return {"error": "Specs not found or API error."}
-    return specs
+    try:
+        specs = fetch_car_specs(pred_class)
+        if specs is None:
+            return {"error": "Specs not found or API error."}
+        return specs
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Specs fetch failed: {str(e)}")
 
 
 @app.get("/health")
