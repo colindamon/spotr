@@ -23,10 +23,11 @@ Responsibilities:
 
 from PIL import Image
 import requests
+import os
 import io
 
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = os.getenv("BACKEND_URL")
 
 
 def fetch_prediction(image: Image):
