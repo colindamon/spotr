@@ -1,0 +1,21 @@
+services:
+  backend:
+    build: .
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./models:/app/models
+      - ./backend:/app/backend
+    restart: unless-stopped
+    environment:
+      - API_NINJAS_KEY=${API_NINJAS_KEY}
+
+  frontend:
+    build: .
+    command: streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app/frontend
+    restart: unless-stopped
