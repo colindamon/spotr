@@ -9,3 +9,5 @@ pandas
 scikit-learn
 pillow
 requests
+python-dotenv
+python-multipart
