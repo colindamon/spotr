@@ -1,0 +1,3 @@
+# Optional dependencies for development and scripts
+pandas        # used for generating classification reports in eval.py
+scikit-learn  # used for data cleaning in scripts directory

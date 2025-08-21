@@ -1,12 +1,10 @@
-# Core Dependencies
+# Core App Dependencies
 fastapi
 uvicorn[standard]
 streamlit
 streamlit-cropper
 torch
 torchvision
-pandas
-scikit-learn
 pillow
 requests
 python-dotenv
