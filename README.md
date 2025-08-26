@@ -33,7 +33,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 While SpotR is now complete and functional, there are some limitations that were encountered during development:
 
-1. **Supercar Detection**: The project was envisioned to recognize a wide range of vehicles, including popular supercars. Unfortunately, during research, no open dataset containing supercars (or datasets with normal cars that included a significant number of supercars) was found. As a result, SpotR is based on the Stanford Cars dataset and struggles to identify many supercars as originally planned.
+1. **Car Diversity Detection**: The project was envisioned to recognize a wide range of vehicles, new and old, including many of today's popular supercars. Unfortunately, during research, no open dataset contained a wide range of model years or a sufficent number of supercars. As a result, SpotR, based on the Stanford Cars dataset, struggles to identify vehicles made outside of the year range 1991 to 2012 and is limited to a select few supercars found in the dataset, such as the Bugatti Veryron, Ferrari 458, and McLaren MP4-12C.
 
 2. **Car Spec Lookup**: SpotR uses API Ninjas' CarAPI to provide enthusiast-oriented car specifications. However, the API lacks detailed data such as exact engine formats (e.g., V8, inline-6, flat-6) or horsepower/torque figures for some vehicles. Additionally, the API does not have information for many of the cars found in the Stanford Cars dataset. This may result in the error message: "No specs were found, or the API key is missing/invalid (See README!)". While other APIs offer this data, they were paid services and were outside the scope and budget of this project.
 
@@ -43,7 +43,7 @@ These limitations reflect the challenges of working with open datasets and APIs 
 
 ## ✅ Project Status
 
-**This project is complete and fully functional!**
+**This project is complete and fully functional locally!**
 
 **Phase 1: Planning and Scaffolding**
 - [X] Initialize repo and structure
@@ -62,14 +62,19 @@ These limitations reflect the challenges of working with open datasets and APIs 
 - [X] Connect model predictions
 - [X] Return car specs from prediction output
 
-**Phase 4: Backend + Deployment**
-- [X] Migrate logic to FastAPI
+**Phase 4: Backend + Local Deployment**
+- [X] Migrate backend logic to FastAPI
 - [X] Containerize with Docker
 - [X] Optimize for performance and scale
 
+**Phase 5: Frontend + Web Hosting**
+- [ ] Refactor frontend to React
+- [ ] Host frontend/backend on Vercel/Render
+- [ ] Deploy services and connect both
+
 ---
 
-## 🚀 Usage Guide
+## 🚀 Local Usage Guide
 
 ### 0. Prerequisites
 
@@ -128,7 +133,7 @@ If you encounter the error message:
 "No specs were found, or the API key is missing/invalid (See README!)"
 ```
 
-follow these steps to troubleshoot.  
+follow these steps to troubleshoot:
 1. Ensure you have completed **Optional Step 3** during setup by adding your API Ninjas key to the `.env` file.  
 2. If your API key is set up correctly and you still see the error, unfortunately, it is likely that API Ninja’s CarAPI does not have data for the specific car in question. This is a known limitation of the API when working with diverse datasets like Stanford Cars.
 
