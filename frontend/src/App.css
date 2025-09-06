@@ -1,0 +1,14 @@
+.crop-container {
+  max-width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
