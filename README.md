@@ -20,8 +20,7 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 
 | Component       | Technology      |
 |-----------------|-----------------|
-| Language        | Python 3.x      |
-| Frontend / UI   | Streamlit       |
+| Frontend        | React           |
 | Backend         | FastAPI         |
 | ML Framework    | PyTorch         |
 | Image Handling  | TorchVision     |
@@ -68,13 +67,13 @@ These limitations reflect the challenges of working with open datasets and APIs 
 - [X] Optimize for performance and scale
 
 **Phase 5: Frontend + Web Hosting**
-- [ ] Refactor frontend to React
+- [X] Refactor frontend to React
 - [ ] Host frontend/backend on Vercel/Render
 - [ ] Deploy services and connect both
 
 ---
 
-## 🚀 Local Usage Guide
+## 🚀 Local Deployment Guide
 
 ### 0. Prerequisites
 
@@ -117,7 +116,7 @@ docker compose up --build
 
 Depending on your internet speed, this command may take a few minutes on first startup as Python dependencies install and services start. 
 
-When finished, the terminal will read "You can now view your Streamlit app in your browser" before giving you the URL to access to application. Navigate to `http://0.0.0.0:8501` start SpotR.
+When nearly finished, the terminal will read "Attaching to backend-1, frontend-1". Navigate to `http://127.0.0.1:5173/` start SpotR.
 
 Follow on-screen instructions:
 1. Upload a car image (JPG, PNG)
@@ -125,19 +124,6 @@ Follow on-screen instructions:
 3. Click "Identify Car" to get the model prediction
 4. (Optional) Click "Show Car Specs" to fetch data from API Ninjas
 5. Clear image and repeat!
-
-### How to Address the "No specs were found" Error
-If you encounter the error message:
-
-```
-"No specs were found, or the API key is missing/invalid (See README!)"
-```
-
-follow these steps to troubleshoot:
-1. Ensure you have completed **Optional Step 3** during setup by adding your API Ninjas key to the `.env` file.  
-2. If your API key is set up correctly and you still see the error, unfortunately, it is likely that API Ninja’s CarAPI does not have data for the specific car in question. This is a known limitation of the API when working with diverse datasets like Stanford Cars.
-
-By following these steps, you can verify whether the issue is related to your API key setup or a lack of data from the API itself.
 
 ---
 
@@ -155,14 +141,15 @@ To train your own car recognition model and recreate SpotR’s weights:
 
 ### **Key Files**
 
-- `frontend/app.py` - Main Streamlit frontend application
+- `frontend/src/App.py` - Main React frontend application
 - `backend/main.py` - Main FastAPI backend application
 - `models/spotr_weights.pth` - Model weights file (on Hugging Face)
 - `train.py` - Model training script
 - `eval.py` - Model evaluation script
-- `docker-compose.yml` & `Dockerfile` - Docker containerization config files
+- `docker-compose.yml` & `Dockerfile`'s - Docker config files
 - `requirements.txt` - Main application dependencies
 - `requirements-dev.txt` - Development scripts dependencies
+- `archive/` - Legacy code from previous iterations of SpotR
 
 ### **Where to Download Files**
 
@@ -176,25 +163,27 @@ To train your own car recognition model and recreate SpotR’s weights:
 ```bash
 spotr/
 ├── .gitignore
-├── Dockerfile
 ├── LICENSE
 ├── README.md
 ├── docker-compose.yml
 ├── requirements.txt
 ├── requirements-dev.txt
+├── archive/
 ├── backend/
 │   ├── car_specs.py
 │   ├── dataset.py
 │   ├── main.py
-│   └── model.py
+│   ├── model.py
+│   └── Dockerfile
 ├── data/
 ├── dataset/
 ├── models/
 │   ├── spotr_weights.pth
 │   └── model-notes.md
 ├── frontend/
-│   ├── api_client.py
-│   └── app.py
+│   ├── src/
+│   │   └── App.jsx
+│   └── Dockerfile
 ├── scripts/
 ├── train.py
 └── eval.py
