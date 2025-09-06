@@ -1,8 +1,6 @@
-# Core App Dependencies
+# Core Backend Dependencies
 fastapi
 uvicorn[standard]
-streamlit
-streamlit-cropper
 torch
 torchvision
 pillow
