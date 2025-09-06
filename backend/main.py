@@ -25,6 +25,7 @@ This is the entry point for the SpotR backend service.
 """
 
 from fastapi import FastAPI, File, UploadFile, Query
+from fastapi.middleware.cors import CORSMiddleware
 from backend.model import load_model, predict
 from backend.car_specs import fetch_car_specs
 from PIL import Image
@@ -33,6 +34,15 @@ import io
 
 app = FastAPI()
 MODEL = load_model()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.post("/predict")
