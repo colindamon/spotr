@@ -41,12 +41,12 @@
   --card-hover: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.6);
 }
 
-/* Global styles - Apply transition to ALL elements */
+/* Global styles */
 *, *::before, *::after {
   transition: all 0.3s ease;
 }
 
-/* Override transition for elements that should NOT have it */
+/* Override transition for crop elements */
 .ReactCrop__crop-selection,
 .ReactCrop__drag-handle,
 .ReactCrop__drag-bar {
@@ -72,7 +72,7 @@ body {
   flex: 1;
 }
 
-/* Header styling - NO rounded corners */
+/* Header styling */
 .app-header {
   background: var(--gradient-bg);
   color: white;
@@ -80,7 +80,6 @@ body {
   margin-bottom: 2rem;
   position: relative;
   overflow: hidden;
-  /* Removed border-radius */
 }
 
 .app-header::before {
@@ -178,21 +177,6 @@ body {
   overflow: hidden;
 }
 
-.btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s;
-}
-
-.btn:hover::before {
-  left: 100%;
-}
-
 .btn-primary {
   background: linear-gradient(135deg, var(--accent-primary), #0056b3);
   color: white;
@@ -201,11 +185,6 @@ body {
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.25);
-}
-
-.btn-secondary {
-  background-color: var(--accent-secondary);
-  color: white;
 }
 
 .btn-outline-primary {
@@ -242,40 +221,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(23, 162, 184, 0.25);
 }
 
-/* Alert styling */
-.alert {
-  border: none;
-  border-radius: 0.75rem;
-  padding: 1rem 1.5rem;
-  margin: 1rem 0;
-  position: relative;
-  overflow: hidden;
-  color: var(--text-primary) !important;
-}
-
-.alert::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: currentColor;
-}
-
-.alert-info {
-  background: linear-gradient(135deg, rgba(23, 162, 184, 0.1), rgba(23, 162, 184, 0.05));
-  color: var(--info) !important;
-  border-left: 4px solid var(--info);
-}
-
-.alert-danger {
-  background: linear-gradient(135deg, rgba(220, 53, 69, 0.1), rgba(220, 53, 69, 0.05));
-  color: var(--danger) !important;
-  border-left: 4px solid var(--danger);
-}
-
-/* Form controls - Fix file input transitions */
+/* Form controls */
 .form-control {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -290,16 +236,10 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-/* Form labels */
 .form-label {
   color: var(--text-primary) !important;
   font-weight: 500;
   margin-bottom: 0.75rem;
-}
-
-/* Form text */
-.form-text {
-  color: var(--text-secondary) !important;
 }
 
 /* Crop container */
@@ -311,7 +251,6 @@ body {
   border: 1px solid var(--border-color);
 }
 
-/* React Image Crop - Remove delays and improve performance */
 .ReactCrop {
   display: block;
   width: 100%;
@@ -325,15 +264,12 @@ body {
   border-radius: 0.5rem;
 }
 
-/* Disable transitions for crop elements to remove lag */
 .ReactCrop__crop-selection {
-  transition: none !important;
   border: 2px solid var(--accent-primary);
   background-color: rgba(0, 123, 255, 0.1);
 }
 
 .ReactCrop__drag-handle {
-  transition: none !important;
   background-color: var(--accent-primary);
   border: 1px solid white;
   width: 12px;
@@ -341,7 +277,6 @@ body {
 }
 
 .ReactCrop__drag-bar {
-  transition: none !important;
   background-color: var(--accent-primary);
 }
 
@@ -376,7 +311,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Spec items */
+/* List items */
 .list-group-item {
   background-color: var(--bg-card) !important;
   border-color: var(--border-color) !important;
@@ -394,26 +329,6 @@ body {
   margin-top: 2rem;
   border-top: 1px solid var(--border-color);
   flex-shrink: 0;
-  /* Removed border-radius */
-}
-
-.footer a {
-  color: var(--text-secondary);
-  text-decoration: none;
-}
-
-.footer a:hover {
-  color: var(--accent-primary);
-  transform: translateY(-2px);
-}
-
-.github-badge {
-  border-radius: 0.5rem;
-}
-
-.github-badge:hover {
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: var(--shadow-sm);
 }
 
 /* Loading animations */
@@ -440,20 +355,16 @@ body {
   .app-title {
     font-size: 2rem;
   }
-  
   .app-subtitle {
     font-size: 1rem;
   }
-  
   .card-body {
     padding: 1.5rem;
   }
-  
   .theme-toggle {
     width: 3rem;
     height: 3rem;
   }
-  
   .theme-icon {
     font-size: 1.25rem;
   }
@@ -464,51 +375,4 @@ body {
 .theme-toggle:focus {
   outline: 2px solid var(--accent-primary);
   outline-offset: 2px;
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--bg-secondary);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--text-muted);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--text-secondary);
-}
-
-/* Force Bootstrap component colors to follow theme */
-.text-muted {
-  color: var(--text-secondary) !important;
-}
-
-.text-primary {
-  color: var(--text-primary) !important;
-}
-
-.text-success {
-  color: var(--success) !important;
-}
-
-.bg-light {
-  background-color: var(--bg-secondary) !important;
-}
-
-.bg-white {
-  background-color: var(--bg-card) !important;
-}
-
-.border {
-  border-color: var(--border-color) !important;
-}
-
-.lead {
-  color: var(--text-primary) !important;
 }
