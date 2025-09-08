@@ -85,56 +85,102 @@ const ImageUploader = ({ onImageSelect, error }) => {
   return (
     <>
       <Form.Group className="mb-3">
-        <Form.Label>Choose a car image...</Form.Label>
-        <Form.Control type="file" accept="image/*" onChange={handleFileChange} />
+        <Form.Label style={{ 
+          fontSize: '1.1rem', 
+          fontWeight: '500',
+          color: 'var(--text-primary)',
+          marginBottom: '1rem'
+        }}>
+          📷 Choose a car image...
+        </Form.Label>
+        <Form.Control 
+          type="file" 
+          accept="image/*" 
+          onChange={handleFileChange}
+          style={{
+            padding: '0.75rem',
+            borderRadius: '0.75rem',
+            border: `2px solid var(--border-color)`,
+            backgroundColor: 'var(--bg-card)',
+            color: 'var(--text-primary)',
+            transition: 'all 0.3s ease'
+          }}
+        />
       </Form.Group>
       
-      {error && <Alert variant="danger">{error}</Alert>}
+      {error && (
+        <Alert variant="danger" style={{ 
+          backgroundColor: 'rgba(220, 53, 69, 0.1)',
+          color: 'var(--danger)',
+          border: 'none',
+          borderRadius: '0.75rem'
+        }}>
+          {error}
+        </Alert>
+      )}
       
       {imagePreview && (
         <div className="mb-3">
-          <h5 className="text-center">Image Preview</h5>
+          <h5 className="text-center" style={{ color: 'var(--text-primary)', marginBottom: '1rem' }}>
+            Image Preview
+          </h5>
           
           {showCropper ? (
             <div className="mb-3">
-              <ReactCrop
-                crop={crop}
-                onChange={(_, percentCrop) => setCrop(percentCrop)}
-                onComplete={(c) => setCompletedCrop(c)}
-                minWidth={50}
-                minHeight={50}
-              >
-                <img
-                  ref={imgRef}
-                  alt="Crop me"
-                  src={imagePreview}
-                  style={{ maxWidth: '100%', maxHeight: '400px' }}
-                  onLoad={onImageLoad}
-                />
-              </ReactCrop>
-              <div className="d-flex justify-content-center gap-2 mt-2">
-                <Button variant="outline-primary" onClick={applyCrop} disabled={!completedCrop}>
+              {/* Custom ReactCrop with no shadow overlay */}
+              <div className="crop-wrapper">
+                <ReactCrop
+                  crop={crop}
+                  onChange={(_, percentCrop) => setCrop(percentCrop)}
+                  onComplete={(c) => setCompletedCrop(c)}
+                  minWidth={50}
+                  minHeight={50}
+                  ruleOfThirds
+                  className="no-shadow-crop"
+                >
+                  <img
+                    ref={imgRef}
+                    alt="Crop me"
+                    src={imagePreview}
+                    onLoad={onImageLoad}
+                    style={{ 
+                      maxHeight: '500px', 
+                      maxWidth: '100%',
+                      display: 'block',
+                      borderRadius: '0.5rem'
+                    }}
+                  />
+                </ReactCrop>
+              </div>
+              
+              <div className="d-flex justify-content-center gap-2 mt-3">
+                <Button variant="success" onClick={applyCrop}>
                   Apply Crop
                 </Button>
-                <Button variant="outline-secondary" onClick={() => setShowCropper(false)}>
-                  Cancel
+                <Button variant="secondary" onClick={resetCrop}>
+                  Reset
                 </Button>
               </div>
             </div>
           ) : (
-            <div>
-              <div className="d-flex justify-content-center mb-3">
-                <img src={imagePreview} alt="Preview" style={{ maxWidth: '100%', maxHeight: '400px' }} />
-              </div>
-              <div className="d-flex justify-content-center gap-2">
-                <Button variant="outline-primary" onClick={() => setShowCropper(true)}>
+            <div className="crop-container text-center">
+              <img 
+                src={imagePreview} 
+                alt="Uploaded car" 
+                style={{ 
+                  maxHeight: '400px', 
+                  maxWidth: '100%', 
+                  borderRadius: '0.75rem',
+                  boxShadow: 'var(--shadow-md)'
+                }} 
+              />
+              <div className="mt-3">
+                <Button 
+                  variant="outline-primary" 
+                  onClick={() => setShowCropper(true)}
+                >
                   Crop Image
                 </Button>
-                {originalFile && imagePreview !== URL.createObjectURL(originalFile) && (
-                  <Button variant="outline-secondary" onClick={resetCrop}>
-                    Reset Crop
-                  </Button>
-                )}
               </div>
             </div>
           )}
