@@ -24,7 +24,8 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 | Backend         | FastAPI         |
 | ML Framework    | PyTorch         |
 | Image Handling  | TorchVision     |
-| Containerization| Docker          |
+| Web Deployment  | WIP             |
+| Local Deployment| Docker          |
 
 ---
 
@@ -34,9 +35,9 @@ While SpotR is now complete and functional, there are some limitations that were
 
 1. **Car Diversity Detection**: The project was envisioned to recognize a wide range of vehicles, new and old, including many of today's popular supercars. Unfortunately, during research, no open dataset contained a wide range of model years or a sufficent number of supercars. As a result, SpotR, based on the Stanford Cars dataset, struggles to identify vehicles made outside of the year range 1991 to 2012 and is limited to a select few supercars found in the dataset, such as the Bugatti Veryron, Ferrari 458, and McLaren MP4-12C.
 
-2. **Car Spec Lookup**: SpotR uses API Ninjas' CarAPI to provide enthusiast-oriented car specifications. However, the API lacks detailed data such as exact engine formats (e.g., V8, inline-6, flat-6) or horsepower/torque figures for some vehicles. Additionally, the API does not have information for many of the cars found in the Stanford Cars dataset. This may result in the error message: "No specs were found, or the API key is missing/invalid (See README!)". While other APIs offer this data, they were paid services and were outside the scope and budget of this project.
+2. **Car Spec Lookup**: SpotR uses API Ninjas' CarAPI to provide enthusiast-oriented car specifications. However, the API lacks detailed data such as exact engine formats (e.g., V8, inline-6, flat-6) or horsepower/torque figures for some vehicles. Additionally, the API does not have information for many of the cars found in the Stanford Cars dataset. This may result in the error message: "No specs found or backend error". While other APIs offer this data, they were paid services and were outside the scope and budget of this project.
 
-These limitations reflect the challenges of working with open datasets and APIs while maintaining the project’s free and open-source nature. Should this project gain more attention, future iterations could explore creating a custom supercar dataset and integrationg more comprehensive APIs to deliver even richer, more accurate automotive insights.
+These limitations reflect the challenges of working with open datasets and APIs while maintaining the project’s free and open-source nature. Should this project gain more attention, future iterations could explore creating a custom supercar dataset and integrationg more comprehensive APIs to deliver even richer, more accurate car insights.
 
 ---
 
@@ -68,8 +69,7 @@ These limitations reflect the challenges of working with open datasets and APIs 
 
 **Phase 5: Frontend + Web Hosting**
 - [X] Refactor frontend to React
-- [ ] Host frontend/backend on Vercel/Render
-- [ ] Deploy services and connect both
+- [ ] Host frontend/backend on Vercel/Render and connect
 
 ---
 
@@ -106,7 +106,7 @@ To enable this feature:
 API_NINJAS_KEY=[your_api_key_here]
 ```
 
-If no API key is set, SpotR will still identify the car but won't be able to fetch specs.
+If no API key is set, SpotR will still identify the car but won't be able to fetch specifications.
 
 ### 4. **Run the Application**
 
@@ -122,8 +122,7 @@ Follow on-screen instructions:
 1. Upload a car image (JPG, PNG)
 2. Crop the image for best results
 3. Click "Identify Car" to get the model prediction
-4. (Optional) Click "Show Car Specs" to fetch data from API Ninjas
-5. Clear image and repeat!
+4. (Optional) Click "Show Specifications" to fetch data from API Ninjas
 
 ---
 
@@ -146,9 +145,9 @@ To train your own car recognition model and recreate SpotR’s weights:
 - `models/spotr_weights.pth` - Model weights file (on Hugging Face)
 - `train.py` - Model training script
 - `eval.py` - Model evaluation script
-- `docker-compose.yml` & `Dockerfile`'s - Docker config files
 - `requirements.txt` - Main application dependencies
 - `requirements-dev.txt` - Development scripts dependencies
+- `docker-compose.yml` & `Dockerfile`'s - Docker config files
 - `archive/` - Legacy code from previous iterations of SpotR
 
 ### **Where to Download Files**
@@ -177,13 +176,13 @@ spotr/
 │   └── Dockerfile
 ├── data/
 ├── dataset/
-├── models/
-│   ├── spotr_weights.pth
-│   └── model-notes.md
 ├── frontend/
 │   ├── src/
 │   │   └── App.jsx
 │   └── Dockerfile
+├── models/
+│   ├── spotr_weights.pth
+│   └── model-notes.md
 ├── scripts/
 ├── train.py
 └── eval.py
@@ -193,8 +192,8 @@ spotr/
 
 ## 🤝 Contributing
 
-Contributions, feedback, and suggestions are always welcome!  
-Open an issue or pull request on [GitHub](https://github.com/colindamon/spotr).
+Contributions, bug fixes, and feedback are always welcome!
+Open an issue or pull request on [GitHub](https://github.com/colindamon/spotr) to reach out.
 
 ---
 
