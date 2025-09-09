@@ -23,48 +23,72 @@ Responsibilities:
  - Map class ID to readable class name
 """
 
-from backend.dataset import CAR_DATASET_INFO
+import torch
+import gc
+import psutil
 from torchvision import models, transforms
 from PIL import Image
 import os
-import torch
-import torch.quantization
 import torch.nn as nn
+from backend.dataset import CAR_DATASET_INFO
 
 
-def load_model():
-    model = models.resnet101(weights=None)
-    model.fc = nn.Linear(model.fc.in_features, CAR_DATASET_INFO["num_classes"])
-
-    model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'spotr_weights.pth')
-    model_path = os.path.abspath(model_path) 
-    state_dict = torch.load(model_path, map_location="cpu")
-    model.load_state_dict(state_dict)
+class LazyPyTorchModel:
+    def __init__(self):
+        self.model = None
+        self.model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'spotr_weights.pth')
     
-    model.eval()
-    model_quantized = torch.quantization.quantize_dynamic(
-        model, {nn.Linear, nn.Conv2d}, dtype=torch.qint8
-    )
-    return model_quantized
+    def _load_model(self):
+        """Load model only when needed"""
+        if self.model is None:
+            torch.cuda.empty_cache() if torch.cuda.is_available() else None
+            gc.collect()
+            
+            model = models.resnet101(weights=None)
+            model.fc = nn.Linear(model.fc.in_features, CAR_DATASET_INFO["num_classes"])
+            
+            state_dict = torch.load(self.model_path, map_location="cpu", mmap=True)
+            model.load_state_dict(state_dict)
+            model.eval()
+
+            self.model = torch.quantization.quantize_dynamic(
+                model, {nn.Linear, nn.Conv2d}, dtype=torch.qint8
+            )
+    
+    def predict(self, image: Image.Image):
+        """Make prediction with memory cleanup"""
+        self._load_model()
+        transform = transforms.Compose([
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            transforms.Normalize(
+                mean=[0.485, 0.456, 0.406],
+                std=[0.229, 0.224, 0.225],
+            ),
+        ])
+        input_tensor = transform(image).unsqueeze(0)
+
+        with torch.no_grad():
+            outputs = self.model(input_tensor)
+            predicted_class_id = outputs.argmax(dim=1).item()
+            class_name = CAR_DATASET_INFO["class_names"][predicted_class_id]
+        del input_tensor, outputs
+        gc.collect()
+        return class_name
+    
+    def clear_model(self):
+        """Clear model from memory"""
+        if self.model is not None:
+            del self.model
+            self.model = None
+            gc.collect()
 
 
-def _preprocess_image(image: Image.Image):
-    transform = transforms.Compose([
-        transforms.Resize(256),
-        transforms.CenterCrop(224),
-        transforms.ToTensor(),
-        transforms.Normalize(
-            mean=[0.485, 0.456, 0.406],
-            std=[0.229, 0.224, 0.225],
-        ),
-    ])
-    return transform(image).unsqueeze(0)
+_model_instance = None
 
-
-def predict(image: Image.Image, model):
-    input_tensor = _preprocess_image(image)
-    with torch.no_grad():
-        outputs = model(input_tensor)
-        predicted_class_id = outputs.argmax(dim=1).item()
-        class_name = CAR_DATASET_INFO["class_names"][predicted_class_id]
-    return class_name
+def get_model_instance():
+    global _model_instance
+    if _model_instance is None:
+        _model_instance = LazyPyTorchModel()
+    return _model_instance

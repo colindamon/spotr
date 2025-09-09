@@ -24,17 +24,16 @@ Responsibilities:
 This is the entry point for the SpotR backend service.
 """
 
-from fastapi import FastAPI, File, UploadFile, Query
+from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from backend.model import load_model, predict
-from backend.car_specs import fetch_car_specs
 from PIL import Image
 import io
-
+import gc
+import psutil
+from backend.car_specs import fetch_car_specs
+from backend.model import get_model_instance
 
 app = FastAPI()
-MODEL = load_model()
-
 
 app.add_middleware(
     CORSMiddleware,
@@ -45,15 +44,39 @@ app.add_middleware(
 )
 
 
+@app.middleware("http")
+async def memory_cleanup_middleware(request, call_next):
+    """Clean up memory after each request"""
+    response = await call_next(request)
+    gc.collect()
+
+    memory_percent = psutil.virtual_memory().percent
+    if memory_percent > 85:
+        model_instance = get_model_instance()
+        model_instance.clear_model()
+        gc.collect()
+
+    return response
+
+
 @app.post("/predict")
 async def predict_route(file: UploadFile):
     try:
         if not file.content_type.startswith('image/'):
             raise HTTPException(status_code=400, detail="File must be an image")
-        
+
         image_bytes = await file.read()
         image = Image.open(io.BytesIO(image_bytes))
-        pred_class = predict(image, MODEL)
+
+        if image.mode != 'RGB':
+            image = image.convert('RGB')
+
+        model_instance = get_model_instance()
+        pred_class = model_instance.predict(image)
+
+        del image, image_bytes
+        gc.collect()
+
         return {"pred_class": pred_class}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
@@ -72,5 +95,19 @@ def car_specs_route(pred_class: str):
 
 @app.get("/health")
 def health_check():
-    """Health check endpoint for Docker health checks"""
-    return {"status": "healthy", "model_loaded": MODEL is not None}
+    """Health check endpoint"""
+    memory_info = psutil.virtual_memory()
+    return {
+        "status": "healthy",
+        "memory_usage_percent": memory_info.percent,
+        "memory_available_mb": memory_info.available // (1024 * 1024)
+    }
+
+
+@app.post("/clear-cache")
+def clear_cache():
+    """Endpoint to manually clear model cache"""
+    model_instance = get_model_instance()
+    model_instance.clear_model()
+    gc.collect()
+    return {"status": "cache cleared"}
