@@ -28,18 +28,24 @@ from torchvision import models, transforms
 from PIL import Image
 import os
 import torch
+import torch.quantization
 import torch.nn as nn
 
 
 def load_model():
     model = models.resnet101(weights=None)
     model.fc = nn.Linear(model.fc.in_features, CAR_DATASET_INFO["num_classes"])
+
     model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'spotr_weights.pth')
     model_path = os.path.abspath(model_path) 
     state_dict = torch.load(model_path, map_location="cpu")
     model.load_state_dict(state_dict)
+    
     model.eval()
-    return model
+    model_quantized = torch.quantization.quantize_dynamic(
+        model, {nn.Linear, nn.Conv2d}, dtype=torch.qint8
+    )
+    return model_quantized
 
 
 def _preprocess_image(image: Image.Image):
