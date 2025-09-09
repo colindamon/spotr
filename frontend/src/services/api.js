@@ -8,7 +8,7 @@ export const identifyCar = async (imageFile) => {
   
   const response = await axios.post(`${BACKEND_URL}/predict`, formData, {
     headers: { 'Content-Type': 'multipart/form-data' },
-    timeout: 10000,
+    timeout: 20000,
   });
   
   return response.data;
@@ -17,7 +17,7 @@ export const identifyCar = async (imageFile) => {
 export const getCarSpecs = async (predClass) => {
   const response = await axios.get(`${BACKEND_URL}/car-specs`, {
     params: { pred_class: predClass },
-    timeout: 10000,
+    timeout: 20000,
   });
   
   return response.data;
