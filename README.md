@@ -88,9 +88,9 @@ cd spotr
 
 ### 2. **Download Model Weights**
 
-Model weights are published on [this model on Hugging Face Hub](https://huggingface.co/colindamon/spotr_model) and be downloaded using this link: [download spotr_weights.pth](https://huggingface.co/colindamon/spotr_model/resolve/main/spotr_weights.pth)
+Model weights are published on [this model on Hugging Face Hub](https://huggingface.co/colindamon/spotr_model) and be downloaded using this link: [download spotr_resnet101.pth](https://huggingface.co/colindamon/spotr_model/resolve/main/spotr_resnet101.pth?download=true)
 
-Save this file to `spotr/models/spotr_weights.pth`.
+Save this file to `spotr/models/spotr_resnet101.pth`.
 
 ### 3. **(Optional) API Ninjas Key for Car Specs**
 
@@ -116,7 +116,8 @@ docker compose up --build
 
 Depending on your internet speed, this command may take a few minutes on first startup as Python dependencies install and services start. 
 
-When nearly finished, the terminal will read "Attaching to backend-1, frontend-1". Navigate to `http://127.0.0.1:5173/` start SpotR.
+When nearly finished, the terminal will read "Attaching to backend-1, frontend-1" then output messages from the backend and frontend services.
+Navigate to `http://127.0.0.1:5173/` start SpotR locally.
 
 Follow on-screen instructions:
 1. Upload a car image (JPG, PNG)
@@ -142,7 +143,7 @@ To train your own car recognition model and recreate SpotR’s weights:
 
 - `frontend/src/App.py` - Main React frontend application
 - `backend/main.py` - Main FastAPI backend application
-- `models/spotr_weights.pth` - Model weights file (on Hugging Face)
+- `models/spotr_resnet101.pth` - ResNet101 model weights file (on Hugging Face)
 - `train.py` - Model training script
 - `eval.py` - Model evaluation script
 - `requirements.txt` - Main application dependencies
@@ -181,7 +182,7 @@ spotr/
 │   │   └── App.jsx
 │   └── Dockerfile
 ├── models/
-│   ├── spotr_weights.pth
+│   ├── spotr_resnet101.pth
 │   └── model-notes.md
 ├── scripts/
 ├── train.py
