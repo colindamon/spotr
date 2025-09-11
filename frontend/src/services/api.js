@@ -17,7 +17,7 @@ export const identifyCar = async (imageFile) => {
 export const getCarSpecs = async (predClass) => {
   const response = await axios.get(`${BACKEND_URL}/car-specs`, {
     params: { pred_class: predClass },
-    timeout: 20000,
+    timeout: 60000,
   });
   
   return response.data;
