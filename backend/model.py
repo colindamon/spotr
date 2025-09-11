@@ -36,7 +36,7 @@ from backend.dataset import CAR_DATASET_INFO
 class LazyPyTorchModel:
     def __init__(self):
         self.model = None
-        self.model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'spotr_weights.pth')
+        self.model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'spotr_resnet101.pth')
     
     def _load_model(self):
         """Load model only when needed"""
