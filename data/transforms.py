@@ -17,8 +17,8 @@
 Image transforms for preprocessing and augmentation
 during training and validation processes.
 
-DEFAULT: ResNet-50 (IMAGENET1K_V1 weights)
-BE SURE TO CHANGE TRANSFORMATIONS FOR PROPER USE WITH OTHER MODELS
+DEFAULT: MobileNet v2
+BE SURE TO CHANGE TRANSFORS FOR USE WITH OTHER MODELS
 """
 
 from torchvision import transforms
@@ -30,13 +30,12 @@ def get_train_transforms():
     Includes data augmentation and normalization.
     """
     return transforms.Compose([
-        transforms.RandomResizedCrop(224),  # Random crop as augmentation
-        transforms.RandomHorizontalFlip(),
-        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.05),
+        transforms.Resize(256),
+        transforms.CenterCrop(224),
         transforms.ToTensor(),
         transforms.Normalize(
-            mean=[0.485, 0.456, 0.406],  # ImageNet means
-            std=[0.229, 0.224, 0.225],  # ImageNet stds
+            mean=[0.485, 0.456, 0.406],
+            std=[0.229, 0.224, 0.225]
         ),
     ])
 

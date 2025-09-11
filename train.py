@@ -24,7 +24,7 @@ Usage:
         - IMAGE_DIR: Path to the image directory
         - NUM_CLASSES: Number of classes in your dataset
         - MODEL_NAME: Model architecture 
-            (e.g. 'resnet101v1', 'resnet50v1', etc.)
+            (e.g. 'resnet101_imagenetv1', 'mobilenetv2', etc.)
         - NUM_EPOCHS: Number of training epochs
         - optimizer/scheduler parameters
 
@@ -51,7 +51,7 @@ TRAIN_CSV = "dataset/train1/train1.csv"
 VAL_CSV = "dataset/train1/val1.csv"
 IMAGE_DIR = "dataset/"
 NUM_CLASSES = 196
-MODEL_NAME = "resnet101v1"
+MODEL_NAME = "mobilenetv2"
 NUM_EPOCHS = 10
 
 print(f"DEVICE: {"cuda" if torch.cuda.is_available() else "cpu"}")
@@ -64,18 +64,21 @@ train_loader = get_dataloader(train_dataset, batch_size=32, shuffle=True)
 val_loader = get_dataloader(val_dataset, batch_size=32, shuffle=False)
 
 print(f"LOADING MODEL {MODEL_NAME}...")
-if MODEL_NAME == "resnet50v1":
+if MODEL_NAME == "resnet50_imagenetv1":
     model = models.resnet50(weights='IMAGENET1K_V1')
     model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
-elif MODEL_NAME == "resnet50v2":
+elif MODEL_NAME == "resnet50_imagenetv2":
     model = models.resnet50(weights='IMAGENET1K_V2')
     model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
-elif MODEL_NAME == "resnet101v1":
+elif MODEL_NAME == "resnet101_imagenetv1":
     model = models.resnet101(weights='IMAGENET1K_V1')
     model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
-elif MODEL_NAME == "resnet101v2":
+elif MODEL_NAME == "resnet101_imagenetv2":
     model = models.resnet101(weights='IMAGENET1K_V2')
     model.fc = nn.Linear(model.fc.in_features, NUM_CLASSES)
+elif MODEL_NAME == "mobilenetv2":
+    model = models.mobilenet_v2(weights='MobileNet_V2_Weights.DEFAULT')
+    model.classifier[1] = nn.Linear(model.classifier[1].in_features, NUM_CLASSES)
 else:
     raise ValueError("Unknown model name")
 model = model.to(device)
@@ -120,7 +123,7 @@ for epoch in range(NUM_EPOCHS):
     # save best model (highest accuracy) to models directory
     if val_acc > best_val_acc:
         best_val_acc = val_acc
-        torch.save(model.state_dict(), f"models/new_train/1_{MODEL_NAME}.pth")
+        torch.save(model.state_dict(), f"models/1_{MODEL_NAME}.pth")
 
 print("EXITING TRAINING/VALIDATION LOOP...")
 print("Training complete! Best validation accuracy:", best_val_acc)
