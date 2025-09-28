@@ -1,6 +1,6 @@
 # SpotR 🚗📷
 
-**SpotR** (read "spotter") is an AI-powered car recognition tool that identifies a vehicle’s make, model, approximate year, and enthusiast-focused specifications from an uploaded image.
+**SpotR** ("spotter") is an AI-powered car recognition tool that identifies a vehicle’s make, model, approximate year, and enthusiast-focused specifications from an uploaded image.
 
 ---
 
@@ -24,7 +24,6 @@ The tool is built for car enthusiasts, developers, and AI hobbyists who want to 
 | Backend         | FastAPI         |
 | ML Framework    | PyTorch         |
 | Image Handling  | TorchVision     |
-| Web Deployment  | WIP             |
 | Local Deployment| Docker          |
 
 ---
@@ -67,9 +66,8 @@ These limitations reflect the challenges of working with open datasets and APIs 
 - [X] Containerize with Docker
 - [X] Optimize for performance and scale
 
-**Phase 5: Frontend + Web Hosting**
+**Phase 5: Frontend Refactor**
 - [X] Refactor frontend to React
-- [ ] Host frontend/backend on Vercel/Render and connect
 
 ---
 
