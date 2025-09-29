@@ -12,7 +12,7 @@ SpotR is a computer vision tool that utilizes deep learning to:
 - Approximate its model year
 - Return enthusiast-relevant data, such as class, engine information, drivetrain, etc.
 
-The tool is built for car enthusiasts, developers, and AI hobbyists who want to explore how machine learning can be applied to automotive image recognition.
+The tool is built for car enthusiasts, developers, and AI hobbyists using the Stanford Cars Dataset.
 
 ---
 
